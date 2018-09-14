@@ -1,6 +1,5 @@
 /*
 	In this code we will learn about try catch block
-
 */
 
 #include <iostream>
