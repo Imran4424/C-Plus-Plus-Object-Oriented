@@ -4,7 +4,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	
-	cout<<"I am a Progr"
+	cout<<"I am a Programmer"
 
 	return 0;
 }
