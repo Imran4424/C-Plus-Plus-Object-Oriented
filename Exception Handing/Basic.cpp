@@ -26,6 +26,10 @@ int main(int argc, char const *argv[])
 		}
 
 	}
+	catch(int error)
+	{
+		
+	}
 
 
 	return 0;
