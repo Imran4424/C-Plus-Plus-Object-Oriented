@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 	}
 	catch(int error)
 	{
-		
+		cout<<"Son can not be older than Mom, ERROR NUMBER: "<<error<<endl;
 	}
 
 
