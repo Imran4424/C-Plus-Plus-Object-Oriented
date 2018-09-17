@@ -11,6 +11,8 @@ int main(int argc, char const *argv[])
 
 	try
 	{
+		cout<<"Input Mom's age and Son's age respectively"
+
 		cin>>momAge>>sonAge;
 
 	}
