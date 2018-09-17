@@ -19,6 +19,10 @@ int main(int argc, char const *argv[])
 		{
 			throw 99;
 		}
+		else
+		{
+			cout
+		}
 
 	}
 
