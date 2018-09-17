@@ -7,8 +7,8 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
-	
+	int momAge, sonAge;
+
 
 	return 0;
 }
