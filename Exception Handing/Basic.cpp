@@ -22,6 +22,7 @@ int main(int argc, char const *argv[])
 		else
 		{
 			cout<<"Mom's Age: "<<momAge<<endl;
+			cout<<"Son's Age: "
 		}
 
 	}
