@@ -22,11 +22,15 @@ public:
   	} 
 }; 
   
-int main() { 
-  try { 
-    Test t1; 
-    throw 10; 
-  } catch(int i) { 
-    cout << "Caught " << i << endl; 
-  } 
+int main() 
+{ 
+	try 
+	{ 
+    	Test t1; 
+    	throw 10; 
+	} 
+	catch(int i) 
+	{ 
+    	cout << "Caught " << i << endl; 
+  	} 
 } 
