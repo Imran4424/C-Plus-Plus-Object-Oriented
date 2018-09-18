@@ -17,13 +17,13 @@ int main()
         } 
         catch (int n) 
         { 
-             cout << "Handle Partially "; 
+             cout << "Handle Partially " << endl; 
              throw;   //Re-throwing an exception 
         } 
     } 
     catch (int n) 
     { 
-        cout << "Handle remaining "; 
+        cout << "Handle remaining " << endl; 
     }
 
     return 0; 
