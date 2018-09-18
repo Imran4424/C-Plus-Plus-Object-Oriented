@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
 		if (num2 == 0)
 		{
-			/* code */
+			throw 0;
 		}
 	}
 
