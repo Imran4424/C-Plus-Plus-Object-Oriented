@@ -14,7 +14,9 @@ int main()
       { 
          throw x; 
          cout << "After throw (Never executed) \n"; 
-      } 
+      }
+
+      
    } 
    catch (int x ) 
    { 
