@@ -3,7 +3,7 @@
 
 	If we put base class catch block first then the derived class catch block will never be reached.
 
-	In this code both
+	In this code both catch block will execute
 */
 
 
