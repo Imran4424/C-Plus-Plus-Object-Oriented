@@ -22,5 +22,6 @@ int main()
    } 
   
    cout << "After catch (Will be executed) \n"; 
+   
    return 0; 
 } 
