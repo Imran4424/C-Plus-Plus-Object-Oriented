@@ -8,7 +8,8 @@ int main()
   
    // Some code 
    cout << "Before try \n"; 
-   try { 
+   try 
+   { 
       cout << "Inside try \n"; 
       if (x < 0) 
       { 
