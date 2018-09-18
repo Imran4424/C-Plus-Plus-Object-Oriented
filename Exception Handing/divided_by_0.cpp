@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 			throw 0;
 		}
 
-		result = num / num2;
+		int result = num / num2;
 
 		cout<<"The dividation result is: "<<result<<endl;
 	}
