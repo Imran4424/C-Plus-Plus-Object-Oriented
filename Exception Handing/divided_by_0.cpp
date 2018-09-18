@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 
 		cout<<"The dividation result is: "<<result<<endl;
 	}
-	catch(....)  // catches any type of error
+	catch(...)  // catches any type of error (int, char, double, string)
 	{
 		cout<<"can not divide by 0"<<endl;
 	}
