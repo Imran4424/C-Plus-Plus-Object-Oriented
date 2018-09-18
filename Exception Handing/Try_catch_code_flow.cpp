@@ -17,7 +17,8 @@ int main()
          cout << "After throw (Never executed) \n"; 
       } 
    } 
-   catch (int x ) { 
+   catch (int x ) 
+   { 
       cout << "Exception Caught \n"; 
    } 
   
