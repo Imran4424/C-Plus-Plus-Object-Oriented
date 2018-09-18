@@ -31,11 +31,14 @@ public:
 }; 
   
 int main() { 
-  try { 
+  try 
+  { 
     Test1 t1;  // Constructed and destructed 
     Test2 t2;  // Partially constructed 
     Test1 t3;  // t3 is not constructed as this statement never gets executed 
-  } catch(int i) { 
+  } 
+  catch(int i) 
+  { 
     cout << "Caught " << i << endl; 
   } 
 } 
