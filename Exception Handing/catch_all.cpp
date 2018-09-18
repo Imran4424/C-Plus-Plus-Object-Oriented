@@ -11,7 +11,8 @@ int main()
     { 
         cout << "Caught " << excp; 
     } 
-    catch (...)  { 
+    catch (...)  
+    { 
         cout << "Default Exception\n"; 
     } 
     return 0; 
