@@ -10,13 +10,16 @@ using namespace std;
   
 class Test 
 { 
-public: 
-  Test() 
-  { cout << "Constructing an object of Test " << endl; 
+public:
+	Test() 
+	{ cout << "Constructing an object of Test " << endl; 
 
-  } 
-  
-  ~Test() { cout << "Destructing an object of Test "  << endl; } 
+	} 
+
+	~Test() 
+	{ 
+  		cout << "Destructing an object of Test "  << endl; 
+  	} 
 }; 
   
 int main() { 
