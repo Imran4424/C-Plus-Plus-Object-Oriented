@@ -11,12 +11,13 @@ using namespace std;
 class Base {}; 
 class Derived: public Base {};
 
- 
+
 int main() 
 { 
    Derived d; 
    // some other stuff 
-   try { 
+   try 
+   { 
        // Some monitored code 
        throw d; 
    } 
