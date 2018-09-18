@@ -1,0 +1,3 @@
+/*
+	A derived class exception should be caught before a base class exception.
+*/
