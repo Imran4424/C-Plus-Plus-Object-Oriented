@@ -1,7 +1,7 @@
 /*
     this is a nested try catch block example
 
-    we can rethrow an exception using 
+    we can rethrow an exception using "throw"
 */
 
 #include <iostream> 
