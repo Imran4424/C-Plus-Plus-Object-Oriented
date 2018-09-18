@@ -21,7 +21,8 @@ int main()
        // Some monitored code 
        throw d; 
    } 
-   catch(Base b) {  
+   catch(Base b) 
+   {  
         cout<<"Caught Base Exception"; 
    } 
    catch(Derived d) {  //This catch block is NEVER executed 
