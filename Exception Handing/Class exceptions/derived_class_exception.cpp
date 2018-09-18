@@ -3,7 +3,7 @@
 
 	If we put base class catch block first then the derived class catch block will never be reached.
 
-	there will be warning for this co
+	there will be warning for this code compilations
 */
 
 
