@@ -16,7 +16,7 @@ int main()
          cout << "After throw (Never executed) \n"; 
       }
 
-      
+      cout<<"If throw happens it will never be executed"<<endl;
    } 
    catch (int x ) 
    { 
