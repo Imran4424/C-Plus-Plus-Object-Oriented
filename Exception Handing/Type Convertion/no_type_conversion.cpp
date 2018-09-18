@@ -1,5 +1,11 @@
 /*
-	
+	In this code we are throwing a char 'a'
+
+	but catching an int variable 
+
+	but need to remember that catch block doesn't do auto type conversion
+
+	So, the throw will be caught be default catch block
 */
 
 
