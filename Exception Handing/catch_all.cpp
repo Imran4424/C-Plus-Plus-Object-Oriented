@@ -3,7 +3,8 @@ using namespace std;
   
 int main() 
 { 
-    try  { 
+    try  
+    { 
        throw 10; 
     } 
     catch (char *excp)  { 
