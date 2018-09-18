@@ -9,11 +9,11 @@ int main(int argc, char const *argv[])
 	}
 	catch(int x)
 	{
-		cout<< "caught int x: "<< x << endl;
+		cout<<"caught int x: " << x << endl;
 	}
 	catch(...)
 	{
-		
+		cout<<"Deault catch block" << endl;
 	}
 
 	return 0;
