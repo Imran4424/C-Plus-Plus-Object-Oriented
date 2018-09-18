@@ -12,7 +12,7 @@ public:
   ~Test() 
   { 
       cout << "Destructing an object of Test "  << endl; 
-    } 
+  } 
 }; 
   
 class Test1
@@ -27,7 +27,7 @@ public:
   ~Test() 
   { 
       cout << "Destructing an object of Test "  << endl; 
-    } 
+  } 
 }; 
   
 int main() { 
