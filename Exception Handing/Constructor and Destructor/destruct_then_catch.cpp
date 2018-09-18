@@ -8,9 +8,14 @@
 #include <iostream> 
 using namespace std; 
   
-class Test { 
+class Test 
+{ 
 public: 
-  Test() { cout << "Constructing an object of Test " << endl; } 
+  Test() 
+  { cout << "Constructing an object of Test " << endl; 
+
+  } 
+  
   ~Test() { cout << "Destructing an object of Test "  << endl; } 
 }; 
   
