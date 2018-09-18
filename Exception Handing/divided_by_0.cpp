@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
 		cin>>num>>num2;
 
-		if (/* condition */)
+		if (num2 == 0)
 		{
 			/* code */
 		}
