@@ -7,7 +7,8 @@ int main()
     { 
        throw 10; 
     } 
-    catch (char *excp)  { 
+    catch (char *excp)  
+    { 
         cout << "Caught " << excp; 
     } 
     catch (...)  { 
