@@ -25,7 +25,8 @@ int main()
    {  
         cout<<"Caught Base Exception"; 
    } 
-   catch(Derived d) {  //This catch block is NEVER executed 
+   catch(Derived d) //This catch block is NEVER executed 
+   {  
         cout<<"Caught Derived Exception"; 
    } 
    
