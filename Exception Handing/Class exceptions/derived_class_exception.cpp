@@ -25,11 +25,11 @@ int main()
    } 
    catch(Base b) 
    {  
-        cout<<"Caught Base Exception"; 
+        cout<<"Caught Base Exception" << endl; 
    } 
    catch(Derived d) //This catch block is NEVER executed 
    {  
-        cout<<"Caught Derived Exception"; 
+        cout<<"Caught Derived Exception" << endl; 
    } 
    
    return 0; 
