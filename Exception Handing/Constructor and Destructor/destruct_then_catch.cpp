@@ -12,8 +12,8 @@ class Test
 { 
 public:
 	Test() 
-	{ cout << "Constructing an object of Test " << endl; 
-
+	{ 
+		cout << "Constructing an object of Test " << endl; 
 	} 
 
 	~Test() 
