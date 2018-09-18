@@ -15,6 +15,8 @@ int main(int argc, char const *argv[])
 		{
 			throw 0;
 		}
+
+		result = num / num2;
 	}
 
 	return 0;
