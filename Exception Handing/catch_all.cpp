@@ -9,7 +9,7 @@ int main()
     } 
     catch (char *excp)  
     { 
-        cout << "Caught " << excp; 
+        cout << "Caught " << excp << endl; 
     } 
     catch (...)  
     { 
