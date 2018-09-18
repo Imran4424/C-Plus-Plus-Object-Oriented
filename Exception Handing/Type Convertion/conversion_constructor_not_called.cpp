@@ -1,6 +1,11 @@
 /*
     this is an another exampler of catch block not follow auto type conversion
+
+    this is a class example
+
+    here we have two classes 
 */
+
 #include <iostream> 
 using namespace std; 
   
