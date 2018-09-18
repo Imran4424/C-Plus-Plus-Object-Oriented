@@ -1,5 +1,5 @@
 /*
-    
+    this is an another exampler of catch block not follow auto type conversion
 */
 #include <iostream> 
 using namespace std; 
