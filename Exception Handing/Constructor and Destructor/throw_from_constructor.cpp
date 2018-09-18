@@ -5,8 +5,8 @@ class Test1
 { 
 public:
   Test() 
-  { cout << "Constructing an object of Test " << endl; 
-
+  { 
+    cout << "Constructing an object of Test " << endl; 
   } 
 
   ~Test() 
@@ -15,12 +15,19 @@ public:
     } 
 }; 
   
-class Test2 { 
-public: 
-  // Following constructor throws an integer exception 
-  Test2() { cout << "Constructing an Object of Test2" << endl;  
-            throw 20; } 
-  ~Test2() { cout << "Destructing an Object of Test2" << endl; } 
+class Test1
+{ 
+public:
+  Test() 
+  { 
+    cout << "Constructing an object of Test " << endl; 
+    throw 20;
+  } 
+
+  ~Test() 
+  { 
+      cout << "Destructing an object of Test "  << endl; 
+    } 
 }; 
   
 int main() { 
