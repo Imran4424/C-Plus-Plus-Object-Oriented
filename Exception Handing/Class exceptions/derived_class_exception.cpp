@@ -15,8 +15,9 @@ class Derived: public Base {};
 int main() 
 { 
    Derived d;
-   
+
    // some other stuff 
+   
    try 
    { 
        // Some monitored code 
