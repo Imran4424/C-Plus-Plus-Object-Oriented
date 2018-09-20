@@ -2,7 +2,7 @@
 	Read two integer number print the addition
 */
 
-#include <iostream>
+#include <iostream> // for cin and cout
 using namespace std;
 
 
