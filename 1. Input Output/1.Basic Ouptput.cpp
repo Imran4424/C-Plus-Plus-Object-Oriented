@@ -10,5 +10,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	cout is the output stream for c++
+
+	iostream holds cin cout
+
+	int main(int argc, char const *argv[])
 */
