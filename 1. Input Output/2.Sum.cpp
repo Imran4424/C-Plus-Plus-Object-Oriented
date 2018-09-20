@@ -1,5 +1,5 @@
 /*
-
+	Read two integer number print the addition
 */
 
 #include <iostream>
