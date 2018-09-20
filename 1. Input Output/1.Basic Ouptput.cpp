@@ -14,5 +14,5 @@ int main(int argc, char const *argv[])
 
 	iostream holds cin cout
 
-	int main(int argc, char const *argv[])
+	int main(int argc, char const *argv[]); this is for console input 
 */
