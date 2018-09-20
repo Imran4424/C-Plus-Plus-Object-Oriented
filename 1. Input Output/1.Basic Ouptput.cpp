@@ -16,5 +16,7 @@ int main(int argc, char const *argv[])
 
 	int main(int argc, char const *argv[]); this is for console input
 
-	if you don't use console input you can skip these parameters 
+	if you don't use console input you can skip these parameters
+
+	but writing them doesn't mean that using console is mandatory  
 */
