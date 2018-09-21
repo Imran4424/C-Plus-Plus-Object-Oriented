@@ -18,5 +18,10 @@ int main(int argc, char const *argv[])
 
 	if you don't use console input you can skip these parameters
 
-	but writing them doesn't mean that using console is mandatory  
+	but writing them doesn't mean that using console is mandatory
+
+	like this program,
+					I wrote them, because, I love this type of main function style
+
+					but I am not using   
 */
