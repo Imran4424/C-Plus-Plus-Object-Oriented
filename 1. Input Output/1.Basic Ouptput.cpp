@@ -23,5 +23,5 @@ int main(int argc, char const *argv[])
 	like this program,
 					I wrote them, because, I love this type of main function style
 
-					but I am not using   
+					but I am not using any console input  
 */
