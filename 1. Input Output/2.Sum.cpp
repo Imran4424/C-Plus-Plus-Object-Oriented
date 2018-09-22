@@ -19,5 +19,5 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 /*
-	cin is the stan
+	cin is the standard input stream
 */
