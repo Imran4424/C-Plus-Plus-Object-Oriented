@@ -20,4 +20,6 @@ int main(int argc, char const *argv[])
 }
 /*
 	cin is the standard input stream for c++
+
+	cout is the standard output stream for c++
 */
