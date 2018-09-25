@@ -9,6 +9,8 @@ int main(int argc, char const *argv[])
 {
 	float num;
 
+	cin>>
+
 
 	return 0;
 }
