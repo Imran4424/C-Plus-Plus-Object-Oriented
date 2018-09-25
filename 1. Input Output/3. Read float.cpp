@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
 	cin>> num;
 
-	cout<<"The entered float number is: "<<num<<
+	cout<<"The entered float number is: "<< num <<endl;
 
 
 	return 0;
