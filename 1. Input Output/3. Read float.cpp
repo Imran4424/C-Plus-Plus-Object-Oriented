@@ -13,6 +13,5 @@ int main(int argc, char const *argv[])
 
 	cout<<"The entered float number is: "<< num <<endl;
 
-
 	return 0;
 }
