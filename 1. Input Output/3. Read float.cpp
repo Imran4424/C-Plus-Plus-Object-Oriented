@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 {
 	float num;
 
-	cin>>
+	cin>> num;
 
 
 	return 0;
