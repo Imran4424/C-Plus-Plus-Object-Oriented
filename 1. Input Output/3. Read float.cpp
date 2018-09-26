@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
 /*
 	In C coding, we always have to remember format specifier for different data types
 
-	Here, C++ gives us a very good 
+	Here, C++ gives us a very good simpliciy
+	
 
 */
