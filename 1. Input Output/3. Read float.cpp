@@ -22,5 +22,5 @@ int main(int argc, char const *argv[])
 
 	we don't have to remember format spceifier anymore for different types of varibale
 
-	using cin we can
+	using cin we can take input any types of variable 
 */
