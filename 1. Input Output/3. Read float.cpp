@@ -16,6 +16,6 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 /*
-	In C coding, we always have to remember 
+	In C coding, we always have to remember format specifier for different data types
 
 */
