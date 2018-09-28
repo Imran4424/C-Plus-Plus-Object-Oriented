@@ -28,4 +28,6 @@ int main(int argc, char const *argv[])
 	Unlike C++, it's default format specifier will be depend on the input value
 
 	if input value is 0 precision output will be 0 precision
+	if input value is 1 precision output will be 1 precision
+	if input value is 2 precision output will be 2 precision
 */
