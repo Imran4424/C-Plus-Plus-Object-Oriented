@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 /*
-	Unlike C++, it's default format precision for float will be depend on the input value
+	Unlike C++, it's default format precision for double will be depend on the input value
 
 	if input value is 0 precision output will be 0 precision
 	if input value is 1 precision output will be 1 precision
