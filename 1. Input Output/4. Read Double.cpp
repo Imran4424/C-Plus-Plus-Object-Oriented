@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
 	cin>>num;
 
-	cout<<" The entered f"
+	cout<<" The entered double"
 
 
 	return 0;
