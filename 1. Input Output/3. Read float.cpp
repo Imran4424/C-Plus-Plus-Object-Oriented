@@ -25,5 +25,5 @@ int main(int argc, char const *argv[])
 	using cin we can take input any types of variable without knowing format specifier
 
 
-	Unlike C++, it's default format specifier will be depend on
+	Unlike C++, it's default format specifier will be depend on the input value
 */
