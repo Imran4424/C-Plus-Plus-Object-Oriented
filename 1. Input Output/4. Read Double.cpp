@@ -9,6 +9,10 @@ int main(int argc, char const *argv[])
 {
 	double num;
 
+	cin>>num;
+
+	cout<<""
+
 
 	return 0;
 }
