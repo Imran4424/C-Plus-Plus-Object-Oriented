@@ -2,7 +2,7 @@
 	Read an double number and display it
 */
 
-#include <iostream>
+#include <iostream> // for cin, cout
 using namespace std;
 
 int main(int argc, char const *argv[])
