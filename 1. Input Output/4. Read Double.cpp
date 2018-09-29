@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 {
 	double num;
 
-	cin>>num;
+	cin>> num;
 
 	cout<<"The entered double number is: "<< num <<endl;
 
