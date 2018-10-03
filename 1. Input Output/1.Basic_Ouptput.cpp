@@ -1,5 +1,5 @@
 /*
-
+	Write a program that prints a sentence
 */
 
 #include <iostream> // for cout
