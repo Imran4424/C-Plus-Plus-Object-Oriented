@@ -18,6 +18,9 @@ int main(int argc, char const *argv[])
 
 	iostream holds cin cout
 
+	cin : for input stream
+	cout : for output stream
+
 	int main(int argc, char const *argv[]); this is for console input
 
 	if you don't use console input you can skip these parameters
