@@ -2,7 +2,7 @@
 	An int variable num contains 7. Write a program that prints the value of num.
 */
 
-#include <iostream>
+#include <iostream> // for cout
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -13,3 +13,7 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+/*
+	
+*/
