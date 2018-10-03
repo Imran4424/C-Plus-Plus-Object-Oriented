@@ -15,5 +15,11 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	here, in cout, endl is equivalent to '\n' escape sequence character
+
+	now, why this line?
+	using namespace std;
+
+	we will talk about namespace later.
 	
 */
