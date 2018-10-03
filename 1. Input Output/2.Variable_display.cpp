@@ -26,6 +26,8 @@ int main(int argc, char const *argv[])
 
 	so if we don't write "using namespace std;", then 
 
-	every time we write 
+	every time we write cin or cout, we have to write this way,
+																std::cin
+																std::cout
 	
 */
