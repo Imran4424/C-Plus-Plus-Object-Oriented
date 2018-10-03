@@ -8,6 +8,8 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	int num = 7;
+
+	cout<<num<<endl;
 	
 	return 0;
 }
