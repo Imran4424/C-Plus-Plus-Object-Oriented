@@ -21,5 +21,11 @@ int main(int argc, char const *argv[])
 	using namespace std;
 
 	we will talk about namespace later.
+
+	but just remember this, cin, cout is the member of std namespace
+
+	so if we don't write "using namespace std;", then 
+
+	every time we write 
 	
 */
