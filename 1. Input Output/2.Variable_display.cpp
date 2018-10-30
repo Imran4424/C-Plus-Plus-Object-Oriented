@@ -26,8 +26,9 @@ int main(int argc, char const *argv[])
 
 	so if we don't write "using namespace std;", then 
 
-	every time we write cin or cout, we have to write this way,
+	every time we write namespace member of std, we have to write this way,
 																std::cin
 																std::cout
+																std::fixed
 	
 */
