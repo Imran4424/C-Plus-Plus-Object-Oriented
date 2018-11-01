@@ -17,5 +17,13 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	cin can not read string with white spaces
+
+	so for reading char string with white spaces we need to use cin.getline()
+
+	basic syntax:
+
+				cin.getline(str, sizeof(str));
+
+				Here, str is char string
 */
