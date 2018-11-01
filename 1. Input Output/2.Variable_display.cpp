@@ -29,6 +29,7 @@ int main(int argc, char const *argv[])
 	every time we write namespace member of std, we have to write this way,
 																std::cin
 																std::cout
+																std::endl
 																std::fixed
 	
 */
