@@ -19,5 +19,8 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	Here, 
+		we reading a char using cin
+
+		them displaying the equivalent ASCII value(decimal) using cout after type casting
 */
