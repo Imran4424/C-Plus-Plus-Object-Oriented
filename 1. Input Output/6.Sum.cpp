@@ -24,4 +24,8 @@ int main(int argc, char const *argv[])
 	cout is the standard output stream for c++
 
 	iostream holds cin cout
+
+	And
+
+	cin, cout is also member of std namespace
 */
