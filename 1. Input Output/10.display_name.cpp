@@ -14,5 +14,5 @@ int main(int argc, char const *argv[])
 }
 
 /*
-
+	cin can be used for char string if char string does not contain any white spaces
 */
