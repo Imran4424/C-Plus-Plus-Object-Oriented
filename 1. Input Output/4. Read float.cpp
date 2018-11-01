@@ -2,7 +2,7 @@
 	Write a program that read any float number and display it 
 */
 
-#include <iostream> // for cin cout
+#include <iostream> // for cin, cout
 using namespace std;
 
 int main(int argc, char const *argv[])
