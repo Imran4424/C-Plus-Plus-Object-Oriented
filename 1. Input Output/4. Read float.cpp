@@ -1,5 +1,5 @@
 /*
-	Read any float number and display it 
+	Write a program that read any float number and display it 
 */
 
 #include <iostream> // for cin cout

@@ -1,5 +1,5 @@
 /*
-	Read an double number and display it
+	Write a program that read an double number and display it
 */
 
 #include <iostream> // for cin, cout

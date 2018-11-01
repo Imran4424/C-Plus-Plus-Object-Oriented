@@ -1,0 +1,3 @@
+/*
+	Write a program that read a integer number and display it
+*/
