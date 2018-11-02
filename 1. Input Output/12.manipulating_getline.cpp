@@ -34,5 +34,14 @@ int main(int argc, char const *argv[])
 				cin.getline(str, sizeof(str),'\n');
 
 
-	we can manipulate the string ending character by 
+	we can manipulate getline the string ending character property by changing the string ending character
+
+	for example:
+				cin.getline(str, sizeof(str),'\n'); // new line
+				
+				cin.getline(str, sizeof(str),'.');  // full stop
+
+				cin.getline(str, sizeof(str),',');  // comma
+				
+				cin.getline(str, sizeof(str),';');  // semi-colon
 */
