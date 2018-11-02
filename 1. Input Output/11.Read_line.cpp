@@ -23,7 +23,12 @@ int main(int argc, char const *argv[])
 
 	basic syntax:
 
-				cin.getline(str, sizeof(str));
+				cin.getline(str, sizeof(str),'\n');
+
+				or we can also write
+
+				cin.getline(str, sizeof(str)); // in this case ending character is  default '\n' - new line character
 
 				Here, str is char string
+					'\n' - string ending character (new line character)
 */
