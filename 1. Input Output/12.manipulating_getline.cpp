@@ -17,5 +17,9 @@ int main(int argc, char const *argv[])
 
 	cout<<"Sting ending character '\n': "<< text << endl;
 
+	cin.getline(text, sizeof(text), '.') //string ending character '.'
+
+	cout<<"Sting ending character '.': "<< text << endl;
+
 	return 0;
 }
