@@ -11,5 +11,11 @@ int main(int argc, char const *argv[])
 
 	cin.getline(text, sizeof(text)); //default string ending character '\n'
 
+	cout<<"Defalt: "<< text << endl;
+
+	cin.getline(text, sizeof(text), '\n') //string ending character '\n'
+
+	cout<<"Sting ending character '\n': "<< text << endl;
+
 	return 0;
 }
