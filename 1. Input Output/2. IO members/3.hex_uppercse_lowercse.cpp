@@ -1,5 +1,5 @@
 /*
-	Write a program to explore ios::uppercse and ios::lowercase properties
+	Write a program to explore ios::uppercse and std::nouppercase properties
 */
 
 #include <iostream>
@@ -19,9 +19,15 @@ int main(int argc, char const *argv[])
 
 	//setting lowercase
 
-	cout.setf(ios::lowercase)
-
-	cout<<hex<<num<<endl;
+	cout<<nouppercase<<hex<<num<<endl;
 
 	return 0;
 }
+
+/*
+	here we are converting decimal to hexadecimal using hex
+	we can also convert decimal to octal using oct
+
+	cout.setf(ios::uppercase); for switching the letters in uppercase
+
+*/
