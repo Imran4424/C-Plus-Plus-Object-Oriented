@@ -23,12 +23,21 @@ int main(int argc, char const *argv[])
 
 	flag = cout.flags();  // storing all flags status
 
-	if (flag && ios::hex)
+	if (flag & ios::hex)
 	{
 		cout<<"hex is set"<<endl;
 	}
+	else
+	{
+		cout<<"hex is not set"<<endl;
+	}
 
-	if (flag && ios::dec)
+
+	if (flag & ios::dec)
+	{
+		cout<<"dec is set"<<endl;
+	}
+	else
 	{
 		cout<<"dec is not set"<<endl;
 	}
