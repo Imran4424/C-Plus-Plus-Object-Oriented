@@ -23,9 +23,17 @@ int main(int argc, char const *argv[])
 	
 	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
 
+	cout.fixed(2);
+	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
+
 	return 0;
 }
 
 /*
-	We can see that showpoint shows us total 6 digits with or without fractional point in default;
+	We can see that showpoint shows us total 6 digits with or without fractional point in default
+
+
+	but we can modify the number of digits using
+
+		cout.precision(int number);
 */
