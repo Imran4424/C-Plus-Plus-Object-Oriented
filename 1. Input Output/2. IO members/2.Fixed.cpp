@@ -1,5 +1,5 @@
 /*
-	Write a program to explore ios::fixed properties
+	Write a program to explore ios std::fixed properties
 */
 
 #include <iostream>
@@ -25,5 +25,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	fixed helps cout prints the floating points in 6 digits by default
 
+	we can controlled this using following statement
+
+		cout.precision(int num);
 */
