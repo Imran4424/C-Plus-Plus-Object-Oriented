@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	char text;
+	char text[100];
 
 	cin.getline(text, sizeof(text));
 
