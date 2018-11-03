@@ -22,3 +22,8 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	Here we are fmtflags(format flags) type object to set ios flags without using setf function
+	
+*/
