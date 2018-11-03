@@ -15,8 +15,8 @@ int main(int argc, char const *argv[])
 
 	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
 
-	cout.fixed();
-	
+	cout.fixed;
+
 	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
 
 /*	cout.precision(4);
