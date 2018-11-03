@@ -21,7 +21,5 @@ int main(int argc, char const *argv[])
 	
 	cout<<fixed<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
 
-	cout<<fixed<<precision(2)<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
-	
 	return 0;
 }
