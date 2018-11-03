@@ -13,6 +13,11 @@ int main(int argc, char const *argv[])
 
 	cout.setf(ios::hex);
 
-	cout<<"hexadecimal: "<<num<<endl;
+	cout<<"hexadecimal: "<<num<<endl; // not working
+
+	cout.unsetf(ios::dec);
+	
+	cout<<"hexadecimal: "<<num<<endl; //working
+
 	return 0;
 }
