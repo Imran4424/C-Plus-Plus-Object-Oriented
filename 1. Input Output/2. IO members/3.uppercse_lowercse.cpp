@@ -7,17 +7,15 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	char text[100];
+	int num = 15
 
-	cin.getline(text, sizeof(text));
-
-	cout<<text<<endl;
+	cout<<num<<end;
 
 	//setting uppercase
 
 	cout.setf(ios::uppercase);
 
-	cout<<text<<endl;
+	cout<<hex<<num<<endl;
 
 	return 0;
 }
