@@ -7,6 +7,8 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
+	int num = 100;
+
 	cout<<"Decimal: "<<num<<endl;
 
 	cout.setf(ios::hex);
@@ -17,9 +19,9 @@ int main(int argc, char const *argv[])
 	
 	cout<<"hexadecimal: "<<num<<endl; //working
 
-	ios::fmtflags flag; // format flag type object
+	ios::fmtflags flag;    // format flag type object
 
-	flag = cout.flags()  // storing all flags status
+	flag = cout.flags();  // storing all flags status
 
 	if (flag && ios::hex)
 	{
