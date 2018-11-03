@@ -13,9 +13,7 @@ int main(int argc, char const *argv[])
 
 	//setting uppercase
 
-	//cout.setf(ios::uppercase);
-
-	cout<<uppercase<<hex<<endl;
+	cout.setf(ios::uppercase);
 
 	cout<<hex<<num<<endl;
 
@@ -34,8 +32,10 @@ int main(int argc, char const *argv[])
 
 	we can also in the following way,
 
-		cout<<uppercase<<hex<<num<<endl; // but this will
+		cout<<uppercase<<hex<<num<<endl;
 
 
+	for lowercase we have to write the following statement
 
+		cout<<nouppercase<<hex<<num<<endl;
 */
