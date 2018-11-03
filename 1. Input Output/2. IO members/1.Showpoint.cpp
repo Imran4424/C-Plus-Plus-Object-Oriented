@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 	We can see that showpoint shows us total 6 digits with or without fractional point in default
 
 
-	but we can modify the number of digits using
+	but we can modify the number of digits using following statement
 
 		cout.precision(int number);
 */
