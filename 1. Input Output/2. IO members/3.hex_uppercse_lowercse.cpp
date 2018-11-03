@@ -17,5 +17,11 @@ int main(int argc, char const *argv[])
 
 	cout<<hex<<num<<endl;
 
+	//setting lowercase
+
+	cout.setf(ios::lowercase)
+
+	cout<<hex<<num<<endl;
+
 	return 0;
 }
