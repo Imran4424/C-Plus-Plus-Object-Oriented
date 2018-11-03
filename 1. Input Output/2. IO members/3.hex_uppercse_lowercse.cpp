@@ -7,9 +7,9 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int num = 15
+	int num = 15;
 
-	cout<<num<<end;
+	cout<<num<<endl;
 
 	//setting uppercase
 
