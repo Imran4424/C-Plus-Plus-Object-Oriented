@@ -18,8 +18,13 @@ int main(int argc, char const *argv[])
 	cout.setf(ios::showpoint);
 
 	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
+
+	cout.precision(4);
 	
 
 	return 0;
 }
 
+/*
+	We can see that showpoint shows us total 6 digits with or without fractional point in default;
+*/
