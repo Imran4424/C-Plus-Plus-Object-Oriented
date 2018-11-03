@@ -23,9 +23,6 @@ int main(int argc, char const *argv[])
 	
 	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
 
-	cout.fixed(2);
-	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<PI<<endl;
-
 	return 0;
 }
 
