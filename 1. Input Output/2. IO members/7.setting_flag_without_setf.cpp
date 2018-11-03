@@ -8,7 +8,17 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
-	
+	double PI = 3.1416;
+
+	cout<<PI<<endl;
+
+	ios::fmtflags f;
+
+	f = ios::showpos | ios::showpoint;
+
+	cout.flags(f);
+
+	cout<<PI<<endl;
+
 	return 0;
 }
