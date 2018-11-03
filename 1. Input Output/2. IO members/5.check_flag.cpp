@@ -35,3 +35,9 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	this program can be used to check all type of flags
+
+			whether it is set or not
+*/
