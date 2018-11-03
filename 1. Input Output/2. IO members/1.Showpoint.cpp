@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	double a = 2.97;
-	double b = 560000;
+	double b = 56;
 	const double PI = 3.1416;
 
 	cout<<a<<"\t"<<b<<"\t"<<PI<<endl;
