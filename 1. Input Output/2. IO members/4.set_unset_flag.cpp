@@ -1,5 +1,5 @@
 /*
-	Write a code that seting and unseting a flag
+	Write a code that setting and unsetting a flag
 */
 
 #include <iostream>
@@ -21,3 +21,20 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	here we are setting flag using following statement
+
+		cout.setf();
+
+	here we are unsetting flag using following statement
+
+		cout.unsetf();
+
+
+	for printing hexadecimal we have to set hex flag nad unset dec flag otherwise it won't work
+
+	we can also unset basefield and that works for all I guess
+
+		cout.unsetf(ios::basefield);
+*/
