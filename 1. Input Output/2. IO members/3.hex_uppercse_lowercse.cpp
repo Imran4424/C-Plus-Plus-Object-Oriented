@@ -13,7 +13,9 @@ int main(int argc, char const *argv[])
 
 	//setting uppercase
 
-	cout.setf(ios::uppercase);
+	//cout.setf(ios::uppercase);
+
+	cout<<uppercase<<hex<<endl;
 
 	cout<<hex<<num<<endl;
 
@@ -29,5 +31,11 @@ int main(int argc, char const *argv[])
 	we can also convert decimal to octal using oct
 
 	cout.setf(ios::uppercase); for switching the letters in uppercase
+
+	we can also in the following way,
+
+		cout<<uppercase<<hex<<num<<endl; // but this will
+
+
 
 */
