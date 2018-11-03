@@ -17,7 +17,19 @@ int main(int argc, char const *argv[])
 	
 	cout<<"hexadecimal: "<<num<<endl; //working
 
-	
+	ios::fmtflags flag; // format flag type object
+
+	flag = cout.flags()  // storing all flags status
+
+	if (flag && ios::hex)
+	{
+		cout<<"hex is set"<<endl;
+	}
+
+	if (flag && ios::dec)
+	{
+		cout<<"dec is not set"<<endl;
+	}
 
 	return 0;
 }
