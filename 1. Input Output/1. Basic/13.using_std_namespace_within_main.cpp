@@ -1,5 +1,5 @@
 /*
-	Write a program to explore ios::showpoint properties
+	write a program using std namespace within main function
 */
 
 #include <iostream>
