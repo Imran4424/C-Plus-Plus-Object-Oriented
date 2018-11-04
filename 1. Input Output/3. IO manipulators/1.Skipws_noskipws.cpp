@@ -8,6 +8,15 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
+	char nw,s;
+
+	cin>> noskipws >> nw;
+
+	cin>> skipws >> s;
+
+	cout<<(int)nw<<endl;
+
+	cout<<(int)s<<endl;
+
 	return 0;
 }
