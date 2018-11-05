@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 {
 	int num = 200;
 
-	cout<<"Hexadecimal: ";
+	cout<< endl <<"Hexadecimal: ";
 	cout << hex << showbase << num <<endl<<endl;
 
 	cout<<"Decimal: ";
