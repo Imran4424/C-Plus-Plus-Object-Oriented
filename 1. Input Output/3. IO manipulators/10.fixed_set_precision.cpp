@@ -20,3 +20,8 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+/*
+	fixed - prints 6 digits after the floating point
+
+	fixed & setprecision - prints given number of digits after floating point
+*/
