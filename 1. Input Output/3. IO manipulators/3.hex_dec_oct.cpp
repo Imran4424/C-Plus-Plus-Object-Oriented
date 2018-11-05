@@ -11,6 +11,11 @@ int main(int argc, char const *argv[])
 {
 	int num = 200;
 
+	cout << hex << num <<endl;
+
+	cout << dec << num <<endl;
+
+	cout << oct << num <<endl;
 	
 	return 0;
 }
