@@ -10,6 +10,14 @@ int main(int argc, char const *argv[])
 {
 	double a = 1234.0, b = 123.34;
 
-	c
+	cout<<"Default"<<endl;
+	cout<<a<<" "<<endl;
+	
+	cout<<"Fixed"<<endl;
+	cout<< fixed << a <<" "<< b <<endl;
+
+	cout<<"Scientific"<<endl;
+	cout<< scientific << a <<" "<<endl;
+
 	return 0;
 }
