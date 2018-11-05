@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
 	cout<<"Decimal: ";
 	cout << dec << num <<endl<<endl;
 
+	cout<<"Octal: ";
 	cout << oct << num <<endl;
 
 	return 0;
