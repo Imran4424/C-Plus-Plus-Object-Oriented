@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 	double a = 1234.0, b = 123.34;
 
 	cout<<"Default"<<endl;
-	cout<<a<<" "<<endl;
+	cout<< a <<" "<< b <<endl;
 	
 	cout<<"Fixed"<<endl;
 	cout<< fixed << a <<" "<< b <<endl;
