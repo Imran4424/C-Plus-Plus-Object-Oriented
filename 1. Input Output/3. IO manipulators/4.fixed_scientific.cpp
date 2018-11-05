@@ -29,5 +29,13 @@ int main(int argc, char const *argv[])
 
 	scientific - prints numbers in scientific form
 
-	
+	these are the memebers of iomanip headers
+
+	sometimes we need to include the header like this,
+
+										#include <iomanip>
+
+	sometimes it work without including the header iomanip
+
+	In update compilers don't need to include iomanip
 */
