@@ -23,5 +23,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	default - prints the default double value entered
+
+	fixed - prints five digit after the floating points
+
+	scientific - prints numbers in scientific form
 */
