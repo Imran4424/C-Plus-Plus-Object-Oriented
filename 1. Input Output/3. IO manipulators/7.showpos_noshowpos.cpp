@@ -7,6 +7,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
+	int num = 256;
+
+	cout<< showpos << num << endl;
+
+	cout<< noshowpos << num << endl;
+
 	return 0;
 }
