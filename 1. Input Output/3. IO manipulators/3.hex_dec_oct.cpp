@@ -16,6 +16,10 @@ int main(int argc, char const *argv[])
 	cout << dec << num <<endl;
 
 	cout << oct << num <<endl;
-	
+
 	return 0;
 }
+
+/*
+	
+*/
