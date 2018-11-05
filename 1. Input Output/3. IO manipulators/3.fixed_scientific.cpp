@@ -8,6 +8,8 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
+	double a = 1234.0, b = 123.34;
+
+	c
 	return 0;
 }
