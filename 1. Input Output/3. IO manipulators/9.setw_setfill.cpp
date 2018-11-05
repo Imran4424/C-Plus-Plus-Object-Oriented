@@ -9,6 +9,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
+	cout<< setw(25) <<setfill('.') << "I am a Programmer" <<endl;
+
 	return 0;
 }
