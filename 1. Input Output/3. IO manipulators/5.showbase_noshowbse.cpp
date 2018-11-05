@@ -11,15 +11,15 @@ int main(int argc, char const *argv[])
 {
 	int num = 200;
 
-	cout<< endl <<"Hexadecimal: ";
+	cout<< endl <<"Hexadecimal: "<<endl;
 	cout << hex << showbase << num <<endl;
 	cout << hex << noshowbase << num <<endl<<endl;
 
-	cout<<"Decimal: ";
+	cout<<"Decimal: "<<endl;
 	cout << dec << showbase << num <<endl;
 	cout << dec << noshowbase << num <<endl<<endl;
 
-	cout<<"Octal: ";
+	cout<<"Octal: "<<endl;
 	cout << oct << showbase << num <<endl;
 	cout << oct << noshowbase << num <<endl<<endl;
 
