@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 	cout<< fixed << a <<" "<< b <<endl;
 
 	cout<<"Scientific"<<endl;
-	cout<< scientific << a <<" "<<endl;
+	cout<< scientific << a <<" "<<b<<endl;
 
 	return 0;
 }
