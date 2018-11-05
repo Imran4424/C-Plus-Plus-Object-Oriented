@@ -1,0 +1,3 @@
+/*
+	write a program to demonstrate fixed scientific 
+*/
