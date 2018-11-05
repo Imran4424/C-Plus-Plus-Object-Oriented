@@ -19,5 +19,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	uppercse - enable uppercase characters
+	uppercase - enable uppercase characters
+
+	nouppercase - disable uppercase characters means lowercase
+
+	
 */
