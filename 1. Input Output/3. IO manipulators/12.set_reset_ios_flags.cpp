@@ -16,3 +16,12 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+/*
+	this is just another way to set and reset IO manipulators flag
+
+	have your pick
+
+	I like to use the other one
+
+	cause that one is easy and needs less writing
+*/
