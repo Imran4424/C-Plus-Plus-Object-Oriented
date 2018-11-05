@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 	cout << hex << num <<endl<<endl;
 
 	cout<<"Decimal: ";
-	cout << dec << num <<endl;
+	cout << dec << num <<endl<<endl;
 
 	cout << oct << num <<endl;
 
