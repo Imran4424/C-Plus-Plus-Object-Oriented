@@ -24,4 +24,14 @@ int main(int argc, char const *argv[])
 	fixed - prints 6 digits after the floating point
 
 	fixed & setprecision - prints given number of digits after floating point
+
+	these are the memebers of iomanip headers
+
+	sometimes we need to include the header like this,
+
+										#include <iomanip>
+
+	sometimes it work without including the header iomanip
+
+	In update compilers don't need to include iomanip
 */
