@@ -1,5 +1,5 @@
 /*	
-	write a program to demonstrate I/O manipulators fixed and setprecision
+	write a program to demonstrate I/O manipulators left, right and internal
 */
 
 #include <iostream>
