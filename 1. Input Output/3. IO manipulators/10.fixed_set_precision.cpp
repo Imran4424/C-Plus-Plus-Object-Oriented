@@ -3,10 +3,20 @@
 */
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
+	double PI = 3.1416;
+	double a = 123456.720;
+
+	cout<< PI <<"\t"<< a <<endl;
+
+	cout<< fixed << PI <<"\t"<< a <<endl;
+
+	cout<< fixed << setprecision(4) << PI <<"\t"<< a <<endl;
+
 	return 0;
 }
+
