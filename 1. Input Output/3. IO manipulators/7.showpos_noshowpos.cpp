@@ -20,4 +20,12 @@ int main(int argc, char const *argv[])
 	showpos - show positive notion if the number is postive
 
 	noshowpos - disable showing positive notion for positive numbers
+
+	sometimes we need to include the header like this,
+
+										#include <iomanip>
+
+	sometimes it work without including the header iomanip
+
+	In update compilers don't need to include iomanip
 */
