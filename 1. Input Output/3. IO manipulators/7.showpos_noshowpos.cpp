@@ -21,6 +21,8 @@ int main(int argc, char const *argv[])
 
 	noshowpos - disable showing positive notion for positive numbers
 
+	these are the memebers of iomanip headers
+
 	sometimes we need to include the header like this,
 
 										#include <iomanip>
