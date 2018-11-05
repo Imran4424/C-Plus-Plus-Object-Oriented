@@ -33,4 +33,12 @@ int main(int argc, char const *argv[])
 	here, we used noskipws by enabling it first ny using noskipws in input steam
 
 		then again we used  skipws enabling that by using skipws in input stream
+
+	these are the memebers of iomanip headers
+
+	sometimes we need to include the header like this,
+
+										#include <iomanip>
+
+	sometimes it work without including the header iomanip
 */
