@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 
 	cout<<(int)nw<<endl;
 
-	cout<<(int)s<<endl;
+	cout<<s<<" "<<(int)s<<endl;
 
 	return 0;
 }
