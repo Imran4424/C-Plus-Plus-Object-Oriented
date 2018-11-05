@@ -8,7 +8,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	cout<"Default: " << setw(7) << -71 << endl;
+	cout<<"Default: " << setw(7) << -71 << endl;
 
 	cout<<"Left: " << left << setw(7) << -71 << endl;
 	
