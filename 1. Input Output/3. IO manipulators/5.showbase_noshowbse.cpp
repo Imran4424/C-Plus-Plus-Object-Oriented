@@ -31,5 +31,5 @@ int main(int argc, char const *argv[])
 
 	noshowbase - to hide the base of the number system
 
-	
+	by default noshowbase is activated
 */
