@@ -27,5 +27,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	showbase - to show the base of the number system
+
+	noshowbase - to hide the base of the number system
+
 	
 */
