@@ -28,4 +28,6 @@ int main(int argc, char const *argv[])
 	fixed - prints five digit after the floating points
 
 	scientific - prints numbers in scientific form
+
+	
 */
