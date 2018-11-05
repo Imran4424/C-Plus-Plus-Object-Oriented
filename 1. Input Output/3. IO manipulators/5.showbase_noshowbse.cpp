@@ -12,13 +12,13 @@ int main(int argc, char const *argv[])
 	int num = 200;
 
 	cout<<"Hexadecimal: ";
-	cout << hex << num <<endl<<endl;
+	cout << hex << showbase << num <<endl<<endl;
 
 	cout<<"Decimal: ";
-	cout << dec << num <<endl<<endl;
+	cout << dec << showbase << num <<endl<<endl;
 
 	cout<<"Octal: ";
-	cout << oct << num <<endl<<endl;
+	cout << oct << showbase << num <<endl<<endl;
 
 	return 0;
 }
