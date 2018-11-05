@@ -8,11 +8,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int num = 200;
+	int num = 255;
 
 	cout<< hex << uppercase << num << endl;
 
-	cout<< hex << nouppercase << num << endl
+	cout<< hex << nouppercase << num << endl; 
 
 
 	return 0;

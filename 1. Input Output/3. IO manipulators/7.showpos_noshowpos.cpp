@@ -15,3 +15,9 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	showpos - show positive notion if the number is postive
+
+	noshowpos - disable showing positive notion for positive numbers
+*/
