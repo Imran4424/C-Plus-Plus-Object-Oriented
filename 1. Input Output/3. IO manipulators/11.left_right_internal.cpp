@@ -20,5 +20,14 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	setw() - occupied characer spaces
+
+	left - occupied character spaces in left by setw
+
+	right - occupied character spaces in right by setw
+
+	internal - occupied character spaces in middle between two characters
+
+	by default it set to right
+
 */
