@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
 	getline(cin, str);
 
 	cout<< "input string is: "<< str <<endl;
+	
 	return 0;
 }
