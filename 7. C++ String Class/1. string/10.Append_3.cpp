@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 	string status = "I love to play";
 	string job = "I creates games";
 
-	cout << "Before append" << endl;
+	cout << endl << "Before append" << endl << endl;
 
 	cout << status << endl;
 	cout << job << endl;
