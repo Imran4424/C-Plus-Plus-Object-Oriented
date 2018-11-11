@@ -6,7 +6,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	string status = "I ";
-	string job = "games"
+	string job = "games";
 
 	status += "Love to ";
 
