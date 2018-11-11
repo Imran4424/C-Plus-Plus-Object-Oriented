@@ -26,4 +26,6 @@ int main(int argc, char const *argv[])
 	string final3 = "I" + " Love to " + "Play " + "Games";
 
 	string final3 = "I" + "Play " + "Games";
+	
+	string final3 = "I " + "love to " + play + " Games";
 */
