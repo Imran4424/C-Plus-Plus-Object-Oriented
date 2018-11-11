@@ -14,11 +14,15 @@ int main(int argc, char const *argv[])
 
 	string final3 = first + " play " + " Games. " + "What" + " about " + "you?";
 
+	string final4 = "I love to " + play + " Games. " + "What" + " about " + "you?";
+
 	cout<< "final string: " << final << endl;
 
 	cout<< "final string: " << final2 << endl;
 	
 	cout<< "final string: " << final3 << endl;
+
+	cout<< "final string: " << final4 << endl;
 
 	return 0;
 }
