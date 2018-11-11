@@ -11,5 +11,6 @@ int main(int argc, char const *argv[])
 	status.insert(2, element, 2, 8);
 
 	cout << "final string: " << status << endl;
+	
 	return 0;
 }
