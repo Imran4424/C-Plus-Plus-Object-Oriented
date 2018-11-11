@@ -13,7 +13,9 @@ int main(int argc, char const *argv[])
 
 	cout << status << endl;
 
-	status += ' ';
+	//status += ' ';
+
+	status.insert(status.size(), " ");
 
 	status.insert(status.size(), job);
 
@@ -21,3 +23,6 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+/*	
+	status.insert(status.size(), " ");
+*/
