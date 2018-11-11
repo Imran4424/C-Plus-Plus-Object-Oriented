@@ -5,9 +5,19 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	string satus = "play";
+	string status = "play";
 	string job = "game";
 
-	
+	status.insert(0, "I ");
+	status.insert(2, "love to ");
+
+	cout << status << endl;
+
+	status += ' ';
+
+	status.insert(status.size(), job);
+
+	cout << "final string : " << status << endl;
+
 	return 0;
 }
