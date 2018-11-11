@@ -8,7 +8,12 @@ int main(int argc, char const *argv[])
 	string status = "I ";
 	string job = "Programmer";
 
-	
+
+	status.append("am ");
+	status.append("a ");
+	status.append(job);
+
+	cout << "Final string: " << status << endl;
 
 	return 0;
 }
