@@ -11,7 +11,11 @@ int main(int argc, char const *argv[])
 
 	int length = str.size();
 
-	cout << "String length is: " << length << endl; 
+	int length_2 = str.length();
+
+	cout << "String length is: " << length << endl;
+
+	cout << "String length is: " << length_2 << endl; 
 
 	return 0;
 }
