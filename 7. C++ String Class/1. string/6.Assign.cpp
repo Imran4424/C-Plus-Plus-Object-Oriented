@@ -5,11 +5,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	string str, copystr;
+	string str, copyStr;
 
 	getline(cin, str);
 
-	copystr.assign(str);
+	copyStr.assign(str);
 
 	cout << "Input string : " << str << endl;
 
