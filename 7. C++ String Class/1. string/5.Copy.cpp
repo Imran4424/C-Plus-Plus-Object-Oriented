@@ -11,9 +11,9 @@ int main(int argc, char const *argv[])
 
 	copyStr = str;
 
-	cout << "str : " << str << endl;
+	cout << "Input string : " << str << endl;
 
-	cout << "copy str : " << copyStr << endl;
+	cout << "copy string : " << copyStr << endl;
 
 	return 0;
 }
