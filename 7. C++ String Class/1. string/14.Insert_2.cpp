@@ -5,6 +5,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
+	string status = "I Play games";
+	string element ="love to do programming";
+
+	status.insert(2, element, 8);
+
+	cout << "final string: " << status << endl;
 	return 0;
 }
