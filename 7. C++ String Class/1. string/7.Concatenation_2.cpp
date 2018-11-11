@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
 	string final2 = first + " Play " + "Games";
 
-	string final3 = "I" + play + " Games";
+	string final3 = "I " + "love to " + play + " Games";
 
 	cout<< "final string: " << final << endl;
 
