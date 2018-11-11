@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 	gibrish.append('3', 'e');
 
 
-	cout << "final string: " << endl;
+	cout << "final string: " << gibrish << endl;
 
 	return 0;
 }
