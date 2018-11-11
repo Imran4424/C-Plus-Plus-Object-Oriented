@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
 	string final2 = first + " Play " + "Games";
 
-	string final3 = first + " play " + " Games. " + "What" + " about " + "you?";
+	string final3 = first + " play " + "Games. " + "What" + " about " + "you?";
 
 	string final4 = "I love to " + play + " Games. " + "What" + " about " + "you?";
 
