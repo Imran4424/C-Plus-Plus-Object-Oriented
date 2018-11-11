@@ -13,8 +13,10 @@ int main(int argc, char const *argv[])
 	cout << status << endl;
 	cout << job << endl;
 
-	status.append(job, 10, 5);
+	status.append(job, 9, 6); // one extra for space
 
+	
+	cout << "........................" << endl << endl;
 	cout << "After append" << endl;
 
 	cout << status << endl;
