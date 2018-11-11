@@ -24,5 +24,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 /*	
-	status.insert(status.size(), " ");
+	the following statement gives error
+
+	status.insert(status.size(), ' '); 
 */
