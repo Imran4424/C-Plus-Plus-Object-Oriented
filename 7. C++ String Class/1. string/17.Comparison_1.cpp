@@ -5,7 +5,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	string 
+	string str, str2;
+
+	getline(cin, str);
+	getline(cin, str2);
 
 	return 0;
 }
