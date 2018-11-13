@@ -19,7 +19,11 @@ int main(int argc, char const *argv[])
 	}
 	else if (status > 0)
 	{
-		/* code */
+		cout << str << " is greater than " << str2 << endl;
+	}
+	else if (status < 0)
+	{
+		
 	}
 
 	return 0;
