@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 	}
 	else if (status < 0)
 	{
-		
+		cout << str << " is less than " << str2 << endl;
 	}
 
 	return 0;
