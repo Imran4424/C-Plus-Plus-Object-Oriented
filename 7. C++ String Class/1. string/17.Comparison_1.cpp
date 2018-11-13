@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 	{
 		cout << str << " is less than " << str2 << endl;
 	}
-	else
+	else // equal
 	{
 		cout << str << " is equal to " << str2 << endl;
 	}
