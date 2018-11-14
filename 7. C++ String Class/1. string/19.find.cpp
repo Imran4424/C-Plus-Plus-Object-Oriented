@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
 
 	str = "a needle in a haystack needle";
 
-	pos = str.rfind("needle");
+	pos = str.find("needle");
 
 	if (pos >= 0)
 	{
@@ -76,5 +76,5 @@ int main(int argc, char const *argv[])
 		in string: a needle in a haystack needle
 		if we search: needle
 
-		then it will return 2 not 
+		then it will return 2 not 2 23
 */
