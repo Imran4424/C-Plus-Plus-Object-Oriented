@@ -33,3 +33,7 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	rfind() always return last substring occurence from a string
+*/
