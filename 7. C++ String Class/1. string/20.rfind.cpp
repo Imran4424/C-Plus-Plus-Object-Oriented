@@ -20,6 +20,8 @@ int main(int argc, char const *argv[])
 
 	str = "a pin in a haystack. pin is really small, so it's really hard to find a pin in haystack";
 
+	pos = str.rfind("pin");
+
 	if (pos >= 0)
 	{
 		cout << " found pin in position " << pos << endl;
