@@ -52,5 +52,13 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	find() usually use to find a string occurence inside of another string
+	find() usually use to find a string occurence inside of another string as substring
+
+	find() returns the position of the serching string inside of searched string
+
+	if the searching string can not find inside the searched string then it will retrun -1
+
+	for example:
+
+		
 */
