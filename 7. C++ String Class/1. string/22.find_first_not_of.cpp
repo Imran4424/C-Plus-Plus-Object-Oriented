@@ -13,12 +13,9 @@ int main(int argc, char const *argv[])
 
 	if (pos >= 0)
 	{
-		cout << " illegal identifier " << pos << endl;
+		cout << " first occurence of  " << pos << endl;
 	}
-	else
-	{
-		cout << " legal identifier " << endl;
-	}
+	
 
 	identifier = "11dead";
 
@@ -28,10 +25,7 @@ int main(int argc, char const *argv[])
 	{
 		cout << " illegal identifier " << pos << endl;
 	}
-	else
-	{
-		cout << " legal identifier " << endl;
-	}
+	
 
 	return 0;
 }
