@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 		cout << " no pin " << pos << endl;
 	}
 
-	
+	str = "a pin in a haystack. pin is really small, so it's really hard to find a pin in haystack";
 
 	return 0;
 }
