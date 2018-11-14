@@ -34,6 +34,15 @@ int main(int argc, char const *argv[])
 
 	pos = str.find("needle");
 
+	if (pos >= 0)
+	{
+		cout << " found needle at position " << pos << endl;
+	}
+	else
+	{
+		cout << " no needle " << pos << endl;
+	}
+
 
 	return 0;
 }
