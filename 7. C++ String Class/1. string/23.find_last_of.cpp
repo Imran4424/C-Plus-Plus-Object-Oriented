@@ -11,6 +11,14 @@ int main(int argc, char const *argv[])
 
 	int pos  = identifier.find_last_of(digits);
 
+	if (pos >= 0)
+	{
+		cout << " illegal identifier " << pos << endl;
+	}
+	else
+	{
+		cout << " legal identifier " << endl;
+	}
 	
 	return 0;
 }
