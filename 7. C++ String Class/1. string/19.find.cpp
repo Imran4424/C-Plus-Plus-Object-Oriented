@@ -52,5 +52,5 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	find() usually use to find a string occurence inside of another string
 */
