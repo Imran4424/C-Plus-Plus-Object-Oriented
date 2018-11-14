@@ -60,5 +60,21 @@ int main(int argc, char const *argv[])
 
 	for example:
 
-		
+		in string: a needle in a haystack
+		if we search: needle 
+
+		then it will return 2
+
+		but if we search: pin
+
+		then it will return -1
+
+
+	find() always return the first occurence of the substring
+
+	for example:
+		in string: a needle in a haystack
+		if we search: needle
+
+		then it will return 
 */
