@@ -73,8 +73,8 @@ int main(int argc, char const *argv[])
 	find() always return the first occurence of the substring
 
 	for example:
-		in string: a needle in a haystack
+		in string: a needle in a haystack needle
 		if we search: needle
 
-		then it will return 
+		then it will return 2 not 
 */
