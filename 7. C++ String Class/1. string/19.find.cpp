@@ -30,5 +30,10 @@ int main(int argc, char const *argv[])
 	}
 
 
+	str = " a needle in a haystack needle";
+
+	pos = str.find("needle");
+
+
 	return 0;
 }
