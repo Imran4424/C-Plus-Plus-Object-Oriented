@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
 	if (pos >= 0)
 	{
-		cout << "found needle at position " << pos << endl;
+		cout << " found needle at position " << pos << endl;
 	}
 	else
 	{
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 
 	if (pos >= 0)
 	{
-		cout << "found needle at position " << pos << endl;
+		cout << " found needle at position " << pos << endl;
 	}
 	else
 	{
