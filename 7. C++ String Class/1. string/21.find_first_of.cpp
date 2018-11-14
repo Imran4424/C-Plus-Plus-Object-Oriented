@@ -19,5 +19,7 @@ int main(int argc, char const *argv[])
 	{
 		cout << " legal identifier " << endl;
 	}
+
+	
 	return 0;
 }
