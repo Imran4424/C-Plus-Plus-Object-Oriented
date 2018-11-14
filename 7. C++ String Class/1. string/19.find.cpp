@@ -18,8 +18,17 @@ int main(int argc, char const *argv[])
 		cout << " no needle " << pos << endl;
 	}
 
-
 	int pos = str.find("pin");
+
+	if (pos >= 0)
+	{
+		cout << "found needle at position " << pos << endl;
+	}
+	else
+	{
+		cout << " no needle " << pos << endl;
+	}
+
 
 	return 0;
 }
