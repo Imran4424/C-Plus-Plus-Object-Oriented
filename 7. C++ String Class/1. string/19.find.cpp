@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
 
 	str = "a needle in a haystack needle";
 
-	pos = str.find("needle");
+	pos = str.rfind("needle");
 
 	if (pos >= 0)
 	{
