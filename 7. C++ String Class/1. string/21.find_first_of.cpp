@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 		cout << " legal identifier " << endl;
 	}
 
-	identifier = "dead7man";
+	identifier = "deads7man";
 
 	pos = identifier.find_first_of(digits);
 
