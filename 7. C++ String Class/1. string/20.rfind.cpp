@@ -29,6 +29,5 @@ int main(int argc, char const *argv[])
 		cout << " no pin " << pos << endl;
 	}
 
-
 	return 0;
 }
