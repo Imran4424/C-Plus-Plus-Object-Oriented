@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 		cout << " no needle " << pos << endl;
 	}
 
-	int pos = str.find("pin");
+	pos = str.find("pin");
 
 	if (pos >= 0)
 	{
