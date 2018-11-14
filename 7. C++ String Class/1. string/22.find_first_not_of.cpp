@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
 	if (pos >= 0)
 	{
-		cout << " first occurence of  " << pos << endl;
+		cout << " first occurence of identifier characters at " << pos << endl;
 	}
 	
 
@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 
 	if (pos >= 0)
 	{
-		cout << " illegal identifier " << pos << endl;
+		cout << " first occurence of identifier characters at " << pos << endl;
 	}
 	
 
