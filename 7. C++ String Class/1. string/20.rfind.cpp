@@ -35,5 +35,12 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	rfind() always return last substring occurence from a string
+	rfind() always return last occurence of the substring from a string
+
+	for example:
+		in string: a needle in a haystack needle
+		if we search: needle
+
+		then it will return 23 not 2
+
 */
