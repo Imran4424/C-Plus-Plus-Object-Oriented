@@ -23,3 +23,9 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+/*
+	to append c+ string
+
+	we can simply use "+=" operator
+
+*/
