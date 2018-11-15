@@ -42,7 +42,7 @@ int main(int argc, char const *argv[])
 		identifier.find_first_not_of(digits);
 
 
-	this function returns first occurence of any character of digits string in identifier string
+	this function returns first occurence of any character that is not of digits string in identifier string
 	
-	remember it only returns first character it doesn't matter how many characters of digits are there
+	remember it only returns first character it doesn't matter how many characters not of of digits are there
 */
