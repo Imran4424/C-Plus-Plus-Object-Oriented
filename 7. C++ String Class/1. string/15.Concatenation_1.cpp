@@ -22,5 +22,7 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	in c we use strcat function for string concatenation
+
+	but in c++ string we can use just '+' operator for string concatenation
 */
