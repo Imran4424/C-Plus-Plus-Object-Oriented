@@ -32,3 +32,20 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	comparison in c++ string can also be done using compare function
+
+	basic syntax:
+
+		string text, address;
+
+		int status = address.compare(text);
+
+	if address == text then it will return 0
+
+	if address > text then it will return 1
+
+	if address < text then it will return -1
+*/
