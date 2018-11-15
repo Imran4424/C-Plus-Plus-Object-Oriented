@@ -1,5 +1,5 @@
 /*
-	write a cpp program to demonstrate first_not_find_of() function
+	write a cpp program to demonstrate find_first_not_of() function
 */
 #include <iostream>
 #include <string>
