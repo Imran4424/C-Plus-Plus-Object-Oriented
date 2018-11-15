@@ -33,3 +33,16 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	basic syntax:
+
+		string digits, identifier;
+
+		identifier.find_first_not_of(digits);
+
+
+	this function returns first occurence of any character of digits string in identifier string
+	
+	remember it only returns first character it doesn't matter how many characters of digits are there
+*/
