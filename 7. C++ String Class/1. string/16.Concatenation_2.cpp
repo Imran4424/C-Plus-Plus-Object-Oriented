@@ -21,6 +21,8 @@ int main(int argc, char const *argv[])
 
 	string final4 = "I love to " + play + " Games. " + "What" + " about " + "you?";
 
+	string final5 = "Play " + "Games";
+	
 	cout<< "final string: " << final << endl;
 
 	cout<< "final string: " << final2 << endl;
@@ -36,7 +38,6 @@ int main(int argc, char const *argv[])
 
 		string final3 = "I" + " Love to " + "Play " + "Games";
 
-		string final3 = "I" + "Play " + "Games";
 
 		string final3 = "I " + "love to " + play + " Games";
 
@@ -45,5 +46,7 @@ int main(int argc, char const *argv[])
 
 	now look at the first two operands of the statements means two operands around the first '+' operator
 
-	
+	both are plain string not string class object
+
+	to make these statements valid 
 */
