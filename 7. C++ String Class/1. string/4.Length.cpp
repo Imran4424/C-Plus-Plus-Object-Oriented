@@ -19,3 +19,18 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	we can c++ string length using two functions size or length
+
+	basic syntax :
+
+	string text;
+
+	int len = text.size();
+	or
+	int len = text.length();
+
+
+	both will give the same result 
+*/
