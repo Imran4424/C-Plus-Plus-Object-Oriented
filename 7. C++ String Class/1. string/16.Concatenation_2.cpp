@@ -54,5 +54,4 @@ int main(int argc, char const *argv[])
 	the easiest way to do that,
 
 		string final3 = "I" + string(" Love to ") + "Play " + "Games";
-		
 */
