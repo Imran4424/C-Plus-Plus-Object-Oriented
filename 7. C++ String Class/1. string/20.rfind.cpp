@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate string rfind() function
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
