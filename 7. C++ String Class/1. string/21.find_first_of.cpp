@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate first_find_of() function
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
