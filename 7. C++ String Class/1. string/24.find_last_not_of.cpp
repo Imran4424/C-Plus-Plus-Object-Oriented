@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate find_last_not_of() function
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -18,3 +22,17 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	basic syntax:
+
+		string digits, identifier;
+
+		identifier.find_last_not_of(digits);
+
+
+	this function returns first occurence of any character that is not of digits string in identifier string
+	
+	remember it only returns first character it doesn't matter how many characters are not of digits are there
+*/
