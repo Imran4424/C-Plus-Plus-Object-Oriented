@@ -31,10 +31,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	comparison in c++ string can be done easily
+	comparison in c++ string can be done easily using relational operators
 
-	"==" and "!=" for camparing string is equal or not
+	"==" or "!=" for camparing string is equal or not
 	
-	""
-
+	'>' or '<' for comparing it's greater or not
 */
