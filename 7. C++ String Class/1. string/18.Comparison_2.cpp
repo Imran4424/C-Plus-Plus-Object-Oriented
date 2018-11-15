@@ -43,9 +43,9 @@ int main(int argc, char const *argv[])
 
 		int status = address.compare(text);
 
-	if address == text then it will return 0
+	if address == text then function will return 0
 
-	if address > text then it will return 1
+	if address > text then function will return 1
 
-	if address < text then it will return -1
+	if address < text then function will return -1
 */
