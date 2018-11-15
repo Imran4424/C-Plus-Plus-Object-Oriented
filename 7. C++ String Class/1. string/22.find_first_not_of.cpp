@@ -46,5 +46,5 @@ int main(int argc, char const *argv[])
 	
 	remember it only returns first character it doesn't matter how many characters are not of digits are there
 
-	it can character of any string but not of digit string
+	it can be character of any string but not of digit string
 */
