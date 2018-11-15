@@ -45,7 +45,7 @@ int main(int argc, char const *argv[])
 
 		string digits, identifier;
 
-		identifier.first_find_of(digits);
+		identifier.find_first_of(digits);
 
 
 	this function returns first occurence of any character of digits string in identifier string
