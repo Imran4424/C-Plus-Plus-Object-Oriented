@@ -50,4 +50,9 @@ int main(int argc, char const *argv[])
 	both are plain string not string class object
 
 	to make these statements valid, we need to make one of them string object
+
+	the easiest way to do that,
+
+		
+		string final3 = "I" + string(" Love to ") + "Play " + "Games";
 */
