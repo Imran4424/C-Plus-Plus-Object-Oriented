@@ -31,5 +31,10 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	comparison in c++ string can be done easily
+
+	"==" and "!=" for camparing string is equal or not
 	
+	""
+
 */
