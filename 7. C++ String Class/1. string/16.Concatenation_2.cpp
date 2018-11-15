@@ -21,7 +21,6 @@ int main(int argc, char const *argv[])
 
 	string final4 = "I love to " + play + " Games. " + "What" + " about " + "you?";
 
-	string final5 = "Play " + "Games";
 	
 	cout<< "final string: " << final << endl;
 
@@ -38,9 +37,11 @@ int main(int argc, char const *argv[])
 
 		string final3 = "I" + " Love to " + "Play " + "Games";
 
-
 		string final3 = "I " + "love to " + play + " Games";
 
+		string final3 = "I" + "Play " + "Games";
+
+		string final5 = "Play " + "Games";
 
 	these are not valid 
 
@@ -48,5 +49,5 @@ int main(int argc, char const *argv[])
 
 	both are plain string not string class object
 
-	to make these statements valid 
+	to make these statements valid, we need to make one of them string object
 */
