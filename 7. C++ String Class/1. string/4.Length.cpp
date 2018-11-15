@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate how to determine length of a c++ string
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
