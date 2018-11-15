@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate c++ assign() function with start and end index parameters
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
