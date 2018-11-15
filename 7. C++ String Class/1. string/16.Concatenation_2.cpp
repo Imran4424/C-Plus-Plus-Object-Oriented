@@ -40,5 +40,10 @@ int main(int argc, char const *argv[])
 
 		string final3 = "I " + "love to " + play + " Games";
 
+
+	these are not valid 
+
+	now look at the first two operands of the statements means two operands around the first '+' operator
+
 	
 */
