@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate getline as string input stream
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
