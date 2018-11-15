@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate comparison between two string
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
