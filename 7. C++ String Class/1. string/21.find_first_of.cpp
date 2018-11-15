@@ -1,5 +1,5 @@
 /*
-	write a cpp program to demonstrate first_find_of() function
+	write a cpp program to demonstrate find_first_of() function
 */
 
 #include <iostream>
