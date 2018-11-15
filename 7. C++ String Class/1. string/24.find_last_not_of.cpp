@@ -32,7 +32,9 @@ int main(int argc, char const *argv[])
 		identifier.find_last_not_of(digits);
 
 
-	this function returns first occurence of any character that is not of digits string in identifier string
+	this function returns last occurence of any character that is not of digits string in identifier string
 	
-	remember it only returns first character it doesn't matter how many characters are not of digits are there
+	remember it only returns last character it doesn't matter how many characters are not of digits are there
+
+	it can character of any string but not of digit string
 */
