@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate find_last_of() function
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
