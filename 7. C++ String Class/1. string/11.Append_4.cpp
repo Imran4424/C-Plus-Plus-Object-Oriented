@@ -26,7 +26,8 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	with this version of append() function we can add specific characters multiple times at the end of existing string
+	with this version of append() function we can add specific characters multiple times at the end of existing 
+	string
 
 	here, first argument is the size, how many times we want to append the character
 
