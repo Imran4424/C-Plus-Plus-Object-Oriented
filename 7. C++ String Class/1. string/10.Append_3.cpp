@@ -21,6 +21,7 @@ int main(int argc, char const *argv[])
 
 	status.append(job, 8, 6); // one extra for space
 
+	status.append(". OK that's good. I like to create games", 0, 17); // one extra for space
 	
 	cout << "........................" << endl << endl;
 	cout << "After append" << endl;
