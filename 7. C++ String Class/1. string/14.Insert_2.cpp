@@ -1,5 +1,6 @@
 /*
-	write a cpp program to demonstrate insert(int index, string str, int start_index, int end_index) function in c++ string
+	write a cpp program to demonstrate insert(int index, string str, int start_index, int end_index) function 
+	in c++ string
 */
 
 #include <iostream>
@@ -20,5 +21,8 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	with this version of insert() function, we can add a substring of the given string in the specific of the
+	existing string
+
 	
 */
