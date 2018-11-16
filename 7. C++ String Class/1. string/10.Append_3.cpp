@@ -17,9 +17,9 @@ int main(int argc, char const *argv[])
 	cout << status << endl;
 	cout << job << endl;
 
-	status += ' ';
+	//status += ' ';
 
-	status.append(job, 9, 6); // one extra for space
+	status.append(job, 8, 6); // one extra for space
 
 	
 	cout << "........................" << endl << endl;
@@ -32,6 +32,6 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	With this favour of append we can add substrigs at the end of the existing string
 
 */
