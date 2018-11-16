@@ -30,7 +30,14 @@ int main(int argc, char const *argv[])
 /*	
 	with this version of insert() function, we can add a whole string in the specific position of the given string 
 
+	here, first argument is the starting index where we want add the string
+	      first argument can be either plain string or string class object
+
+	      second argument is the string which we want to add
+
 	the following statement gives error
 
-	status.insert(status.size(), ' '); 
+	status.insert(status.size(), ' ');
+
+	because this version of insert() function only adds string not 
 */
