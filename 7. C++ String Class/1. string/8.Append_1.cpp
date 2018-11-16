@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
 	status += "Love to"; // as plain string 
 
-	status += ' ';
+	status += ' '; // as character
 
 	status += "play ";
 
