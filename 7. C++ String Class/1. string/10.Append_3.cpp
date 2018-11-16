@@ -40,5 +40,5 @@ int main(int argc, char const *argv[])
 
 	      second argument is the starting index of first argument string, it's a int variable
 
-	      third argument is the size, which determines 
+	      third argument is the size, which determines ending index
 */
