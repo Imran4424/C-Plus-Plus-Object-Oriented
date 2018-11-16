@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate append(int size, char ch) function in c++
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
