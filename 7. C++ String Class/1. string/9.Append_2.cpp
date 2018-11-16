@@ -25,6 +25,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	like "+=" operator append function also append strings at the end of the 
+	like "+=" operator append function also append strings at the end of the existing string
 
+	only exception is that, append() function only append strings at the end
+	
+							where "+=" operators append both character and string
 */
