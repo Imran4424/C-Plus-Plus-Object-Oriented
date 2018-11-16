@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate append() function to append c++ string
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -17,3 +21,8 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+
+
+*/
