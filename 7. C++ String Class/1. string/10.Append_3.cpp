@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	With this favour of append we can add substrigs at the end of the existing string
+	With this favour of append() function we can add substrigs at the end of the existing string
 
 	here, first argument is that string from where we want to add substring
 	      first argument can be plain string or c++ string class object
