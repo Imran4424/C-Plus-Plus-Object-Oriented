@@ -12,11 +12,13 @@ int main(int argc, char const *argv[])
 	string status = "I ";
 	string job = "games";
 
-	status += "Love to ";
+	status += "Love to"; // as plain string 
+
+	status += ' ';
 
 	status += "play ";
 
-	status += job;
+	status += job; // as string class object
 
 	cout << "Full string: " << status << endl;
 

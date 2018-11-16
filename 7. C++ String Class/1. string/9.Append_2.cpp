@@ -13,9 +13,11 @@ int main(int argc, char const *argv[])
 	string job = "Programmer";
 
 
-	status.append("am ");
+	status.append("am "); //as plain string
+	
 	status.append("a ");
-	status.append(job);
+
+	status.append(job); // as string class object
 
 	cout << "Final string: " << status << endl;
 
@@ -23,6 +25,6 @@ int main(int argc, char const *argv[])
 }
 
 /*
-
+	like "+=" operator append function also append strings at the end of the 
 
 */
