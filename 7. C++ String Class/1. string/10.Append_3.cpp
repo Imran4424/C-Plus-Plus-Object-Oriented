@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate 
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
