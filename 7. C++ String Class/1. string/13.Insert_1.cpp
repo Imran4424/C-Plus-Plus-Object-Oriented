@@ -39,5 +39,5 @@ int main(int argc, char const *argv[])
 
 	status.insert(status.size(), ' ');
 
-	because this version of insert() function only adds string not 
+	because this version of insert() function only adds strings not characters
 */
