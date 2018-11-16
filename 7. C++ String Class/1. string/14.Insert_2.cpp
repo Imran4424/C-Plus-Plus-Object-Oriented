@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate insert(int index, string str, int start_index, int end_index) function in c++ string
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
