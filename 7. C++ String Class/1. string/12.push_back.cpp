@@ -33,5 +33,18 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	In the Append_1.cpp program we saw that,
+
+		"+=" operator can append characters at the end of existing string
+
+		string text;
+
+		text += 'I';
+		text += ' ';
+		text += 'a';
+		text += 'm';
+
+
+		this same thing can be done using push_back() function
+
 */
