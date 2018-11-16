@@ -32,4 +32,6 @@ int main(int argc, char const *argv[])
 	      third argument is the start_index of the given string from where we want to add
 
 	      fourth argument is the end_index of the given string till where we want to add
+
+	this version of insert() function only adds string not character
 */
