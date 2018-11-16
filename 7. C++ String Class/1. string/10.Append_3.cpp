@@ -36,4 +36,9 @@ int main(int argc, char const *argv[])
 	With this favour of append we can add substrigs at the end of the existing string
 
 	here, first argument is that string from where we want to add substring
+	      first argument can be plain string or c++ string class object
+
+	      second argument is the starting index of first argument string, it's a int variable
+
+	      third argument is the size, which determines 
 */
