@@ -24,3 +24,7 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	with this favour of append() function we can add specific characters multiple times
+*/
