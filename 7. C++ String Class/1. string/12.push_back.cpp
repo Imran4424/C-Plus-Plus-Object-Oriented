@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate push_back() in c++ string
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
