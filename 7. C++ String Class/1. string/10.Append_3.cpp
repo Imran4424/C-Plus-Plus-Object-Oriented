@@ -17,6 +17,8 @@ int main(int argc, char const *argv[])
 	cout << status << endl;
 	cout << job << endl;
 
+	status += ' ';
+
 	status.append(job, 9, 6); // one extra for space
 
 	
