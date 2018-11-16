@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 /*	
-	with this version of insert() function, we can add a whole string in the specific position of the given string 
+	with this version of insert() function, we can add a whole given string in the specific position of the existing string 
 
 	here, first argument is the starting index where we want add the string
 	      first argument can be either plain string or string class object
