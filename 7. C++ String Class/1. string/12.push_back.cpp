@@ -47,4 +47,11 @@ int main(int argc, char const *argv[])
 
 		this same thing can be done using push_back() function
 
+		text.push_back('I');
+		text.push_back(' ');
+		text.push_back('a');
+		text.push_back('m');
+
+
+		push_back() only appends characters at the end
 */
