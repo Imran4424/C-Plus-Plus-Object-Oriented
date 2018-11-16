@@ -1,5 +1,5 @@
 /*
-	write a cpp program to demonstrate 
+	write a cpp program to demonstrate append(string str, int start_index, int size) function in c++
 */
 
 #include <iostream>
