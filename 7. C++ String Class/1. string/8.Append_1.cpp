@@ -28,4 +28,7 @@ int main(int argc, char const *argv[])
 
 	we can simply use "+=" operator
 
+	using "+=" operator we can append strings as well as characters at the end of existing string.
+
+	"+=" operator only appends at the end
 */
