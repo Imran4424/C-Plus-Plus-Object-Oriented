@@ -28,6 +28,8 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 /*	
+	with this version of insert() function, we can add a whole string in the specific position of the given string 
+
 	the following statement gives error
 
 	status.insert(status.size(), ' '); 
