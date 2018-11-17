@@ -9,8 +9,16 @@ int main(int argc, char const *argv[])
 
 	cout << text << endl;
 
-	cout << "Is the string empty? " << text.empty() << endl;
+	cout << "Is the string empty? " ;
 
-	
+	if (text.empty())
+	{
+	 	cout << "Yes" << endl; 
+	} 
+	else
+	{
+		cout << "No" << endl;
+	}
+
 	return 0;
 }
