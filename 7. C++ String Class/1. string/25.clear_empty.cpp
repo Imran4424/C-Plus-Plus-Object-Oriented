@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate clear and empty function
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
