@@ -14,7 +14,9 @@ int main(int argc, char const *argv[])
 
 	cout << "Full string: " << text << endl;
 
-	string sub_string = text.substr(2,4);
+	int pos = text.find("play");
+
+	string sub_string = text.substr(pos);
 
 	cout << "Substring: " << sub_string << endl;
 
