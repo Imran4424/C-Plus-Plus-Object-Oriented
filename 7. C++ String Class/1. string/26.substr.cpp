@@ -1,3 +1,14 @@
 /*
 	write a cpp program to demonstrate c++ string substr() function
 */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
