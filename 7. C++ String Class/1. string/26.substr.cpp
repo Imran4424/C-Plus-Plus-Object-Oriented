@@ -21,5 +21,5 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	with this version of substr() we can extract substring from a string 
 */
