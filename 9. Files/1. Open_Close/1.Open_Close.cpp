@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 
 	string fileName = "text.txt";
 
-	
+	writeFile.open(fileName);	
 
 
 	return 0;
