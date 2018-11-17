@@ -20,5 +20,11 @@ int main(int argc, char const *argv[])
 		cout << "No" << endl;
 	}
 
+	text.clear();
+
+	cout << "string cleared" << endl;
+
+	
+	
 	return 0;
 }
