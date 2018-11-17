@@ -24,7 +24,16 @@ int main(int argc, char const *argv[])
 
 	cout << "string cleared" << endl;
 
-	
+	cout << "Is the string empty? " ;
+
+	if (text.empty())
+	{
+	 	cout << "Yes" << endl; 
+	} 
+	else
+	{
+		cout << "No" << endl;
+	}
 	
 	return 0;
 }
