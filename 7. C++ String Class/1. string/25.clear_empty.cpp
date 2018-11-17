@@ -1,5 +1,5 @@
 /*
-	write a cpp program to demonstrate clear() and empty() function
+	write a cpp program to demonstrate c++ string clear() and empty() function
 */
 
 #include <iostream>
