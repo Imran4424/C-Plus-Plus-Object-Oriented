@@ -41,3 +41,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	clear() - delete all characters in a string
+
+	empty() - return 1 if the string is empty
+	          return 0 if the string is no empty
+*/
