@@ -12,5 +12,14 @@ int main(int argc, char const *argv[])
 
 	readFile.open(fileName);
 
+	if (readFile.is_open())
+	{
+		/* code */
+	}
+	else
+	{
+		cout << "could not read the file" << endl;
+	}
+
 	return 0;
 }
