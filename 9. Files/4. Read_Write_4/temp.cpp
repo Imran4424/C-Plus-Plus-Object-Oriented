@@ -10,11 +10,8 @@ int main(int argc, char const *argv[])
 
 	fstream file;
 
-	//file.open(fileName, fstream::in | fstream::out); // this statement only works if there is a existing file
-
-	file.open(fileName, fstream::in | fstream::out | fstream::trunc); 
 	
-	//file.open(fileName, ios::in | ios::out | ios::trunc); // this works too
+	file.open(fileName, ios::in | ios::out | ios::trunc);
 
 	if (file.is_open())
 	{
@@ -22,13 +19,6 @@ int main(int argc, char const *argv[])
 		file << "I love to play" << endl;
 		file << "I love to work game and software development" << endl;
 		file << "My id is: " << 1510176113 << endl;
-
-
-		//for saving a file without closig
-
-		file.flush();
-
-		// before read the file
 
 		file.seekg(0);
 	}
