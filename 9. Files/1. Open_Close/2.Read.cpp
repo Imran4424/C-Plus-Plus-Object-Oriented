@@ -14,7 +14,13 @@ int main(int argc, char const *argv[])
 
 	if (readFile.is_open())
 	{
-		/* code */
+		string line;
+
+		readFile >> line;
+
+		cout << line << endl;
+
+		readFile.close();
 	}
 	else
 	{
