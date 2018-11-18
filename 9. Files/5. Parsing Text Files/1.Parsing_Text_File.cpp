@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 		int population;
 		readFile >> population;
 
-		input >> ws;
+		readFile >> ws;
 
 		cout << line << "---" << population << endl;
 	}
