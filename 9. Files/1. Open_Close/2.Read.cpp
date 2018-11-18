@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 	{
 		string line;
 
-		readFile >> line;
+		getline(readFile, line);
 
 		cout << line << endl;
 
