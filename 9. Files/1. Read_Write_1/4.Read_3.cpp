@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 	}
 	else
 	{
-		cout << "can not open the file" << endl;
+		cout << "can not open the file: " << fileName << endl;
 	}
 
 	return 0;
