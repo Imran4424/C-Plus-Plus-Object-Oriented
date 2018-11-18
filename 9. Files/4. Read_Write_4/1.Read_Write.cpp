@@ -10,7 +10,12 @@ int main(int argc, char const *argv[])
 
 	fstream file;
 
-	file.open(fileName, fstream::in | fstream::out | fstream::trunc); // this statement only works if there is a existing file
+	//file.open(fileName, fstream::in | fstream::out); // this statement only works if there is a existing file
+	
+
+	file.open(fileName, fstream::in | fstream::out | fstream::trunc); 
+	
+	//file.open(fileName, ios::in | ios::out | ios::trunc); // this works too
 
 	if (file.is_open())
 	{
