@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
 	if (readFile.is_open())
 	{
-		/* code */
+		
 	}
 	return 0;
 }
