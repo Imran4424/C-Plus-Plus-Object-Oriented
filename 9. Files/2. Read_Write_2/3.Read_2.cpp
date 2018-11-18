@@ -22,8 +22,6 @@ int main(int argc, char const *argv[])
 		{
 			getline(readFile, line);
 
-			//cout << line << endl;
-
 			message += line;
 
 			message += '\n';
