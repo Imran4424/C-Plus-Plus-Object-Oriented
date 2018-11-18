@@ -28,6 +28,11 @@ int main(int argc, char const *argv[])
 
 		readFile >> ws; // for skipping white spaces
 
+		if (readFile)  // 
+		{
+			break;
+		}
+
 		cout << line << "---" << population << endl;
 	}
 
