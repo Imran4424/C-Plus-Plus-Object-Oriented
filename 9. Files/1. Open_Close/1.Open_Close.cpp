@@ -9,8 +9,16 @@ int main(int argc, char const *argv[])
 
 	string fileName = "text.txt";
 
-	writeFile.open(fileName);	
+	writeFile.open(fileName);
 
+	if (writeFile.is_open())
+	{
+		/* code */
+	}
+	else
+	{
+		cout << "Could not create file:" << fileName << endl;
+	}
 
 	return 0;
 }
