@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 	}
 	else
 	{
-		cout << "Could not create file:" << fileName << endl;
+		cout << "Can not create file:" << fileName << endl;
 	}
 
 	return 0;
