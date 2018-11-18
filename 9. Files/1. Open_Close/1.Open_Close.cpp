@@ -13,7 +13,9 @@ int main(int argc, char const *argv[])
 
 	if (writeFile.is_open())
 	{
-		/* code */
+		writeFile << "I am a Programmer" << endl;
+		writeFile << "I love to play" << endl;
+		writeFile << "I love to work game and software development" << endl;
 	}
 	else
 	{
