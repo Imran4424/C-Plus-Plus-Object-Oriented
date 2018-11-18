@@ -28,5 +28,7 @@ int main(int argc, char const *argv[])
 		cout << line << "---" << population << endl;
 	}
 
+	readFile.close();
+
 	return 0;
 }
