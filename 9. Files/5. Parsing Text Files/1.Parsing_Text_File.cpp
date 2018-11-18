@@ -11,9 +11,9 @@ int main(int argc, char const *argv[])
 
 	readFile.open(fileName);
 
-	if (readFile.is_open())
+	if (!readFile.is_open())
 	{
-		
+		return 1;
 	}
 	return 0;
 }
