@@ -12,6 +12,8 @@ int main(int argc, char const *argv[])
 
 	file.open(fileName, ios::out);
 
+	//file.open(fileName, fstream::out); // this line also works fine
+
 	if (file.is_open())
 	{
 		file << "I am a Programmer" << endl;
@@ -27,6 +29,8 @@ int main(int argc, char const *argv[])
 	}
 
 	file.open(fileName, ios::in);
+
+	// file.open(fileName, fstream::in); // this line also works fine
 
 	if (file.is_open())
 	{
