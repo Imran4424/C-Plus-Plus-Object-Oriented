@@ -74,12 +74,18 @@ int main(int argc, char const *argv[])
 		readFile >> ws;
 
 
-	in the while loop, we are extracting content two times from the file but we are checking if the file is
-	                   is empty or not for once in the while loop condition
+	in the while loop, we are extracting content till ':' and after ':' we are parsing text to int but that
+	                   does not move the file pointer till the end or till the whitespace character
 
-	                   that can give us some garbage output too
+	                   so for the last iteration we can have garbage output because the loop will try to read
+	                   the last line which does not exist but only white spaces
 
-	for fixing that problem we can simply use the following statement after parsing text to int
+	                   and we are checking if the file is empty or not for once in the while loop condition
+
+	                   that can easily make the error happen
+
+	for fixing that problem we can simply use the following statement after parsing text to int or getline
+	statement,
 
 		if (!readFile) 
 		{
