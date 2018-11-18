@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
 	fstream file;
 
-	file.open(fileName, ios::out);
+	file.open(fileName, ios::out | ios::in);
 
 	if (file.is_open())
 	{
@@ -18,15 +18,11 @@ int main(int argc, char const *argv[])
 		file << "I love to play" << endl;
 		file << "I love to work game and software development" << endl;
 		file << "My id is: " << 1510176113 << endl;
-
-		file.close();
 	}
 	else
 	{
-		cout << "can not write the file: " << fileName << endl;
+		cout << "can not open the file: " << fileName << endl;
 	}
-
-	file.open(fileName, ios::in);
 
 	if (file.is_open())
 	{
@@ -38,12 +34,13 @@ int main(int argc, char const *argv[])
 
 			cout << line << endl;
 		}
-
-		file.close();
 	}
 	else
 	{
 		cout << "can not read file: " << endl;
 	}
+
+	file.close();
+	
 	return 0;
 }
