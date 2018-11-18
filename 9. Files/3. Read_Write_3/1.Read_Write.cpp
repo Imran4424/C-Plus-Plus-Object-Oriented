@@ -11,6 +11,10 @@ int main(int argc, char const *argv[])
 	fstream file;
 
 	file.open(fileName, ios::out);
-	
+
+	if (file.is_open())
+	{
+		/* code */
+	}
 	return 0;
 }
