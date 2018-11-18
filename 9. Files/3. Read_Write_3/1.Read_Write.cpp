@@ -14,7 +14,18 @@ int main(int argc, char const *argv[])
 
 	if (file.is_open())
 	{
-		/* code */
+		writeFile << "I am a Programmer" << endl;
+		writeFile << "I love to play" << endl;
+		writeFile << "I love to work game and software development" << endl;
+		writeFile << "My id is: " << 1510176113 << endl;
+
+		writeFile.close();
 	}
+	else
+	{
+		cout << "can not write the file: " << fileName << endl;
+	}
+
+	
 	return 0;
 }
