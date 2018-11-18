@@ -15,5 +15,18 @@ int main(int argc, char const *argv[])
 	{
 		return 1;
 	}
+
+	while(readFile)
+	{
+		string line;
+
+		getline(readFile, line, ':');
+
+		int population;
+		readFile >> population;
+
+		cout << line << "---" << population << endl;
+	}
+
 	return 0;
 }
