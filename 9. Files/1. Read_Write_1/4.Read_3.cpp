@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 	{
 		string line;
 
-		while(!readFile.eof())
+		while(readFile)
 		{
 			getline(readFile, line);
 
