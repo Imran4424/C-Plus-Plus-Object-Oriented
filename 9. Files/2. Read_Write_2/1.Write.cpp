@@ -6,11 +6,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	ofstream writeFile;
+	fstream writeFile;
 
 	string fileName = "text.txt";
 
-	writeFile.open(fileName);
+	writeFile.open(fileName, ios::out);
 
 	if (writeFile.is_open())
 	{
