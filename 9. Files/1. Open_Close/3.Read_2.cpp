@@ -16,9 +16,13 @@ int main(int argc, char const *argv[])
 	{
 		string line;
 
-		getline(readFile, line);
+		while(!readFile.eof())
+		{
+			getline(readFile, line);
 
-		cout << line << endl;
+			cout << line << endl;			
+		}
+
 
 		readFile.close();
 	}
