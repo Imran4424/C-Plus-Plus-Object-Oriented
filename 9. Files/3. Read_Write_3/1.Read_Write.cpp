@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
 	}
 	else
 	{
-		
+		cout << "can not read file: " << endl;
 	}
 	return 0;
 }
