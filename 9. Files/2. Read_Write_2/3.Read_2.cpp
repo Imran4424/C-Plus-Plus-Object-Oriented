@@ -12,6 +12,8 @@ int main(int argc, char const *argv[])
 
 	readFile.open(fileName, ios::in);
 
+	string message;
+
 	if (readFile.is_open())
 	{
 		string line;
@@ -20,7 +22,9 @@ int main(int argc, char const *argv[])
 		{
 			getline(readFile, line);
 
-			cout << line << endl;
+			//cout << line << endl;
+
+			message += line;
 		}
 
 		readFile.close();
@@ -29,6 +33,8 @@ int main(int argc, char const *argv[])
 	{
 		cout << "can not open the file:" << fileName << endl;
 	}
+
+	cout << message << endl;
 
 	return 0;
 }
