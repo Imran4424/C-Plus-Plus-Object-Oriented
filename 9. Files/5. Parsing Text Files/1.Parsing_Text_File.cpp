@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+using namespace std;
 
 
 int main(int argc, char const *argv[])
@@ -24,6 +25,8 @@ int main(int argc, char const *argv[])
 
 		int population;
 		readFile >> population;
+
+		input >> ws;
 
 		cout << line << "---" << population << endl;
 	}
