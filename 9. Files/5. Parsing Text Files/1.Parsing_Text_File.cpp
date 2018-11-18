@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 
 		readFile >> ws; // for skipping white spaces
 
-		if (readFile)  // 
+		if (readFile)  // double checking if the file is empty
 		{
 			break;
 		}
