@@ -14,12 +14,12 @@ int main(int argc, char const *argv[])
 
 	if (file.is_open())
 	{
-		writeFile << "I am a Programmer" << endl;
-		writeFile << "I love to play" << endl;
-		writeFile << "I love to work game and software development" << endl;
-		writeFile << "My id is: " << 1510176113 << endl;
+		file << "I am a Programmer" << endl;
+		file << "I love to play" << endl;
+		file << "I love to work game and software development" << endl;
+		file << "My id is: " << 1510176113 << endl;
 
-		writeFile.close();
+		file.close();
 	}
 	else
 	{
