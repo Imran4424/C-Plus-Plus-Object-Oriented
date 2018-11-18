@@ -1,3 +1,7 @@
+/*
+	write a cpp program to demonstrate how to parse a text file using c++ fstream
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
