@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 
 		while(readFile)
 		{
-			geline(readFile, line);
+			getline(readFile, line);
 
 			cout << line << endl;
 		}
