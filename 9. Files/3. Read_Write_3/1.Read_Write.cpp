@@ -26,6 +26,24 @@ int main(int argc, char const *argv[])
 		cout << "can not write the file: " << fileName << endl;
 	}
 
-	
+	file.open(fileName, ios::in);
+
+	if (file.is_open())
+	{
+		string line;
+
+		while(file)
+		{
+			getline(file, line);
+
+			cout << line << endl;
+		}
+
+		file.close();
+	}
+	else
+	{
+		
+	}
 	return 0;
 }
