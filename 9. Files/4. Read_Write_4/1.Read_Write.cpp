@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
 	fstream file;
 
-	file.open(fileName, ios::out | ios::in);
+	file.open(fileName, fstream::in | fstream::out); // this statement only works if there is a existing file
 
 	if (file.is_open())
 	{
@@ -18,6 +18,8 @@ int main(int argc, char const *argv[])
 		file << "I love to play" << endl;
 		file << "I love to work game and software development" << endl;
 		file << "My id is: " << 1510176113 << endl;
+
+		file.flush();
 	}
 	else
 	{
@@ -37,10 +39,10 @@ int main(int argc, char const *argv[])
 	}
 	else
 	{
-		cout << "can not read file: " << endl;
+		cout << "can not read file: " << fileName << endl;
 	}
 
 	file.close();
-	
+
 	return 0;
 }
