@@ -25,6 +25,8 @@ int main(int argc, char const *argv[])
 			//cout << line << endl;
 
 			message += line;
+
+			message += '\n';
 		}
 
 		readFile.close();
