@@ -67,5 +67,19 @@ int main(int argc, char const *argv[])
 
 
 /*
+	for opening a file for both read and write mode, follow the following code,
+
+		fstream file;
+		file.open("info.txt", ios::in | ios::out);
+
+	but this statement only works if the file there is a existing file named info.txt otherwise it will give
+	error
+
+	to solve this problem we can use following codes
+
+		file.open("info.txt", ios::in | ios::out | ios::trunc);
+
+	this will work for most cases
+
 	
 */
