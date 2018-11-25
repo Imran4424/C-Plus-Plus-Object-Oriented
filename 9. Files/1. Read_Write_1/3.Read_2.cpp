@@ -62,10 +62,24 @@ int main(int argc, char const *argv[])
 			}
 		}
 
-		here, in the while loop 
+		here, in the while loop we are checking if the file is finished or not, using eof()(end of file)
+		function
+
+	but in modern c++ we can just put the ifstream object for checking if the file is finished or not
+
+		if (readFile.is_open())
+		{
+			string line;
+
+			while(readFile)
+			{
+				getline(readFile, line);
+
+				cout << line << endl;			
+			}
+		}
 	
-	one problem with getline, by default it reads from file untill it gets a new line character and once it
-	gets new line character it stops reading
+	thi works fine too
 
 	and you can check if the file is open or not using is_open() function
 
