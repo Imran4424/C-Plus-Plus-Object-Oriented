@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate file write using ofstream (output stream)
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
