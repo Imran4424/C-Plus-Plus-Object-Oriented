@@ -1,3 +1,7 @@
+/*
+	write a proram to demonstrate structure in c++
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -19,7 +23,7 @@ int main(int argc, char const *argv[])
 	red.length = 10;
 	red.width = 8;
 
-	cout << "Area is: " << red.Area() << end;
+	cout << "Area is: " << red.Area() << endl;
 	
 	return 0;
 }
