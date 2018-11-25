@@ -32,3 +32,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	so far we have been seen how to read and write files using ifstream ofstream objects
+
+	as we know, ifstream and ofstream are both
+
+*/
