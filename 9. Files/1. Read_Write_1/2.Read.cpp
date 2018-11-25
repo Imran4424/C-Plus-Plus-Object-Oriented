@@ -41,10 +41,10 @@ int main(int argc, char const *argv[])
 	files
 
 	here,
-	we are using ofstream to write files,
+	we are using ifstream to read files,
 
-	first create a ofstream class object. for example,
-						ofstream obj;
+	first create a ifstream class object. for example,
+						ifstream obj;
 
 	then open a file using of ofstream class object,
 							obj.open(filename.txt);
