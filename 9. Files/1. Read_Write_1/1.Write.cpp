@@ -35,4 +35,9 @@ int main(int argc, char const *argv[])
 
 /*
 	in c++ files are handled with fstream(file stream) classes
+
+	fstream has two sub-classes ifstream(input stream) to read files and ofstream(output stream) to write 
+	files
+
+	
 */
