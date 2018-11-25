@@ -48,5 +48,8 @@ int main(int argc, char const *argv[])
 /*
 	so far, we are reading a file to a sting in a loop manner and print it right away
 
-	in this scenario,  
+	in this scenario, if a file contains n line then we need to read the file n times and print it right
+	away n times
+
+	 
 */
