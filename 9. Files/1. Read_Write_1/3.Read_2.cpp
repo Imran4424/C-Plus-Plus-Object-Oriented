@@ -42,7 +42,9 @@ int main(int argc, char const *argv[])
 /*
 	As we said one problem with getline is it stops reading from file whenever it gets endline character
 
-	we can solve this problem using a loop 
+	we can solve this problem using a loop, by using loop we can read the file again from where that ends
+	reading when it finds the endline character cause file pointer don't change after having a new line
+	character just it sends the pointer to new line. and keep repeati
 
 		string line;
 
