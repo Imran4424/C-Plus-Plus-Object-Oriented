@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate file read and write using fstream in a same file
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
