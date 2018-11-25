@@ -81,5 +81,13 @@ int main(int argc, char const *argv[])
 
 	this will work for most cases
 
-	
+	now, another problem appears when we try to read the file after writing without closing, actually the
+	file returns nothing
+
+	this happen because after writing the file pointer is at the end of file, so, whenever we try to read
+	it returns nothing
+
+	to solve the we can move the pointer at the beginning by using the following code,
+
+		file.seekg(0);
 */
