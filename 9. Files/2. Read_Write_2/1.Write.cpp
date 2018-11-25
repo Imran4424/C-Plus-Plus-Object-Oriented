@@ -36,6 +36,10 @@ int main(int argc, char const *argv[])
 /*
 	so far we have been seen how to read and write files using ifstream ofstream objects
 
-	as we know, ifstream and ofstream are both
+	as we know, ifstream and ofstream are both decendend from fstream class
+
+	so, we can use fstream to use for both file read an write operation
+
+	
 
 */
