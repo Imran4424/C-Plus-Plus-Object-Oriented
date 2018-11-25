@@ -90,4 +90,10 @@ int main(int argc, char const *argv[])
 	to solve the we can move the pointer at the beginning by using the following code,
 
 		file.seekg(0);
+
+
+	and file will not save the written contents untill we close the file, if we want to save contents
+	immediately without closing the file we can simply use flush.
+
+		file.flush();
 */
