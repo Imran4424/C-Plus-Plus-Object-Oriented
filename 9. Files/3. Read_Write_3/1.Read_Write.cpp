@@ -58,5 +58,15 @@ int main(int argc, char const *argv[])
 
 
 /*
-	
+	we can use fstream to use for both file read an write operation
+
+	we can also use both operation in the same code, we can also use ifstream and ofstream for this case
+
+	for this scenario,
+
+	if we want to write to file then, we have to open the file in "out" mode then, write to the file and 
+	after finishing writing close the file
+
+	if we to rea from file then, we have to open the file in "in" mode then, read from the file and after
+	finishing reading close the file 
 */
