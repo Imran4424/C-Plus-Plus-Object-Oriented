@@ -50,5 +50,5 @@ int main(int argc, char const *argv[])
 
 	here you can use any file i am using txt file for an example
 
-	now, if 
+	now, if the file is open then you can write to files using ofstream objects
 */
