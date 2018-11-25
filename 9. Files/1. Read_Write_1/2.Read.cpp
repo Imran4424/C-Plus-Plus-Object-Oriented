@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
 	then open a file using of ifstream class object,
 							obj.open("filename.txt");
 
-	here you can use any file I am using txt file for this example
+	here you can use any file, I am using txt file for this example
 
 	now, if the file is open then you can read from files using ifstream objects, follow following codes
 

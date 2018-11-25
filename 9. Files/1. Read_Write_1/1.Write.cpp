@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
 	then open a file using of ofstream class object,
 							obj.open("filename.txt");
 
-	here you can use any file i am using txt file for this example
+	here you can use any file, I am using txt file for this example
 
 	now, if the file is open then you can write to files using ofstream objects, follow following codes
 

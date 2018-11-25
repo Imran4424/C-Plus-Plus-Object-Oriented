@@ -45,16 +45,16 @@ int main(int argc, char const *argv[])
 
 	so, we can use fstream to use for both file read an write operation
 
-	for write,
+	for read,
 
 	first declare fstream object,
 					fstream obj;
 	
-	then using fstream objects open the file in out mode that we want to write,
+	then using fstream objects open the file in "in" mode that we want to write,
 					
-					obj.open("filename.txt", ios::out);
+					obj.open("filename.txt", ios::in);
 
-	here you can use any file i am using txt file for this example
+	here you can use any file, I am using txt file for this example
 
 	now, if the file is open then you can write to files using fstream objects, follow following codes
 
