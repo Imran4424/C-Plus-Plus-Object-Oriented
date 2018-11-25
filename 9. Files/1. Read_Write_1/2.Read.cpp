@@ -57,7 +57,8 @@ int main(int argc, char const *argv[])
 
 		getline(obj, line);
 	
-	one problem with getline, by default it reads from file untill it gets a new line character
+	one problem with getline, by default it reads from file untill it gets a new line character and once it
+	gets new line character it stops reading
 
 	and you can check if the file is open or not using is_open() function
 
