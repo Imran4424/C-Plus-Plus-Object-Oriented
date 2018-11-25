@@ -91,6 +91,10 @@ int main(int argc, char const *argv[])
 
 		file.seekg(0);
 
+	here, one thing to remember seekg() sets the pointer only for reading
+
+	for writing cases we need to set pointer using seekp() function
+
 
 	and file will not save the written contents untill we close the file, if we want to save contents
 	immediately without closing the file we can simply use flush.
