@@ -14,6 +14,12 @@ struct Box
 
 int main(int argc, char const *argv[])
 {
+	Box red;
+
+	red.length = 10;
+	red.width = 8;
+
+	cout << "Area is: " << red.Area() << end;
 	
 	return 0;
 }
