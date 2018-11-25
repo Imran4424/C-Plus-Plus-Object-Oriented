@@ -27,3 +27,12 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+
+/*
+	In this chapter we will learn about class and objects
+
+	for learning classes first we need to understand the basic operations of structres
+
+	although structure is completely different from 
+*/
