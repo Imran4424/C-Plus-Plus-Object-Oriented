@@ -1,3 +1,8 @@
+/*
+	write a program to demonstrate file read using fstream (file stream) and print them using a single
+	non-loop statement
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
