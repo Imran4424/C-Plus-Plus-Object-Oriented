@@ -52,5 +52,22 @@ int main(int argc, char const *argv[])
 	away n times
 
 
-	But instead of using output stream n times, we can use a simple trick  
+	But instead of using output stream n times, we can use a simple trick as string append then print the
+	whole time at a time,
+
+
+	look at the following code example,
+
+		string line;
+
+		while(readFile)
+		{
+			getline(readFile, line);
+
+			message += line;
+
+			message += '\n';
+		}
+
+		cout << message << endl;
 */
