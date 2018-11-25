@@ -47,7 +47,7 @@ int main(int argc, char const *argv[])
 						ifstream obj;
 
 	then open a file using of ifstream class object,
-							obj.open(filename.txt);
+							obj.open("filename.txt");
 
 	here you can use any file I am using txt file for this example
 

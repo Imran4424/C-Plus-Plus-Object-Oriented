@@ -46,7 +46,7 @@ int main(int argc, char const *argv[])
 						ofstream obj;
 
 	then open a file using of ofstream class object,
-							obj.open(filename.txt);
+							obj.open("filename.txt");
 
 	here you can use any file i am using txt file for this example
 
