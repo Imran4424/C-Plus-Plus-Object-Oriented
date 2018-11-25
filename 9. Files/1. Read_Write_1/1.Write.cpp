@@ -61,4 +61,6 @@ int main(int argc, char const *argv[])
 
 	is_open() function returns true if the file is open, is_open() function returns false if the file stream
 	is fails to open the file.
+
+	for good practice we need to always close the file after ending all operations on the file
 */
