@@ -46,17 +46,18 @@ int main(int argc, char const *argv[])
 	first create a ifstream class object. for example,
 						ifstream obj;
 
-	then open a file using of ofstream class object,
+	then open a file using of ifstream class object,
 							obj.open(filename.txt);
 
-	here you can use any file i am using txt file for this example
+	here you can use any file I am using txt file for this example
 
-	now, if the file is open then you can write to files using ofstream objects, follow following codes
+	now, if the file is open then you can read from files using ifstream objects, follow following codes
 
-		obj << "I am a Programmer" << endl;
+		string line;
 
-		even the endline will be written to files
-
+		getline(obj, line);
+	
+	one problem with getline, by default it reads from file untill it gets a new line character
 
 	and you can check if the file is open or not using is_open() function
 
