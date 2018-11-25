@@ -48,7 +48,13 @@ int main(int argc, char const *argv[])
 	then open a file using of ofstream class object,
 							obj.open(filename.txt);
 
-	here you can use any file i am using txt file for an example
+	here you can use any file i am using txt file for this example
 
-	now, if the file is open then you can write to files using ofstream objects
+	now, if the file is open then you can write to files using ofstream objects, follow following codes
+
+		obj << "I am a Programmer" << endl;
+
+		even the endline will be written to files
+
+	
 */
