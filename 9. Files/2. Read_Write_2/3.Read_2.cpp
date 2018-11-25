@@ -51,5 +51,6 @@ int main(int argc, char const *argv[])
 	in this scenario, if a file contains n line then we need to read the file n times and print it right
 	away n times
 
-	 
+
+	But instead of using output stream n times, we can use a simple trick  
 */
