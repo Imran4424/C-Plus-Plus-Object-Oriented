@@ -1,5 +1,5 @@
 /*
-	
+	write a program to demonstrate file read using ifstream (input stream)
 */
 
 #include <iostream>
