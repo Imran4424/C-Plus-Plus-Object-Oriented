@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate how to read whole file using ifstream (input stream)
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
