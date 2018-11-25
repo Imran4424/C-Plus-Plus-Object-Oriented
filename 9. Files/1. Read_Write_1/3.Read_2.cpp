@@ -61,6 +61,8 @@ int main(int argc, char const *argv[])
 				cout << line << endl;			
 			}
 		}
+
+		here, in the while loop 
 	
 	one problem with getline, by default it reads from file untill it gets a new line character and once it
 	gets new line character it stops reading
