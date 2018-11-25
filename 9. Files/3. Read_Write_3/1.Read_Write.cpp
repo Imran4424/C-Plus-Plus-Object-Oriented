@@ -68,5 +68,16 @@ int main(int argc, char const *argv[])
 	after finishing writing close the file
 
 	if we to rea from file then, we have to open the file in "in" mode then, read from the file and after
-	finishing reading close the file 
+	finishing reading close the file
+
+	now, there's a question if we can open the file in both mode separately not closing any of them?
+
+	that means,
+			ofstream write;
+			ifstream read;
+
+			read.open("info.txt");
+			write.open("info.txt");
+	
+	yeah this is valid but not recommended
 */
