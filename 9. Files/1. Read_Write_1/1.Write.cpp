@@ -32,3 +32,7 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	in c++ files are handled with fstream(file stream) classes
+*/
