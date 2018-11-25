@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate file write using fstream (file stream)
+	write a program to demonstrate file read using fstream (file stream)
 */
 
 #include <iostream>
