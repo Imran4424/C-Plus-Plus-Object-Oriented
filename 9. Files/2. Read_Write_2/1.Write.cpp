@@ -48,4 +48,20 @@ int main(int argc, char const *argv[])
 	then using fstream objects open the file in out mode that we want to write,
 					
 					obj.open("filename.txt", ios::out);
+
+	here you can use any file i am using txt file for this example
+
+	now, if the file is open then you can write to files using fstream objects, follow following codes
+
+		obj << "I am a Programmer" << endl;
+
+		even the endline will be written to files
+
+
+	and you can check if the file is open or not using is_open() function
+
+	is_open() function returns true if the file is open, is_open() function returns false if the file stream
+	is fails to open the file.
+
+	for good practice we need to always close the file after ending all operations on the file
 */
