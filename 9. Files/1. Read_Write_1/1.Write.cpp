@@ -56,5 +56,8 @@ int main(int argc, char const *argv[])
 
 		even the endline will be written to files
 
-	
+
+	and you can check if the file is open or not using is_open() function
+
+	is_open() function returns true if the file is open, is_open() function returns 
 */
