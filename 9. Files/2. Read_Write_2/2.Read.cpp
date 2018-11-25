@@ -56,9 +56,19 @@ int main(int argc, char const *argv[])
 
 	here you can use any file, I am using txt file for this example
 
-	now, if the file is open then you can write to files using fstream objects, follow following codes
+	now, if the file is open then you can read from files using fstream objects, follow following codes
 
-		obj << "I am a Programmer" << endl;
+		if (readFile.is_open())
+		{
+			string line;
+
+			while(readFile)
+			{
+				getline(readFile, line);
+
+				cout << line << endl;			
+			}
+		}
 
 		even the endline will be written to files
 
