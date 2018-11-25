@@ -39,5 +39,16 @@ int main(int argc, char const *argv[])
 	fstream has two sub-classes ifstream(input stream) to read files and ofstream(output stream) to write 
 	files
 
-	
+	here,
+	we are using ofstream to write files,
+
+	first create a ofstream class object. for example,
+						ofstream obj;
+
+	then open a file using of ofstream class object,
+							obj.open(filename.txt);
+
+	here you can use any file i am using txt file for an example
+
+	now, if 
 */
