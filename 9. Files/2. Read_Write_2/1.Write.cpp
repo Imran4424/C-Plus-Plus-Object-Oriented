@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate file write using fstream (file stream)
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
