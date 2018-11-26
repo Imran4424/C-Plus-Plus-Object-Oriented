@@ -8,7 +8,8 @@ public:
 
 	void Assign(int l, int w)
 	{
-		
+		legth = l;
+		width = w;
 	}
 	
 };
