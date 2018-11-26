@@ -34,5 +34,7 @@ int main(int argc, char const *argv[])
 
 	red.Assign(length, width);
 
+	cout << "Area of the Box is: " << red.Area() << endl;
+
 	return 0;
 }
