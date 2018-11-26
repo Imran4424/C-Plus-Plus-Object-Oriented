@@ -4,20 +4,35 @@ using namespace std;
 class Box
 {
 public:
-	int legth, width;
+	int length, width;
 
 	void Assign(int l, int w)
 	{
-		legth = l;
+		length = l;
 		width = w;
 	}
 	
+	int Area();
 };
+
+int Box::Area()
+{
+	return width*length;
+}
 
 
 
 int main(int argc, char const *argv[])
 {
-	
+
+	cout << "input length and width of a box" << endl;
+
+	int length,width;
+	cin >> length >> width;
+
+	Box red;
+
+	red.Assign(length, width);
+
 	return 0;
 }
