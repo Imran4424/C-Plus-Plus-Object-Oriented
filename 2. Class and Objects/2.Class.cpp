@@ -17,12 +17,9 @@ public:
 
 int main(int argc, char const *argv[])
 {
-	Box red;
+	Box red = {4,5};
 
-	red.length = 8;
-	red.width = 6;
-
-	cout << "Area is: " << obj.Area() << endl;
+	cout << "Area is: " << red.Area() << endl;
 
 	return 0;
 }
