@@ -24,6 +24,5 @@ int main(int argc, char const *argv[])
 
 	cout << "Area is: " << obj.Area() << endl;
 
-	
 	return 0;
 }
