@@ -3,10 +3,16 @@ using namespace std;
 
 class Box
 {
-public:
-	int length,width;
 
-	int Area()
+	private: int length,width;
+
+	public: Box(int l, int w)
+	{
+		length = l;
+		width = w;
+	}
+
+	public: int Area()
 	{
 		return length*width;
 	}
@@ -17,7 +23,7 @@ public:
 
 int main(int argc, char const *argv[])
 {
-	Box red = {4,8};
+	Box red; // this line of code will give us error
 
 	cout << "Area is: " << red.Area() << endl;
 
