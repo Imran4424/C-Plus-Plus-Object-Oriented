@@ -8,16 +8,14 @@ using namespace std;
 class Box
 {
 	private: int length, width;
-	public: Box()
+	public: Box() : length(0), width(0)
 	{
-		length = 0;
-		width = 0;
+		// no assignment needs here
 	}
 
-	public: Box(int l) // in case this is square
+	public: Box(int l) : length(l), width(l)
 	{
-		length = l;
-		width = l;
+		// no assignment needs here
 	}
 
 	public: Box(int l, int w)
@@ -54,5 +52,14 @@ int main(int argc, char const *argv[])
 
 /*
 	so far what we are doing in name of initialization, actually that's not initialization, that is
-	
+	assignment, initialization happens at the same time when we declare something
+
+	now you can what's the difference, both serves the same purpose
+
+	but there is some situation when we badly need initialization because we can't assign constant
+	variables that will give error
+
+	there is solution for that named "member initializer lists"
+
+
 */
