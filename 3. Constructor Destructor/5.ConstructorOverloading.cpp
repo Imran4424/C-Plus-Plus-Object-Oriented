@@ -70,5 +70,9 @@ int main(int argc, char const *argv[])
 	in this code we also can see, even after declaring user define constructor, following statement
 	don't give any error
 
-	
+		Box red;
+
+	as we know after declaring user define constructor implicit constructor disabled
+
+	then why this is happening, this is happening because of 
 */
