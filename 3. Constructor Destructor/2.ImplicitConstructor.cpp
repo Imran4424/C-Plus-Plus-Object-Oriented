@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate implicit constrator
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -25,3 +29,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	if a class has some variable public or private or both
+
+	
+*/
