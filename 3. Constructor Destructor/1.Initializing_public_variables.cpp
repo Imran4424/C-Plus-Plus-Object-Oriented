@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate class public variable initialization
+*/
+
 #include <iostream>
 using namespace std;
 
