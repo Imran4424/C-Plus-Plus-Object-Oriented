@@ -23,3 +23,12 @@ class Box
 	}
 };
 
+
+int main(int argc, char const *argv[])
+{
+	Box red;
+
+	cout << "Area is: " << red.Area() << endl;
+
+	return 0;
+}
