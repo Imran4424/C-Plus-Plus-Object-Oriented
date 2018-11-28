@@ -34,5 +34,8 @@ int main(int argc, char const *argv[])
 /*
 	if a class has some variable public or private or both
 
-	
+	then,
+
+	when we decare a class object, that moment all class variables are initialized with 0 by an implicit
+	constructor.
 */
