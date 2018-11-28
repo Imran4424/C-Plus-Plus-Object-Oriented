@@ -27,3 +27,11 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	if a class variables are public
+
+	then we can initialize the class public variables very easily
+
+	whenever we declaring an object, we can 
+*/
