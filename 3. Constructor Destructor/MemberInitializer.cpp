@@ -20,8 +20,7 @@ class Box
 
 	public: Box(int l, int w)
 	{
-		length = l;
-		width = w;
+		// no assignment needs here
 	}
 	
 	public: int Area()
