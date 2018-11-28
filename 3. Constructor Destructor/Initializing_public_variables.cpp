@@ -17,7 +17,7 @@ public:
 
 int main(int argc, char const *argv[])
 {
-	Box red = {4,5};
+	Box red = {4,8};
 
 	cout << "Area is: " << red.Area() << endl;
 
