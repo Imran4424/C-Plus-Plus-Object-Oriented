@@ -33,5 +33,10 @@ int main(int argc, char const *argv[])
 
 	then we can initialize the class public variables very easily
 
-	whenever we declaring an object, we can 
+	whenever we declaring an object, we can initialize them the variables same time using following code
+
+		Box red = {4,8};
+
+
+	here, Box class variable length and width will be initialized with 4 and 8 respectively
 */
