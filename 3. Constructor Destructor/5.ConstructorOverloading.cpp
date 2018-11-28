@@ -60,5 +60,12 @@ int main(int argc, char const *argv[])
 
 	in this code, we done constructor overloading in same function overloading concept
 
-	 
+	in this code we have three constructor,
+
+		1. default constructor
+		2. one argument 
+		3. two argument
+
+
+	in this code we also can see, even after declaring user define constructor
 */
