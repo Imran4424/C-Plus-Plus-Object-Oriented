@@ -2,6 +2,10 @@
 	write a program to demonstrate default constructor in c++ classes
 */
 
+
+#include <iostream>
+using namespace std;
+
 class Box
 {
 	private: int length, width;
