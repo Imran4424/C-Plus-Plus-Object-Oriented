@@ -52,5 +52,13 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	to understand this, first we need to understand function overloading
+
+	if you don't know what is function overloading then go to my polymorphism folder, then 
+	comeback here
+
+
+	in this code, we done constructor overloading in same function overloading concept
+
+	 
 */
