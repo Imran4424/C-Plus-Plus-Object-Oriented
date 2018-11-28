@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate implicit constructor and custom constructor conflict
+	write a program to demonstrate implicit constructor and user define constructor conflict
 */
 
 #include <iostream>
@@ -33,3 +33,12 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	as we know we can declare user defined constructors in our class
+
+	when we define a user define constructor which can take parameters
+	
+	
+*/
