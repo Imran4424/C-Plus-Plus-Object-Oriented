@@ -67,5 +67,8 @@ int main(int argc, char const *argv[])
 		3. two argument
 
 
-	in this code we also can see, even after declaring user define constructor
+	in this code we also can see, even after declaring user define constructor, following statement
+	don't give any error
+
+	
 */
