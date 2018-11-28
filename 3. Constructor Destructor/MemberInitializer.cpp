@@ -1,0 +1,3 @@
+/*
+	write a code to demonstrate how to initialize 
+*/
