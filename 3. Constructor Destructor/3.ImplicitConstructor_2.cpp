@@ -40,7 +40,11 @@ int main(int argc, char const *argv[])
 
 	when we define a user define constructor that moment implicit constructor just disabled 
 
-	which can take parameters
+	and if we define a user define constructor which can take parameters then, statements like,
+
+			Box red;
 	
-	
+	will give error
+
+	because, here box object red has no parameters
 */
