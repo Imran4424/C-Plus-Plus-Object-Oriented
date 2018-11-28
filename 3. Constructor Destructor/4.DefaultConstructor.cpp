@@ -40,5 +40,5 @@ int main(int argc, char const *argv[])
 
 	in this code 0 as default values for Box object
 
-	but remember this default values can be anything 
+	but remember this default values can be anything means any valid value
 */
