@@ -38,7 +38,9 @@ int main(int argc, char const *argv[])
 /*
 	as we know we can declare user defined constructors in our class
 
-	when we define a user define constructor which can take parameters
+	when we define a user define constructor that moment implicit constructor just disabled 
+
+	which can take parameters
 	
 	
 */
