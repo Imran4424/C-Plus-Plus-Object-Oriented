@@ -18,7 +18,7 @@ class Box
 		// no assignment needs here
 	}
 
-	public: Box(int l, int w)
+	public: Box(int l, int w) : length(l), width(w)
 	{
 		// no assignment needs here
 	}
