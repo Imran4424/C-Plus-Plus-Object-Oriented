@@ -60,5 +60,5 @@ int main(int argc, char const *argv[])
 
 	there is solution for that named "member initializer lists"
 
-
+	see the code for coding example
 */
