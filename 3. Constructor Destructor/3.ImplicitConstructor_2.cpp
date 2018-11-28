@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate 
+	write a program to demonstrate implicit constructor and custom constructor conflict
 */
 
 #include <iostream>
