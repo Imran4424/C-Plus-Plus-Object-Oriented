@@ -14,7 +14,13 @@ class Box
 		width = 0;
 	}
 
-	public: void Assign(int l, int w)
+	public: Box(int l) // in case this is square
+	{
+		length = l;
+		width = l;
+	}
+
+	public: Box(int l, int w)
 	{
 		length = l;
 		width = w;
@@ -29,19 +35,17 @@ class Box
 
 int main(int argc, char const *argv[])
 {
-	Box red;
+	Box red; // now this code won't give error
 
 	cout << "Area is: " << red.Area() << endl;
+
+	Box blue(5);
+
+	cout << "Area is: " << blue.Area() << endl;
 
 	return 0;
 }
 
 /*
-	default constructor is a special type user define constructor which has no parameters
-
-	in the default constructor anyone can use default values to initialize object variables
-
-	in this code 0 as default values for Box object
-
-	but remember this default values can be anything means any valid value
+	
 */
