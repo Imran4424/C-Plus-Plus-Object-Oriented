@@ -43,6 +43,11 @@ int main(int argc, char const *argv[])
 
 	cout << "Area is: " << blue.Area() << endl;
 
+
+	Box green(8, 13);
+
+	cout << "Area is: " << green.Area() << endl;
+
 	return 0;
 }
 
