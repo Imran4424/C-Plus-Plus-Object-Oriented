@@ -32,3 +32,13 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	default constructor is a special type user define constructor which has no parameters
+
+	in the default constructor anyone can use default values to initialize object variables
+
+	in this code 0 as default values for Box object
+
+	but remember this default values can be anything 
+*/
