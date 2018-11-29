@@ -47,6 +47,6 @@ class DynamicConstructor
 
 int main(int argc, char const *argv[])
 {
-	
+	char *text = "I am a Programmer";
 	return 0;
 }
