@@ -41,6 +41,21 @@ class Box
 
 int main(int argc, char const *argv[])
 {
-	
+	Box red; 
+
+	cout << "Area is: " << red.Area() << endl;
+	cout << "Volume is: " << red.Volume() << endl;
+
+	Box blue(5);
+
+	cout << "Area is: " << blue.Area() << endl;
+	cout << "Volume is: " << blue.Volume() << endl;
+
+
+	Box green(8, 13);
+
+	cout << "Area is: " << green.Area() << endl;
+	cout << "Volume is: " << green.Volume() << endl;
+
 	return 0;
 }
