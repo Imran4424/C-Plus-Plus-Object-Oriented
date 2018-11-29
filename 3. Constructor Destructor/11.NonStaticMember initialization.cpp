@@ -1,5 +1,6 @@
 /*
-	write a program to demonstrate non-static member initialization or in-class member initialization
+	write a program to demonstrate non-static member initialization also called as in-class member 
+	initialization
 */
 
 #include <iostream>
@@ -7,7 +8,7 @@ using namespace std;
 
 class Box
 {
-	private: int length, width;
+	private: int length = 0, width = 0;
 	public: Box()
 	{
 		// do nothing as we are using 
