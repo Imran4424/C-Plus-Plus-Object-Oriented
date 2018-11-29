@@ -20,19 +20,23 @@ class DynamicConstructor
 	public: DynamicConstructor(char *line)
 	{
 		length = strlen(line);
-		name = new char(length+1);
+		name = new char[length+1];
 
 		strcpy(name, line);
 	}
 
 	public: void Join(DynamicConstructor &a, DynamicConstructor &b)
 	{
-		
+		length = a.length + b.length;
+
+		delete name;
+
+		name = new char[length+1];
 	}
 
 	public: void Display()
 	{
 		cout << name << endl;
-		cout << "Number of Characters: " << length << endl;
+		cout << "Number of Characters: " << strlen(name) << endl;
 	}
 };
