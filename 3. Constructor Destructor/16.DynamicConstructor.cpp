@@ -32,6 +32,9 @@ class DynamicConstructor
 		delete name;
 
 		name = new char[length+1];
+
+		strcpy(name, a.name); // copy
+		strcat(name, b.name); //concatenation
 	}
 
 	public: void Display()
