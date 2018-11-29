@@ -35,8 +35,8 @@ class Box
 
 int main(int argc, char const *argv[])
 {
-	Box red; // now this code won't give error
-
+	Box red; 
+	
 	cout << "Area is: " << red.Area() << endl;
 
 	Box blue(5);
@@ -54,4 +54,10 @@ int main(int argc, char const *argv[])
 
 /*
 	non static member initialization means initializing member variables in class where we declared it
+
+	it's like normal variable initializtion,for example,
+
+					int a = 5;
+					double d = 3. 89;
+					char ch = ';';
 */
