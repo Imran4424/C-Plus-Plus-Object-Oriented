@@ -17,7 +17,7 @@ class DynamicConstructor
 		name = new char(length+1);
 	}
 	
-	public: DynamicConstructor(char *line)
+	public: DynamicConstructor(const char line[]) // using const for constant string parameter
 	{
 		length = strlen(line);
 		name = new char[length+1];
@@ -47,10 +47,19 @@ class DynamicConstructor
 
 int main(int argc, char const *argv[])
 {
-	char *text = "I am a Programmer";
+	char text[] = "I am a Programmer";
 
-	DynamicConstructor 
+	DynamicConstructor obj(text);
 
-	
+	obj.Display();
+
+	DynamicConstructor line("I love to play games."); // this is a constant string parameter
+
+	DynamicConstructor line2(" Now, I also develop games");
+
+	obj.Join(line, line2);
+
+	obj.Display();
+
 	return 0;
 }
