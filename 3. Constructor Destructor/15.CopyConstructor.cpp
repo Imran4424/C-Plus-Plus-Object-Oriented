@@ -73,5 +73,5 @@ int main(int argc, char const *argv[])
 	copy constructor use parameter means the old object's member variables to initialize created means
 	new objects member variables
 
-	
+	here, copy constructor's object parameter defined as const object
 */
