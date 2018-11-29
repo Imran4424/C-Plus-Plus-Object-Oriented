@@ -8,10 +8,10 @@ using namespace std;
 
 class A
 {
-
-	public: A()
+	int num;
+	public: A(int y) : num(y)
 	{
-		cout << "Calling from constructor A" << endl;
+		cout << "A " << y << endl;
 	}
 	
 };
@@ -21,9 +21,9 @@ class B
 {
 	private: A obj;
 
-	public: B(int x) : obj
+	public: B(int x) : obj(x-1)
 	{
-		cout << "Calling from constructor B" << endl;
+		cout << "B " << x << endl;
 	}
 	
 };
@@ -32,7 +32,7 @@ class B
 
 int main(int argc, char const *argv[])
 {
-	C red;
+	B red;
 
 	return 0;
 }
