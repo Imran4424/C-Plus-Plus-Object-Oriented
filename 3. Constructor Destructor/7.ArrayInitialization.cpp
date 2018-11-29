@@ -38,4 +38,6 @@ int main(int argc, char const *argv[])
 	initializing array is really easy in c++ object
 
 	just use curly brackets instead of parenthesis in the member initializer list 
+
+	leaving the curly bracket means initializing the whole array with 0
 */
