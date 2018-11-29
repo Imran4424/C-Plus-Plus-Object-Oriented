@@ -38,6 +38,10 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	As we know, constructors are called when class objects are created
+
+	we can have user define constructors
+
 	default constructor is a special type user define constructor which has no parameters
 
 	in the default constructor anyone can use default values to initialize object variables
@@ -45,4 +49,11 @@ int main(int argc, char const *argv[])
 	in this code 0 as default values for Box object
 
 	but remember this default values can be anything means any valid value
+
+	remember the following rules  to define user define constructor,
+
+
+	1.Constructors must have the same name as the class (with the same capitalization)
+	2.Constructors have no return type (not even void)
+	3.Contructors can have parameters
 */
