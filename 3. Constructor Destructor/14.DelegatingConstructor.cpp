@@ -14,6 +14,7 @@ class Box
 	{
 		length = 0;
 		width = 0;
+		height = 0;
 	}
 
 	public: Box(int l) : Box()
@@ -25,6 +26,13 @@ class Box
 	{
 		length = l;
 		width = w;
+	}
+
+	public: Box(int l, int w, int h) 
+	{
+		length = l;
+		width = w;
+		height = h;
 	}
 	
 	public: int Area()
@@ -56,6 +64,12 @@ int main(int argc, char const *argv[])
 
 	cout << "Area is: " << green.Area() << endl;
 	cout << "Volume is: " << green.Volume() << endl;
+
+
+	Box steel(8, 13, 7);
+
+	cout << "Area is: " << steel.Area() << endl;
+	cout << "Volume is: " << steel.Volume() << endl;
 
 	return 0;
 }
