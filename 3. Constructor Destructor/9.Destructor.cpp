@@ -78,7 +78,8 @@ int main(int argc, char const *argv[])
 
 	remember the following rules to define user define destuctors,
 
-	1.Destructors must have the same name as the class with a negation before(with the same capitalization)
+	1.Destructors must have the same name as the class preceded by a tilde (~).(with the same 
+	  capitalization)
 	2.Destructors have no return type (not even void)
 	3.Destructors can not have any parameters
 
