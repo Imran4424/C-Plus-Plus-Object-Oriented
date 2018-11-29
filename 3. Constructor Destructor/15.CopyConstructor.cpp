@@ -31,7 +31,7 @@ class Box
 	public: Box(const Box &old)
 	{
 		length = old.length;
-		width = old.length;
+		width = old.width;
 
 		cout << "Copy Constructor invoked" << endl;
 	}
