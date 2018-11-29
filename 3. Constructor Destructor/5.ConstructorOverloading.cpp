@@ -8,6 +8,7 @@ using namespace std;
 class Box
 {
 	private: int length, width;
+	
 	public: Box()
 	{
 		length = 0;
