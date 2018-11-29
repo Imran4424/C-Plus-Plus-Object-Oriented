@@ -33,3 +33,9 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	initializing array is really easy in c++ object
+
+	just use curly brackets instead of parenthesis in the member initializer list 
+*/
