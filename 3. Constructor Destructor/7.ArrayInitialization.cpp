@@ -14,4 +14,19 @@ class Number
 	{
 		// for assignment or other purposes we can use this block
 	}
+
+	public: void Display()
+	{
+		for(int i = 0; i < 5; i++)
+		{
+			printf("%d\n", m_array[i]);
+		}
+	}
 };
+
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
