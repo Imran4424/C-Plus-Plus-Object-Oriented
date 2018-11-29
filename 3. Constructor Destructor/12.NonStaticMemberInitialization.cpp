@@ -51,3 +51,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+
+/*
+	non static member initialization means initializing member variables in class where we declared it
+*/
