@@ -8,7 +8,7 @@ using namespace std;
 
 class A
 {
-	int num;
+	private: int num;
 	public: A(int y) : num(y)
 	{
 		cout << "A " << y << endl;
@@ -32,7 +32,7 @@ class B
 
 int main(int argc, char const *argv[])
 {
-	B red;
+	B red(10);
 
 	return 0;
 }
