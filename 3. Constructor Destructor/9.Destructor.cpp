@@ -70,3 +70,19 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	As we know, destuctors are called when class objects are destroyed
+	we can have user define destructors
+
+	remember the following rules to define user define destuctors,
+
+	1.Destructors must have the same name as the class with a negation before(with the same capitalization)
+	2.Destructors have no return type (not even void)
+	3.Destructors can not have any parameters
+
+	rule no 3 also ruled out that a class can have only one destructor
+
+	destructors can't take any parameters, so they can't be overloaded
+*/
