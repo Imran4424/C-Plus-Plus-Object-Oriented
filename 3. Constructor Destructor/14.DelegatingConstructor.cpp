@@ -82,5 +82,7 @@ int main(int argc, char const *argv[])
 
 	In order to reduce code duplication we use constructor delegation
 
+	but we must need to call other construtor from member initializer lists
+
 	this functionality is available in c++ from c++11 version
 */
