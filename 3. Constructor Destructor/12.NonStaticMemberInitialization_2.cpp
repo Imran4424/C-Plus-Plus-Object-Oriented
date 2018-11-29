@@ -30,7 +30,7 @@ class Box
 
 int main(int argc, char const *argv[])
 {
-	Box red; // now this code won't give error
+	Box red; // now this code will give you error
 
 	cout << "Area is: " << red.Area() << endl;
 
