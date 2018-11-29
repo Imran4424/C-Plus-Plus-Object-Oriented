@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate member class constructor
+	write a program to demonstrate how to use a class object as member variable and also demonstrate the 
 */
 
 #include <iostream>
@@ -37,9 +37,25 @@ class B
 };
 
 
+class C
+{
+	private: B obj;
+
+	public: C()
+	{
+		cout << "Calling from constructor C" << endl;
+	}
+	public: ~C()
+	{
+		cout << "Calling from destructor C" << endl;
+	}
+	
+};
+
+
 int main(int argc, char const *argv[])
 {
-	B red;
+	C red;
 
 	return 0;
 }
