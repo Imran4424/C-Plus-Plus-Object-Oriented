@@ -35,3 +35,11 @@ class B
 	}
 	
 };
+
+
+int main(int argc, char const *argv[])
+{
+	B red;
+
+	return 0;
+}
