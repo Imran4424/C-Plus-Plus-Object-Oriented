@@ -1,5 +1,6 @@
 /*
-	write a program to demonstrate how to use a class object as member variable and also demonstrate the 
+	write a program to demonstrate how to use a class object as member variable and also demonstrate the
+	order of constructor execution in this case
 */
 
 #include <iostream>
