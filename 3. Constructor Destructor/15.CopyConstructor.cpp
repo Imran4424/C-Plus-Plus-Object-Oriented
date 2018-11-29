@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate constructor overloading
+	write a program to demonstrate copy constructor
 */
 
 #include <iostream>
@@ -9,7 +9,7 @@ class Box
 {
 	private: int length, width;
 	
-	public: Box()
+	public: Box() // default constructor
 	{
 		length = 0;
 		width = 0;
@@ -25,6 +25,12 @@ class Box
 	{
 		length = l;
 		width = w;
+	}
+
+
+	public: Box(const Box &old)
+	{
+
 	}
 	
 	public: int Area()
