@@ -73,3 +73,9 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	Delegating constructor means calling constructor from constructor
+
+	this functionality is available in c++ from c++11 version
+*/
