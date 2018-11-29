@@ -30,7 +30,8 @@ class Box
 
 	public: Box(const Box &old)
 	{
-
+		length = old.length;
+		width = old.length;
 	}
 	
 	public: int Area()
