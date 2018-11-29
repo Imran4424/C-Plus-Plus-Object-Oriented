@@ -59,10 +59,19 @@ int main(int argc, char const *argv[])
 	cout << "Area is: " << green.Area() << endl;
 
 
-	Box copyObj(green);
+	Box copyObj(green); // copy constructor
 
 	cout << "Area is: " << copyObj.Area() << endl;
 
 	return 0;
 }
 
+/*
+	Copy constructor is a special type of constructor which initialize an object using another object of
+	that same class.
+
+	copy constructor use parameter means the old object's member variables to initialize created means
+	new objects member variables
+
+	
+*/
