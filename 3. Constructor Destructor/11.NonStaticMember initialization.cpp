@@ -9,6 +9,7 @@ using namespace std;
 class Box
 {
 	private: int length = 0, width = 0;
+	
 	public: Box()
 	{
 		// do nothing as we are using 
