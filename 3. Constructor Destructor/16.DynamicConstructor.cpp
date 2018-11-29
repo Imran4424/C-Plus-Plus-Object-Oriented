@@ -24,4 +24,15 @@ class DynamicConstructor
 
 		strcpy(name, line);
 	}
+
+	public: void Join(DynamicConstructor &a, DynamicConstructor &b)
+	{
+		
+	}
+
+	public: void Display()
+	{
+		cout << name << endl;
+		cout << "Number of Characters: " << length << endl;
+	}
 };
