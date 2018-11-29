@@ -55,5 +55,5 @@ int main(int argc, char const *argv[])
 
 	1.Constructors must have the same name as the class (with the same capitalization)
 	2.Constructors have no return type (not even void)
-	3.Contructors can have parameters
+	3.Constructors can have parameters
 */
