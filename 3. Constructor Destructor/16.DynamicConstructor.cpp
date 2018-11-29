@@ -63,3 +63,9 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	So, what is dynamic constructor
+
+	By name, you can guess that changes are happen in dynamic constructor dynamically
+*/
