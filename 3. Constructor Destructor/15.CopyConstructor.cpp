@@ -32,6 +32,8 @@ class Box
 	{
 		length = old.length;
 		width = old.length;
+
+		cout << "Copy Constructor invoked" << endl;
 	}
 	
 	public: int Area()
@@ -55,6 +57,11 @@ int main(int argc, char const *argv[])
 	Box green(8, 13);
 
 	cout << "Area is: " << green.Area() << endl;
+
+
+	Box copyObj(green);
+
+	cout << "Area is: " << copyObj.Area() << endl;
 
 	return 0;
 }
