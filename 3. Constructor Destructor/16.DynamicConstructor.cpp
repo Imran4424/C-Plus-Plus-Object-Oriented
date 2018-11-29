@@ -43,3 +43,10 @@ class DynamicConstructor
 		cout << "Number of Characters: " << strlen(name) << endl;
 	}
 };
+
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
