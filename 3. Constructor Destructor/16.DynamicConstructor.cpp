@@ -74,4 +74,11 @@ int main(int argc, char const *argv[])
 
 	so memory space allcated by constructor is not fixed and this is happening in run time that's why
 	this is called dynamic constructor
+
+	here, we used new and delete for dynamic memory allocation, if you are not fimiliar with them just 
+	kindly visit dynamic memory allocation section
+
+
+	anothing thing, I used const keyword before constructor string parameter because updated version
+	compilers don't allow constant string to string conversion
 */
