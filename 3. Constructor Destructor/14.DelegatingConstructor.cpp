@@ -77,5 +77,10 @@ int main(int argc, char const *argv[])
 /*
 	Delegating constructor means calling constructor from constructor
 
+	sometines this is necessary, most of the cases when we are using multi constructor means constructor 
+	overloaded class.
+
+	In order to reduce code duplication we use constructor delegation
+
 	this functionality is available in c++ from c++11 version
 */
