@@ -46,3 +46,20 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+/*
+	non static member initialization means initializing member variables in class where we declared it
+
+	it's like normal variable initializtion,for example,
+
+					int a = 5;
+					double d = 3. 89;
+					char ch = ';';
+
+
+	but remember we still need a constructor to create class object, that's why we should must have a 
+	default constructor whenever we are using a user define constructor
+
+	otherwise it will give error
+
+	like this code
+*/
