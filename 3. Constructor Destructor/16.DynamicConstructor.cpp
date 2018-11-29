@@ -67,5 +67,11 @@ int main(int argc, char const *argv[])
 /*
 	So, what is dynamic constructor
 
-	By name, you can guess that changes are happen in dynamic constructor dynamically
+	By name, you can guess that, the changes are happen dynamically in dynamic constructor
+
+	here in this code we are creating a char pointer, then we are allocating spaces according to the
+	parameter length with new keyword
+
+	so memory space allcated by constructor is not fixed and this is happening in run time that's why
+	this is called dynamic constructor
 */
