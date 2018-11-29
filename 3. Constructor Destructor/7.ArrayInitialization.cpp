@@ -27,6 +27,9 @@ class Number
 
 int main(int argc, char const *argv[])
 {
-	
+	Number obj;
+
+	obj.Display();
+
 	return 0;
 }
