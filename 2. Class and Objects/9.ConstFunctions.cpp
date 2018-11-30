@@ -21,7 +21,7 @@ class Box
 		this -> width = width;
 	}
 	
-	public: int Area()
+	public: int Area() const
 	{
 		return length * width;
 	}
