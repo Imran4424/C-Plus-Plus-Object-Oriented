@@ -9,6 +9,7 @@ using namespace std;
 class A
 {
 	private: int num;
+
 	public: A(int y) : num(y)
 	{
 		cout << "A " << y << endl;
@@ -37,3 +38,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+
+/*
+	member class initialization
+*/
