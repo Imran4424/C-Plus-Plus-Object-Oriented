@@ -40,5 +40,7 @@ int main(int argc, char const *argv[])
 
 
 /*
-	member class initialization
+	member variable object class initialization is really simple
+
+	use member initializer list and pass the value as member variable object
 */
