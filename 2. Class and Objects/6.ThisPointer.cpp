@@ -5,17 +5,14 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
 class Box
 {
 	private: int length, width;
 
-	public: void Assign(int l, int w)
+	public: void Assign(int length, int width)
 	{
-		length = l;
-		width = w;
+		this -> length = length;
+		this -> width = width;
 	}
 	
 	public: int Area()
@@ -23,3 +20,10 @@ class Box
 		return length * width;
 	}
 };
+
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
