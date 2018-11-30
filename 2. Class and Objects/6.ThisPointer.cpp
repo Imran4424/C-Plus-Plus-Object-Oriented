@@ -44,6 +44,7 @@ int main(int argc, char const *argv[])
 	implicit this pointer
 	explicit this pointer
 
-	implicit this pointer - 
+	implicit this pointer - confirms every objects class member variable and member functions works fine
+	and independently. with the help of implicit constructor a class can track down all objects 
 
 */
