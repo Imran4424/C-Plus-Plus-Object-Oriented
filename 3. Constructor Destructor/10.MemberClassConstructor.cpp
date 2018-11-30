@@ -64,4 +64,9 @@ int main(int argc, char const *argv[])
 
 /*
 	We can have another class object as member variable 
+
+	in that case member variable object will invoke first then the class object(which we are creating in
+	main) constructor
+
+	the destructor calling is total reverse like we said earlier
 */
