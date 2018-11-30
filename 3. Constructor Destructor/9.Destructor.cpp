@@ -88,5 +88,11 @@ int main(int argc, char const *argv[])
 	destructors can't take any parameters, so they can't be overloaded
 
 	another thing,
-	
+
+	constructor and destructor are called LIFO mode, last in fist out
+
+	that means, that object which is created at last will destroy at first
+
+	more precisely that object which call his constructor at last among the objects will call his
+	destructors first
 */
