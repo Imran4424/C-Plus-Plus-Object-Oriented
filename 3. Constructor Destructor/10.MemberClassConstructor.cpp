@@ -69,4 +69,6 @@ int main(int argc, char const *argv[])
 	main) constructor
 
 	the destructor calling is total reverse like we said earlier
+
+	just run the code for better understanding
 */
