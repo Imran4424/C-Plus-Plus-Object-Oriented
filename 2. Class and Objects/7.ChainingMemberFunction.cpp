@@ -36,3 +36,10 @@ class Calculator
 		return *this;
 	}
 };
+
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
