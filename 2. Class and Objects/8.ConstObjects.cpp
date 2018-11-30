@@ -9,6 +9,12 @@ class Box
 {
 	private: int length, width;
 
+	public: Box()
+	{
+		length = 0;
+		width = 0;
+	}
+
 	public: Box(int length, int width)
 	{
 		this -> length = length;
