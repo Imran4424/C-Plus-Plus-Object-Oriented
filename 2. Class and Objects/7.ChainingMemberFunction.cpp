@@ -6,3 +6,33 @@
 #include <iostream>
 using namespace std;
 
+class Calculator
+{
+	private: int currentValue;
+
+	public: Calculator()
+	{
+		currentValue = 0;
+	}
+	
+	public: Calculator& Add(int val)
+	{
+		currentValue += val;
+
+		return *this;
+	}
+
+	public: Calculator& Sub(int val)
+	{
+		currentValue -= val;
+
+		return *this;
+	}
+
+	public: Calculator& Mul(int val)
+	{
+		currentValue *= val;
+
+		return *this;
+	}
+};
