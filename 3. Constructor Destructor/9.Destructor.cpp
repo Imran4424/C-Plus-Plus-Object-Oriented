@@ -86,4 +86,7 @@ int main(int argc, char const *argv[])
 	rule no 3 also ruled out that a class can have only one destructor
 
 	destructors can't take any parameters, so they can't be overloaded
+
+	another thing,
+	
 */

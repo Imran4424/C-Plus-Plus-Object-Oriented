@@ -60,3 +60,8 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	We can have another class object as member variable 
+*/
