@@ -45,6 +45,15 @@ int main(int argc, char const *argv[])
 	explicit this pointer
 
 	implicit this pointer - confirms every objects class member variable and member functions works fine
-	and independently. with the help of implicit constructor a class can track down all objects 
+	and independently. with the help of implicit constructor a class can track down all objects and don't
+	get mix the resources
+
+	but you don't have to worry about implicit constructor. implicit this pointers are hidden in class just
+	like implicit constructor
+
+
+	explicit this pointer - explicit this pointer used to distinguish ambiguious situation, when constructor
+	parameters are named as the same as memeber variables then this pointer used to distinguish between
+	member variables and constructor parameters
 
 */
