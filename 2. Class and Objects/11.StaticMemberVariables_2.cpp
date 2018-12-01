@@ -8,7 +8,7 @@ using namespace std;
 
 class Number
 {
-	public: static int value;
+	public: static int value; // declaring
 
 	public: void Show()
 	{

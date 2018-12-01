@@ -8,7 +8,7 @@ using namespace std;
 
 class Number
 {
-	private: static int value;
+	private: static int value; // declaring
 
 	public: void Increment()
 	{
@@ -21,7 +21,7 @@ class Number
 	}	
 };
 
-int Number::value = 0;
+int Number::value = 0; // defining reference
 
 int main(int argc, char const *argv[])
 {
@@ -43,5 +43,7 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	as we know, we can't access 
+	as we know, we can't access private members from classes not even static
+
+	but we can define reference tp
 */
