@@ -37,5 +37,5 @@ int main(int argc, char const *argv[])
 		Number::value = 5;
 
 
-	one thing you can't access the static variable if it is static
+	one thing you can't access the static variable directly if it is private
 */
