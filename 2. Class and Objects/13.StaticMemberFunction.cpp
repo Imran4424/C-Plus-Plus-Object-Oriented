@@ -47,4 +47,13 @@ int main(int argc, char const *argv[])
 	creating an object
 
 	one thing you can't access the static variable directly if it is private
+
+	static member function has no this(*) pointer because static member functions are not attach to
+	any class objects
+
+
+	when a class's all member became static then the class is called pure static classes
+
+	in a pure static class we don't have to instantiate any object cause we can access all members
+	directy through class
 */
