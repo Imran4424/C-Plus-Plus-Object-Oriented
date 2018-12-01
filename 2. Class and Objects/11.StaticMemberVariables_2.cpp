@@ -20,15 +20,9 @@ int Number::value = 0;
 
 int main(int argc, char const *argv[])
 {
-	Number first;
+	Number::value = 5;
 
-	Number second;
-
-	second.value = 2;
-
-	first.Show();
-
-	second.Show();
+	cout << Number::value << endl;
 
 	return 0;
 }
