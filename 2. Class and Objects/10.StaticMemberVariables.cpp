@@ -16,7 +16,7 @@ class Number
 	}	
 };
 
-int Number::value = 0;
+int Number::value = 0; // defining reference
 
 int main(int argc, char const *argv[])
 {
