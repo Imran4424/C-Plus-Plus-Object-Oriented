@@ -13,6 +13,11 @@ class Number
 	public: Number()
 	{
 		value = 0;
+	}
+
+	public: void Show()
+	{
+		cout << value << endl;
 	}	
 };
 
@@ -20,7 +25,11 @@ int main(int argc, char const *argv[])
 {
 	Number first;
 
-	
+	Number second;
+
+	first.Show();
+
+	second.Show();
 
 	return 0;
 }
