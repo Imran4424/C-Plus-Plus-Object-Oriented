@@ -38,5 +38,6 @@ int main(int argc, char const *argv[])
 	destroys itself after the program finished
 
 
-	now, if we can make a class member variable 
+	now, if we can make a class member variable static using static keyword, then we need to define the
+	static varibale reference
 */
