@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
 
 	we can use static variable using class name with scope resolution, for example,
 
-		Number::value
+		Number::value = 5;
 
 
 	one thing you can't access the static variable if it is static
