@@ -45,5 +45,8 @@ int main(int argc, char const *argv[])
 /*
 	as we know, we can't access private members from classes not even static
 
-	but we can define reference tp
+	but we can define reference to the private static member
+
+	if a static member variable is private then we have access it through a class object using
+	a public member function
 */
