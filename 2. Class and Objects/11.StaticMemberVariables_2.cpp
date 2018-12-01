@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 {
 	Number::value = 5;
 
-	cout << Number::value << endl;
+	cout << "Static Member Variable: " << Number::value << endl;
 
 	return 0;
 }
