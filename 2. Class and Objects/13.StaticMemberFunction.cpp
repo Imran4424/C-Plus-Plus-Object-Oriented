@@ -25,9 +25,12 @@ int Number::value = 0; // defining reference
 
 int main(int argc, char const *argv[])
 {
-	
+	Number::Increment();
+	Number::Show();
 
-
+	Number::Increment();
+	Number::Increment();
+	Number::Show();
 
 	return 0;
 }
