@@ -12,12 +12,15 @@ class Number
 
 	public: Number()
 	{
-		
+		value = 0;
 	}	
 };
 
 int main(int argc, char const *argv[])
 {
+	Number first;
+
 	
+
 	return 0;
 }
