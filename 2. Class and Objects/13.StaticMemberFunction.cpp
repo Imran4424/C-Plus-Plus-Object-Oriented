@@ -34,3 +34,8 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	like static variable static class does not
+*/
