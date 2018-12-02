@@ -17,14 +17,14 @@ class Accumulator
     }
 
 
-    private: friend void Show(const Accumulator &a_obj,const Multipicator &m_obj);
+    private: friend void Show(const Accumulator &a_obj,const Multiply &m_obj);
 };
 
-class Multipicator
+class Multiply
 {
     private: int value;
 
-    public: Multipicator()
+    public: Multiply()
     {
         value = 1;
     }
@@ -35,12 +35,12 @@ class Multipicator
     }
 
 
-    private: friend void Show(Accumulator &a_obj, Multipicator &m_obj);
+    private: friend void Show(Accumulator &a_obj, Multiply &m_obj);
 };
 
 
 
-void Reset(const Accumulator &a_obj, const Multipicator &m_obj)
+void Reset(const Accumulator &a_obj, const Multiply &m_obj)
 {
 
 }
@@ -48,7 +48,7 @@ void Reset(const Accumulator &a_obj, const Multipicator &m_obj)
 int main()
 {
     Accumulator red;
-    Multipicator green;
+    Multiply green;
 
     Show(red,green); // to show both class objects value
     
