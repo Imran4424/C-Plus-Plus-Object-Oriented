@@ -1,9 +1,12 @@
+#include <iostream>
+using namespace std;
+
 class Accumulator
 {
 
     private: int value;
 
-    public: Accumulator
+    public: Accumulator()
     {
         value = 0;
     }
@@ -18,11 +21,11 @@ class Accumulator
         cout <<"Current Value: " << value << endl;
     }
 
-    public: friend void reset(Accumulator &accumulator);
+    private: friend void Reset(Accumulator &accumulator);
 };
  
 
-void reset(Accumulator &obj)
+void Reset(Accumulator &obj)
 {
     obj.value = 0;
 }
@@ -30,8 +33,9 @@ void reset(Accumulator &obj)
 int main()
 {
     Accumulator red;
-    red.add(5); // add 5 to the accumulator
-    reset(red); // reset the accumulator to 0
+    red.Add(5); // add 5 to the accumulator
+
+    Reset(red); // Reset the accumulator to 0
  
     return 0;
 }
