@@ -31,5 +31,7 @@ int main(int argc, char const *argv[])
 /*
 	static constructor is a common feature in a advanced programming language
 
-	
+	but unfortunately c++ doesn't provide it
+
+	so, this code will end up in error
 */
