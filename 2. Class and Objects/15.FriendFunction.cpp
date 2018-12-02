@@ -12,7 +12,8 @@ class Accumulator
     {
         value = value + num;
     }
-    friend void reset(Accumulator &accumulator);
+
+    public: friend void reset(Accumulator &accumulator);
 };
  
 // reset() is now a friend of the Accumulator class
