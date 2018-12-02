@@ -16,29 +16,47 @@ class Accumulator
         value = value + num;
     }
 
-    public: void Show()
+
+    private: friend void Show(const Accumulator &a_obj,const Multipicator &m_obj);
+};
+
+class Multipicator
+{
+    private: int value;
+
+    public: Multipicator()
     {
-        cout <<"Current Value: " << value << endl;
+        value = 1;
     }
 
-    private: friend void Reset(Accumulator &accumulator);
-};
- 
+    public: void Mul(int num)
+    {
+        value = value * num;
+    }
 
-void Reset(Accumulator &obj)
+
+    private: friend void Show(Accumulator &a_obj, Multipicator &m_obj);
+};
+
+
+
+void Reset(const Accumulator &a_obj, const Multipicator &m_obj)
 {
-    obj.value = 0;
+
 }
  
 int main()
 {
     Accumulator red;
+    Multipicator green;
+
+    Show(red,green); // to show both class objects value
+    
     red.Add(5); // add 5 to the accumulator
 
-    red.Show();
+    green.Mul(15);
 
-    Reset(red); // Reset the accumulator to 0
-    red.Show();
- 
+    Show(red,green); // to show both class objects value
+
     return 0;
 }

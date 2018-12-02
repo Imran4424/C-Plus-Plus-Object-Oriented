@@ -21,7 +21,7 @@ class Accumulator
         cout <<"Current Value: " << value << endl;
     }
 
-    private: friend void Reset(Accumulator &accumulator);
+    private: friend void Reset(Accumulator &obj);
 };
  
 

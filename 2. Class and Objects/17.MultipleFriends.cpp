@@ -1,0 +1,80 @@
+#include <iostream>
+using namespace std;
+
+class Accumulator
+{
+
+    public: int value;
+
+    public: Accumulator()
+    {
+        value = 0;
+    }
+
+    public: void Add(int num)
+    {
+        value = value + num;
+    }
+
+    public: void Show()
+    {
+        cout <<"Current Value: " << value << endl;
+    }
+
+    private: friend void Reset(Accumulator &a_obj);
+    private: friend void Reset(Accumulator &a_obj, Multipicator &m_obj);
+};
+
+class Multipicator
+{
+    private: int value;
+
+    public: Multipicator()
+    {
+        value = 1;
+    }
+
+    public: void Mul(int num)
+    {
+        value = value * num;
+    }
+
+    public: void Show()
+    {
+        cout <<"Current Value: " << value << endl;
+    }
+
+    private: friend void Reset(Accumulator &m_obj);
+    private: friend void Reset(Accumulator &a_obj, Multipicator &m_obj);
+};
+
+
+void Reset(Accumulator &a_obj)
+{
+    a_obj.value = 0;
+}
+
+void Reset(Accumulator &m_obj)
+{
+    m_obj.value = 0;
+}
+ 
+
+void Reset(Accumulator &a_obj, Multipicator &m_obj)
+{
+    a_obj.value = 0;
+    m_obj.value = 0;
+}
+ 
+int main()
+{
+    Accumulator red;
+    red.Add(5); // add 5 to the accumulator
+
+    red.Show();
+
+    Reset(red); // Reset the accumulator to 0
+    red.Show();
+ 
+    return 0;
+}
