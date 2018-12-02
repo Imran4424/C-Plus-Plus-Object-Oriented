@@ -19,3 +19,10 @@ class Box
 		cout << "Static constructor" << endl;
 	}
 };
+
+int main(int argc, char const *argv[])
+{
+	Box red;
+	
+	return 0;
+}
