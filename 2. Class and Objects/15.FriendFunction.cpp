@@ -13,21 +13,25 @@ class Accumulator
         value = value + num;
     }
 
+    public: void Show()
+    {
+        cout <<"Current Value: " << value << endl;
+    }
+
     public: friend void reset(Accumulator &accumulator);
 };
  
-// reset() is now a friend of the Accumulator class
-void reset(Accumulator &accumulator)
+
+void reset(Accumulator &obj)
 {
-    // And can access the private data of Accumulator objects
-    accumulator.m_value = 0;
+    obj.value = 0;
 }
  
 int main()
 {
-    Accumulator acc;
-    acc.add(5); // add 5 to the accumulator
-    reset(acc); // reset the accumulator to 0
+    Accumulator red;
+    red.add(5); // add 5 to the accumulator
+    reset(red); // reset the accumulator to 0
  
     return 0;
 }
