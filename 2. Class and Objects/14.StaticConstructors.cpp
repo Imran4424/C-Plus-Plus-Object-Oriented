@@ -10,7 +10,7 @@ class Box
 {
 	private: int length, width, height;
 
-	public: static Box()
+	public: static Box() // this line of code will give you error
 	{
 		length = 0;
 		width = 0;
@@ -23,6 +23,13 @@ class Box
 int main(int argc, char const *argv[])
 {
 	Box red;
-	
+
 	return 0;
 }
+
+
+/*
+	static constructor is a common feature in a advanced programming language
+
+	
+*/
