@@ -1,3 +1,7 @@
+/*
+    write a program to demonstrate multiple friends in c++
+*/
+
 #include <iostream>
 using namespace std;
 
