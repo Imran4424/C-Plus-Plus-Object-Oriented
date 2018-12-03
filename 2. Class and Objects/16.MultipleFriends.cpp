@@ -1,5 +1,5 @@
 /*
-
+    write a program 
 */
 
 #include <iostream>
