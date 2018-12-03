@@ -56,7 +56,7 @@ void Reset(Accumulator &a_obj)
     a_obj.value = 0;
 }
 
-void Reset(Accumulator &m_obj)
+void Reset(Multipicator &m_obj)
 {
     m_obj.value = 0;
 }
@@ -64,8 +64,8 @@ void Reset(Accumulator &m_obj)
 
 void Reset(Accumulator &a_obj, Multipicator &m_obj)
 {
-    a_obj.value = 0;
-    m_obj.value = 0;
+    // a_obj.value = 0;
+    // m_obj.value = 0;
 }
  
 int main()
