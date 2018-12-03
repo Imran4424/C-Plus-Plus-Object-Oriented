@@ -1,5 +1,5 @@
 /*
-    write a program demonstrate multiple friends in c++
+    write a program to demonstrate multiple friends in c++
 
 */
 
