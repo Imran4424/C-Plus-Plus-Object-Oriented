@@ -1,5 +1,6 @@
 /*
-    write a program demonstrate multiple friends
+    write a program demonstrate multiple friends in c++
+
 */
 
 #include <iostream>
