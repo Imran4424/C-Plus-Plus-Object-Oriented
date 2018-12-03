@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+class Multipicator;
+
 class Accumulator
 {
 
@@ -17,14 +19,14 @@ class Accumulator
     }
 
 
-    private: friend void Show(const Accumulator &a_obj,const Multiply &m_obj);
+    private: friend void Show(const Accumulator &a_obj,const Multipicator &m_obj);
 };
 
-class Multiply
+class Multipicator
 {
     private: int value;
 
-    public: Multiply()
+    public: Multipicator()
     {
         value = 1;
     }
@@ -35,20 +37,20 @@ class Multiply
     }
 
 
-    private: friend void Show(Accumulator &a_obj, Multiply &m_obj);
+    private: friend void Show(const Accumulator &a_obj, const Multipicator &m_obj);
 };
 
 
 
-void Reset(const Accumulator &a_obj, const Multiply &m_obj)
+void Show(const Accumulator &a_obj, const Multipicator &m_obj)
 {
-
+    cout << a_obj.value << " " << m_obj.value << endl;
 }
  
 int main()
 {
     Accumulator red;
-    Multiply green;
+    Multipicator green;
 
     Show(red,green); // to show both class objects value
     

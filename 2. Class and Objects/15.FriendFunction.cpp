@@ -1,3 +1,7 @@
+/*
+    write a program to demonstrate friend function in c++
+*/
+
 #include <iostream>
 using namespace std;
 
