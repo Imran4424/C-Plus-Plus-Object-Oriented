@@ -85,3 +85,16 @@ int main()
  
     return 0;
 }
+
+/*
+    a function can be friend to more than one class
+
+    in that case, friend function some limitations
+
+                  friend function can access private class variables
+
+                  but can't modify them
+
+
+    we can overcome this by friend function overloading
+*/
