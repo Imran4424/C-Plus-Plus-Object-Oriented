@@ -68,8 +68,9 @@ void Reset(Multipicator &m_obj)
 
 void Reset(Accumulator &a_obj, Multipicator &m_obj)
 {
-    // a_obj.value = 0;
-    // m_obj.value = 0;
+    // can not change any private value in this function because this function is friend of multiple class
+
+    
 }
  
 int main()
