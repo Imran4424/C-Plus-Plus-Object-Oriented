@@ -25,7 +25,7 @@ class Accumulator
         cout <<"Current Value: " << value << endl;
     }
 
-    private: friend void Reset(Accumulator &obj);
+    friend void Reset(Accumulator &obj); // declaring friend function
 };
  
 
@@ -46,3 +46,15 @@ int main()
  
     return 0;
 }
+
+/*
+    As we know, only class members can access private member variables
+
+
+    so, if we need to access private variable outside the class
+
+    then we can easily declare a funtion friend of that class and the friend class can access private 
+    class members
+
+    see the code for practical example
+*/
