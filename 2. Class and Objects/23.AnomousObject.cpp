@@ -4,7 +4,7 @@ using namespace std;
 
 int Add(int x, int y)
 {
-	return x+y;
+	return x+y; // an anonymous object is created to hold and return the result of x + y
 }
 
 
