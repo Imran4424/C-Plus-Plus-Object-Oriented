@@ -70,7 +70,8 @@ void Reset(Accumulator &a_obj, Multipicator &m_obj)
 {
     // can not change any private value in this function because this function is friend of multiple class
 
-    
+    cout << " Accumulator Current value: " << a_obj.value << endl;
+    cout << " Multipicator Current value: " << m_obj.value << endl;
 }
  
 int main()
