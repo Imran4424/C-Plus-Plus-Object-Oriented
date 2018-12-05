@@ -79,11 +79,19 @@ int main()
     Accumulator red;
     red.Add(5); // add 5 to the accumulator
 
+    //red.Show();
+
+    Multipicator blue;
+    blue.Mul(12);
+
+    Reset(red, blue); // shows both class object current value
+    
+    Reset(red);   // resets the accumulator to 0
     red.Show();
 
-    Reset(red); // Reset the accumulator to 0
-    red.Show();
- 
+    Reset(blue);  // resets the multipicator to 0
+    blue.Show();
+
     return 0;
 }
 
