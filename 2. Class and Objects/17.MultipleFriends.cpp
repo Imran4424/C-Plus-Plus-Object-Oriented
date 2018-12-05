@@ -50,7 +50,7 @@ class Multipicator
         cout <<"Current Value: " << value << endl;
     }
 
-    private: friend void Reset(Accumulator &m_obj);
+    private: friend void Reset(Multipicator &m_obj);
     private: friend void Reset(Accumulator &a_obj, Multipicator &m_obj);
 };
 
