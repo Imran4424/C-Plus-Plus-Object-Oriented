@@ -76,21 +76,21 @@ int main(int argc, char const *argv[])
 	carrier.DisplayArea(red);
 	carrier.DisplayVolume(red);
 
-	cout <<endl;
+	cout << endl;
 
 	Box blue(5);
 	carrier.DisplayStatus(blue);
 	carrier.DisplayArea(blue);
 	carrier.DisplayVolume(blue);
 	
-	cout <<endl;
+	cout << endl;
 
 	Box steel(5, 12);
 	carrier.DisplayStatus(steel);
 	carrier.DisplayArea(steel);
 	carrier.DisplayVolume(steel);
 
-	cout <<endl;
+	cout << endl;
 	
 	Box green(5, 8, 12);
 	carrier.DisplayStatus(green);
