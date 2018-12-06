@@ -21,7 +21,7 @@ class Box
 
 	public: Box(int l)
 	{
-		Box()
+		Box();
 
 		length = l;
 	}
@@ -99,3 +99,11 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+
+/*
+	we can make a class friend
+
+	in that case, all members of the friend class can access the private members of that class of which
+	he is friend with
+*/
