@@ -105,5 +105,5 @@ int main(int argc, char const *argv[])
 	making a whole class friend is a problem because in that case whole class can access the private 
 	members
 
-	
+	instead of making a whole class friend, we can make a member function friend
 */
