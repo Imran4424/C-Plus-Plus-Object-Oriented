@@ -27,7 +27,9 @@ class Enclosing
 	{
 		Nested obj;
 
-		//cout << "Nested: " << obj.a << " " << obj.b << endl;
+		cout << "Nested: " << obj.a << " " << obj.b << endl; // this statement will give error because 
+								    // enclosing class members can not access 
+								   // nested class private variables
 		
 		obj.Show();
 	}
@@ -40,6 +42,10 @@ int main(int argc, char const *argv[])
 	Enclosing red;
 
 	red.Show();
+
+
+	Enclosing::Nested green; // this statement will give error becase, Enclosing class memeber nested class
+				// is private, and we can't access class members outside the class
 
 	return 0;
 }
