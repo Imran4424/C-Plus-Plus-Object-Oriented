@@ -30,5 +30,26 @@ class Box
 
 		length = l;
 		width = w;
+	}
+
+	public: Box(int l, int w, int h)
+	{
+		length = l;
+		width = w;
+		height = h;
 	}	
+};
+
+
+class Display
+{
+	public: Display Area(Box &red)
+	{
+		cout << " Area is: " << red.length * red. width << endl; 
+	}
+
+	public: Display Area(Box &red)
+	{
+		cout << " Volume is: " << red.length * red. width * red.height << endl; 
+	}
 };
