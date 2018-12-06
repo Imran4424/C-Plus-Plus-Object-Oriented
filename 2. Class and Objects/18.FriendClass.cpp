@@ -106,4 +106,6 @@ int main(int argc, char const *argv[])
 
 	in that case, all members of the friend class can access the private members of that class of which
 	he is friend with
+
+	see the code for example
 */
