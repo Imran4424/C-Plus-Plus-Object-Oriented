@@ -68,32 +68,34 @@ class Display
 
 int main(int argc, char const *argv[])
 {
+
+	Display carrier;
 	Box red;
 
-	red.DisplayStatus();
-	red.DisplayArea();
-	red.DisplayVolume();
+	carrier.DisplayStatus(red);
+	carrier.DisplayArea(red);
+	carrier.DisplayVolume(red);
 
 	cout <<endl;
 
 	Box blue(5);
-	blue.DisplayStatus();
-	blue.DisplayArea();
-	blue.DisplayVolume();
-
+	carrier.DisplayStatus(blue);
+	carrier.DisplayArea(blue);
+	carrier.DisplayVolume(blue);
+	
 	cout <<endl;
 
 	Box steel(5, 12);
-	steel.DisplayStatus();
-	steel.DisplayArea();
-	steel.DisplayVolume();
+	carrier.DisplayStatus(steel);
+	carrier.DisplayArea(steel);
+	carrier.DisplayVolume(steel);
 
 	cout <<endl;
 	
 	Box green(5, 8, 12);
-	green.DisplayStatus();
-	green.DisplayArea();
-	green.DisplayVolume();
-
+	carrier.DisplayStatus(green);
+	carrier.DisplayArea(green);
+	carrier.DisplayVolume(green);
+	
 	return 0;
 }
