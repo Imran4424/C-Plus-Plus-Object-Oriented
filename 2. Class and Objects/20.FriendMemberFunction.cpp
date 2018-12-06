@@ -9,19 +9,20 @@ class Box; // forward declaration
 
 class Display
 {
-	public: void DisplayStatus(Box &red) // this will give error
+	public: void DisplayStatus(Box &red) // they are not friend
 	{
 		// cout << " length is: " << red.length << endl;
 		// cout << " width is: " << red.width << endl;
 		// cout << " height is: " << red.height << endl;
 	}
 
-	public: void DisplayArea(Box &red) // this will give error
+	public: void DisplayArea(Box &red) // they are not friend
 	{
 		// cout << " Area is: " << red.length * red.width << endl; 
 	}
 
-	public: void DisplayVolume(Box &red)
+	public: void DisplayVolume(Box &red) // now this code will give error cause Display doesn't know full
+					    //  declaration of Box class
 	{
 		cout << " Volume is: " << red.length * red.width * red.height << endl; 
 	}
@@ -72,28 +73,28 @@ int main(int argc, char const *argv[])
 	Display carrier;
 	Box red;
 
-	// carrier.DisplayStatus(red);
+	// carrier.DisplayStatus(red); // they are not friend
 	// carrier.DisplayArea(red);
 	carrier.DisplayVolume(red);
 
 	cout << endl;
 
 	Box blue(5);
-	// carrier.DisplayStatus(blue);
+	// carrier.DisplayStatus(blue); // they are not friend
 	// carrier.DisplayArea(blue);
 	carrier.DisplayVolume(blue);
 	
 	cout << endl;
 
 	Box steel(5, 12);
-	// carrier.DisplayStatus(steel);
+	// carrier.DisplayStatus(steel); // they are not friend
 	// carrier.DisplayArea(steel);
 	carrier.DisplayVolume(steel);
 
 	cout << endl;
 	
 	Box green(5, 8, 12);
-	// carrier.DisplayStatus(green);
+	// carrier.DisplayStatus(green); // they are not friend
 	// carrier.DisplayArea(green);
 	carrier.DisplayVolume(green);
 	
