@@ -41,13 +41,14 @@ class Enclosing
 
 int main(int argc, char const *argv[])
 {
-	Enclosing red;
-
-	red.Show();
-
 
 	Enclosing::Nested green; // now this is OK, becase Enclosing class memeber nested class
 				// is public, and we can access class members outside the class
+
+
+	green.ShowOwn();
+
+	green.Show();
 
 	return 0;
 }
