@@ -6,7 +6,7 @@ class Enclosing
 {
 	private: int x = 10, y = 12;
 
-	private: class Nested
+	public: class Nested
 	{
 		private: int a = 7, b = 11;
 
@@ -27,7 +27,11 @@ class Enclosing
 	{
 		Nested obj;
 
-		//cout << "Nested: " << obj.a << " " << obj.b << endl;
+		//cout << "Nested: " << obj.a << " " << obj.b << endl; // this statement will give error because 
+								    // enclosing class members can not access 
+								   // nested class private variables
+
+		obj.ShowOwn() // now this is OK
 		
 		obj.Show();
 	}
@@ -40,6 +44,10 @@ int main(int argc, char const *argv[])
 	Enclosing red;
 
 	red.Show();
+
+
+	Enclosing::Nested green; // now this is OK, becase Enclosing class memeber nested class
+				// is public, and we can access class members outside the class
 
 	return 0;
 }
