@@ -102,7 +102,7 @@ int main(int argc, char const *argv[])
 
 
 /*
-	we can make a class friend
+	we can make a class friend of another class
 
 	in that case, all members of the friend class can access the private members of that class of which
 	he is friend with
