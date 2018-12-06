@@ -41,22 +41,23 @@ class Box
 		height = h;
 	}
 
-	friend Display; // declaring friend class 	
+	friend Display::DisplayVolume(Box &red); // declaring friend member function
+	// this will give error cause Box class don't know full declaration of Display class	
 };
 
 
 class Display
 {
-	public: void DisplayStatus(Box &red)
+	public: void DisplayStatus(Box &red) // this will give error
 	{
-		cout << " length is: " << red.length << endl;
-		cout << " width is: " << red.width << endl;
-		cout << " height is: " << red.height << endl;
+		// cout << " length is: " << red.length << endl;
+		// cout << " width is: " << red.width << endl;
+		// cout << " height is: " << red.height << endl;
 	}
 
-	public: void DisplayArea(Box &red)
+	public: void DisplayArea(Box &red) // this will give error
 	{
-		cout << " Area is: " << red.length * red.width << endl; 
+		// cout << " Area is: " << red.length * red.width << endl; 
 	}
 
 	public: void DisplayVolume(Box &red)
@@ -72,29 +73,29 @@ int main(int argc, char const *argv[])
 	Display carrier;
 	Box red;
 
-	carrier.DisplayStatus(red);
-	carrier.DisplayArea(red);
+	// carrier.DisplayStatus(red);
+	// carrier.DisplayArea(red);
 	carrier.DisplayVolume(red);
 
 	cout << endl;
 
 	Box blue(5);
-	carrier.DisplayStatus(blue);
-	carrier.DisplayArea(blue);
+	// carrier.DisplayStatus(blue);
+	// carrier.DisplayArea(blue);
 	carrier.DisplayVolume(blue);
 	
 	cout << endl;
 
 	Box steel(5, 12);
-	carrier.DisplayStatus(steel);
-	carrier.DisplayArea(steel);
+	// carrier.DisplayStatus(steel);
+	// carrier.DisplayArea(steel);
 	carrier.DisplayVolume(steel);
 
 	cout << endl;
 	
 	Box green(5, 8, 12);
-	carrier.DisplayStatus(green);
-	carrier.DisplayArea(green);
+	// carrier.DisplayStatus(green);
+	// carrier.DisplayArea(green);
 	carrier.DisplayVolume(green);
 	
 	return 0;
