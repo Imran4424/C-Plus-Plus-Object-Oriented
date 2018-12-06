@@ -43,12 +43,17 @@ class Box
 
 class Display
 {
-	public: Display Area(Box &red)
+	public: void DisplayLength(Box &red)
+	{
+		cout << " length is: " << red.length << endl;
+	}
+
+	public: void Display Area(Box &red)
 	{
 		cout << " Area is: " << red.length * red. width << endl; 
 	}
 
-	public: Display Area(Box &red)
+	public: void Display Area(Box &red)
 	{
 		cout << " Volume is: " << red.length * red. width * red.height << endl; 
 	}
