@@ -70,11 +70,21 @@ int main(int argc, char const *argv[])
 {
 	Box red;
 
-	red.
+	red.DisplayStatus();
+	red.DisplayArea();
+	red.DisplayVolume();
 
-	Box blue;
+	cout <<endl;
 
-	Box green;
+	Box blue(5);
+	blue.DisplayStatus();
+	blue.DisplayArea();
+	blue.DisplayVolume();
+
+	Box green(5, 8, 12);
+	green.DisplayStatus();
+	green.DisplayArea();
+	green.DisplayVolume();
 
 	return 0;
 }
