@@ -81,11 +81,15 @@ int main(int argc, char const *argv[])
 	blue.DisplayArea();
 	blue.DisplayVolume();
 
+	cout <<endl;
+
 	Box steel(5, 12);
 	steel.DisplayStatus();
 	steel.DisplayArea();
 	steel.DisplayVolume();
 
+	cout <<endl;
+	
 	Box green(5, 8, 12);
 	green.DisplayStatus();
 	green.DisplayArea();
