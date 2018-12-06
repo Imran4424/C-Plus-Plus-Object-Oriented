@@ -48,12 +48,12 @@ class Display
 		cout << " length is: " << red.length << endl;
 	}
 
-	public: void Display Area(Box &red)
+	public: void DisplayArea(Box &red)
 	{
 		cout << " Area is: " << red.length * red. width << endl; 
 	}
 
-	public: void Display Area(Box &red)
+	public: void DisplayVolume(Box &red)
 	{
 		cout << " Volume is: " << red.length * red. width * red.height << endl; 
 	}
