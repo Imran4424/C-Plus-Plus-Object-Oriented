@@ -6,6 +6,8 @@
 using namespace std;
 
 
+class Display;  // forward declaration
+
 class Box
 {
 	private: int length, width, height;
@@ -37,15 +39,19 @@ class Box
 		length = l;
 		width = w;
 		height = h;
-	}	
+	}
+
+	friend Display; // declaring friend class 	
 };
 
 
 class Display
 {
-	public: void DisplayLength(Box &red)
+	public: void DisplayStatus(Box &red)
 	{
 		cout << " length is: " << red.length << endl;
+		cout << " width is: " << red.width << endl;
+		cout << " height is: " << red.height << endl;
 	}
 
 	public: void DisplayArea(Box &red)
@@ -58,3 +64,17 @@ class Display
 		cout << " Volume is: " << red.length * red. width * red.height << endl; 
 	}
 };
+
+
+int main(int argc, char const *argv[])
+{
+	Box red;
+
+	red.
+
+	Box blue;
+
+	Box green;
+
+	return 0;
+}
