@@ -81,6 +81,11 @@ int main(int argc, char const *argv[])
 	blue.DisplayArea();
 	blue.DisplayVolume();
 
+	Box steel(5, 12);
+	steel.DisplayStatus();
+	steel.DisplayArea();
+	steel.DisplayVolume();
+
 	Box green(5, 8, 12);
 	green.DisplayStatus();
 	green.DisplayArea();
