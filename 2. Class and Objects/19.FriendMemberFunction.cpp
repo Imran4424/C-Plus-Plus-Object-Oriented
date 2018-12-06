@@ -41,7 +41,7 @@ class Box
 		height = h;
 	}
 
-	friend Display::DisplayVolume(Box &red); // declaring friend member function
+	friend void Display::DisplayVolume(Box &red); // declaring friend member function
 	// this will give error cause Box class don't know full declaration of Display class	
 };
 
