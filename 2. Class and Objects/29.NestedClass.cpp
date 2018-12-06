@@ -31,7 +31,7 @@ class Enclosing
 								    // enclosing class members can not access 
 								   // nested class private variables
 
-		obj.ShowOwn() // now this is OK
+		obj.ShowOwn(); // now this is OK
 		
 		obj.Show();
 	}
