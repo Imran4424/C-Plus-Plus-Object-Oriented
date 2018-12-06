@@ -1,3 +1,7 @@
+/*
+	write a program to demonstrate nested class in c++	
+*/
+
 #include <iostream>
 using namespace std;
 
