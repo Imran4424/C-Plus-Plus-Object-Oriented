@@ -92,5 +92,14 @@ int main(int argc, char const *argv[])
 
 	rzsian.Show();
 
+	SchoolStudent legend;
+
+	legend.name = "Shah Md. Imran Hossain";
+	legend.age = 15;
+	legend.studentID = 48;
+	legend.institution = "Ranpur Zilla School, Ranpur";
+
+	legend.Show();
+
 	return 0;
 }
