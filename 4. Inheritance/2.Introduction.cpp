@@ -95,7 +95,7 @@ int main(int argc, char const *argv[])
 	Employee ubisoft;
 
 	ubisoft.name = "Imran";
-	ubisoft.salary = "80000";
+	ubisoft.salary = 80000;
 
 	ubisoft.Show();
 
