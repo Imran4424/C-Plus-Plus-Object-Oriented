@@ -92,5 +92,12 @@ int main(int argc, char const *argv[])
 
 	rzsian.Show();
 
+	Employee ubisoft;
+
+	ubisoft.name = "Imran";
+	ubisoft.salary = "80000";
+
+	ubisoft.Show();
+
 	return 0;
 }
