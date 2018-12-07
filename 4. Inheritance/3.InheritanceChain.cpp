@@ -60,7 +60,7 @@ class Student: public Person
 
 class SchoolStudent: public Student
 {
-	private: string currentClass;
+	public: string currentClass;
 
 	public:	SchoolStudent()
 	{
