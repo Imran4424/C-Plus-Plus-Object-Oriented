@@ -74,7 +74,7 @@ class Employee: public Person
 		cout << "------Employee------" << endl;
 		cout << "Name: " << name << endl;
 		cout << "Age: " << age << endl;
-		cout << "Salary" << salary << endl;		
+		cout << "Salary: " << salary << endl;		
 	}
 };
 
