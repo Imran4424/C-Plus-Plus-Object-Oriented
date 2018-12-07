@@ -82,7 +82,7 @@ int main(int argc, char const *argv[])
 {
 
 	string name = "Shah Md. Imran Hossain";
-	int age = 15;
+	int age = 14;
 	int studentID = 48;
 	string institution = "Ranpur Zilla School, Ranpur";
 
@@ -95,6 +95,7 @@ int main(int argc, char const *argv[])
 	Employee ubisoft;
 
 	ubisoft.name = "Imran";
+	ubisoft.age = "22";
 	ubisoft.salary = 80000;
 
 	ubisoft.Show();
