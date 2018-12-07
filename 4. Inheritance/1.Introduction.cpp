@@ -50,6 +50,7 @@ class Student: public Person
 
 	public: void Show()
 	{
+		cout << "------Student------" << endl;
 		cout << "Name: " << name << endl;
 		cout << "Age: " << age << endl;
 		cout << "Student Id: " << studentID << endl;
