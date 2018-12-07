@@ -58,7 +58,7 @@ class Student: public Person
 	}
 };
 
-class SchoolStudent
+class SchoolStudent: public Student
 {
 	private: string currentClass;
 
@@ -69,7 +69,7 @@ class SchoolStudent
 
 	public: void Show()
 	{
-		cout << "------Student------" << endl;
+		cout << "------School Student------" << endl;
 		cout << "Name: " << name << endl;
 		cout << "Age: " << age << endl;
 		cout << "Student Id: " << studentID << endl;
@@ -98,6 +98,7 @@ int main(int argc, char const *argv[])
 	legend.age = 15;
 	legend.studentID = 48;
 	legend.institution = "Ranpur Zilla School, Ranpur";
+	legend.currentClass = "Ten";
 
 	legend.Show();
 
