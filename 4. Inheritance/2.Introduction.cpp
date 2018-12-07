@@ -50,10 +50,31 @@ class Student: public Person
 
 	public: void Show()
 	{
+		cout << "------Student------" << endl;
 		cout << "Name: " << name << endl;
 		cout << "Age: " << age << endl;
 		cout << "Student Id: " << studentID << endl;
 		cout << "Institution: " << institution << endl;  
+	}
+};
+
+class Employee: public Person
+{
+	public: int salary;
+
+	public: Employee()
+	{
+		name = "";
+		age = 0;
+		salary = 0;
+	}
+
+	public: void Show()
+	{
+		cout << "------Employee------" << endl;
+		cout << "Name: " << name << endl;
+		cout << "Age: " << age << endl;
+		cout << "Salary" << salary << endl;		
 	}
 };
 
