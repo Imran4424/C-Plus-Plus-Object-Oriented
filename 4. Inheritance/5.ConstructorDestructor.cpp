@@ -11,7 +11,7 @@ class A
 
 	public: ~A()
 	{
-		cout << "Destructor Calling from A" << endl;
+		cout << "Destructor Calling from A" << endl << endl;
 	}
 };
 
