@@ -41,7 +41,10 @@ class C: public B
 		cout << "Calling from C" << endl;
 	}
 
-	public
+	public: C(int p_id, int p_count, double p_cost): id(p_id), count(p_count), cost(p_cost)
+	{				//this will give you error because 
+
+	}
 
 	public: double getCost()
 	{
