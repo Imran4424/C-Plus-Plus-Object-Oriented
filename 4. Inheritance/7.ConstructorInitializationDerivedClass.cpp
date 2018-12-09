@@ -13,7 +13,7 @@ class A
 
 	public: A(int p_id): id(p_id)
 	{
-		
+
 	}
 
 	public: int GetId()
@@ -31,7 +31,7 @@ class B: public A
 		cout << "Calling from B" << endl;
 	}
 
-	public: B(int p_id, int p_count): A(p_id), count = p_count
+	public: B(int p_id, int p_count): A(p_id), count(p_count)
 	{
 
 	} 
@@ -52,9 +52,8 @@ class C: public B
 	}
 
 	public: C(int p_id, int p_count, double p_cost): B(p_id, p_count), cost(p_cost)
-	{				//this will give you error because we can't initialized
-					// inherited member variables using initializer list
-
+	{				// now this code will just work fine
+					
 	}
 
 	public: double GetCost()
