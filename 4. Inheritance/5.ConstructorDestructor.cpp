@@ -54,5 +54,7 @@ int main(int argc, char const *argv[])
 	cout << endl << "creating C class object" << endl;
 	C green;
 
+	cout << endl;
+
 	return 0;
 }
