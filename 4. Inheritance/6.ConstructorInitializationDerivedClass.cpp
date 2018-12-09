@@ -6,7 +6,7 @@ class A
 {
 	public: int id;
 
-	public: A()
+	public: A(): id(0)
 	{
 		cout << "Calling from A" << endl;
 	}
@@ -21,7 +21,7 @@ class B: public A
 {
 	public: int count;
 
-	public: B()
+	public: B(): count(0)
 	{
 		cout << "Calling from B" << endl;
 	}
@@ -36,14 +36,16 @@ class C: public B
 {
 	public: double cost;
 
-	public: C()
+	public: C(): cost(0)
 	{
 		cout << "Calling from C" << endl;
 	}
 
+	public
+
 	public: double getCost()
 	{
-		return getCost;
+		return cost;
 	}
 };
 
