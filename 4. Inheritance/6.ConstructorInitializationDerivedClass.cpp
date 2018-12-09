@@ -42,11 +42,12 @@ class C: public B
 	}
 
 	public: C(int p_id, int p_count, double p_cost): id(p_id), count(p_count), cost(p_cost)
-	{				//this will give you error because 
+	{				//this will give you error because we can't initialized
+					// inherited member variables using initializer list
 
 	}
 
-	public: double getCost()
+	public: double GetCost()
 	{
 		return cost;
 	}
@@ -54,6 +55,15 @@ class C: public B
 
 int main(int argc, char const *argv[])
 {
+	C derived(1, 5, 20);
+
+	cout << "Id: " << derived.GetId() << endl;
+
+	cout << "Number of Item: " << derived.GetCount() << endl;
+
+	cout << "Cost: " << derived.GetCost() << endl;
+	
+	cout << "Total Cost: " << derived.GetCount() * derived.GetCost() << endl;
 	
 
 	return 0;
