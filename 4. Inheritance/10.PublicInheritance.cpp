@@ -21,12 +21,6 @@ class Base
 	}
 
 
-	public: void Show()
-	{
-		cout<< "Id:" << id << endl;
-		cout<< "Price:" << price << endl;
-		cout<< "Total Cost:" << totalCost << endl;
-	}
 };
 
 class Derived: public Base
@@ -36,6 +30,18 @@ class Derived: public Base
 	public: Derived()
 	{
 		customerName = "";
+	}
+
+
+	public: void Show()
+	{
+		cout<< "Id:" << id << endl;  // this line of code will generate error
+
+		cout<< "Id:" << id << endl;  // this line of code will generate error
+		
+		cout<< "Price:" << price << endl;
+		cout<< "Total Cost:" << totalCost << endl;
+		cout<< "Customer Name:" << customerName << endl;
 	}
 }
 
