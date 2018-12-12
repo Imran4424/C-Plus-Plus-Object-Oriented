@@ -19,6 +19,14 @@ class Base
 		price = 0;
 		totalCost = 0;
 	}
+
+
+	public: void Show()
+	{
+		cout<< "Id:" << id << endl;
+		cout<< "Price:" << price << endl;
+		cout<< "Total Cost:" << totalCost << endl;
+	}
 };
 
 class Derived: public Base
