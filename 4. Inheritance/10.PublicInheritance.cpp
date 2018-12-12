@@ -47,6 +47,9 @@ int main(int argc, char const *argv[])
 	protected - protected class members can be accessed by same class members as well as the derived class
 	            members
 
+	otherwise it will generate error
+
+
 
 	now let's talk about Inheritance type
 
