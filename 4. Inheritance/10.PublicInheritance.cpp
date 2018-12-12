@@ -36,3 +36,8 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+/*
+	so far we have been, two types of access specifier - public, private
+	in this code we will see about protected access specifier
+*/
