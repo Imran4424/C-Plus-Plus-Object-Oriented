@@ -53,11 +53,11 @@ class Derived: public Base
 
 		cout<< "Id:" << GatId() << endl;  // so use a public member function in base class to skip errors
 		
-		cout<< "Price:" << price << endl;
-		cout<< "Total Cost:" << totalCost << endl;
-		cout<< "Customer Name:" << customerName << endl;
+		cout<< "Price: " << price << endl;
+		cout<< "Total Cost: " << totalCost << endl;
+		cout<< "Customer Name: " << customerName << endl;
 	}
-}
+}; 
 
 int main(int argc, char const *argv[])
 {
