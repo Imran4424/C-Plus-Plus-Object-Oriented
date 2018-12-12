@@ -64,7 +64,9 @@ class C: public B
 
 	public: double GetTotalCost()
 	{
-		return cost*count; // this statement will give you error
+		return cost*count; // this statement will give you error, because you can't access inherited
+		                  // private variables
+		                 // this is also true for assigning values within constructor
 	}
 };
 
