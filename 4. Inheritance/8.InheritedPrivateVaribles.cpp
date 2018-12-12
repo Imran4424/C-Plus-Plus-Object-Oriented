@@ -64,7 +64,7 @@ class C: public B
 
 	public: double GetTotalCost()
 	{
-		return cost*count;
+		return cost*count; // this statement will give you error
 	}
 };
 
