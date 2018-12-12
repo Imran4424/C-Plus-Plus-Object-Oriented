@@ -4,7 +4,7 @@ using namespace std;
 
 class A
 {
-	public: int id;
+	private: int id;
 
 	public: A(): id(0)
 	{
@@ -24,7 +24,7 @@ class A
 
 class B: public A
 {
-	public: int count;
+	private: int count;
 
 	public: B(): count(0)
 	{
@@ -44,7 +44,7 @@ class B: public A
 
 class C: public B
 {
-	public: double cost;
+	private: double cost;
 
 	public: C(): cost(0)
 	{
@@ -60,6 +60,11 @@ class C: public B
 	public: double GetCost()
 	{
 		return cost;
+	}
+
+	public: double GetTotalCost()
+	{
+
 	}
 };
 
