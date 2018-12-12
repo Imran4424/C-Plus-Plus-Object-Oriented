@@ -68,9 +68,9 @@ class C: public B
 
 	public: double GetTotalCost()
 	{
-		return cost*count; // this statement will give you error, because you can't access inherited
-		                  // private variables
-		                 // this is also true for assigning values within constructor
+		return cost * GetCount(); // now this is OK
+		                  // we are accessing private inherited member
+		                 //  using public inherit functions
 	}
 };
 
@@ -92,6 +92,6 @@ int main(int argc, char const *argv[])
 
 /*
 	derived class can't access private inherited variables, this will generate error
-	
-		
+
+	continue	
 */
