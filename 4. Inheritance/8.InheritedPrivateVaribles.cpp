@@ -64,7 +64,7 @@ class C: public B
 
 	public: double GetTotalCost()
 	{
-
+		return cost*count;
 	}
 };
 
@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
 
 	cout << "Cost: " << derived.GetCost() << endl;
 	
-	cout << "Total Cost: " << derived.GetCount() * derived.GetCost() << endl;
+	cout << "Total Cost: " << derived.GetTotalCost() << endl;
 	
 
 	return 0;
