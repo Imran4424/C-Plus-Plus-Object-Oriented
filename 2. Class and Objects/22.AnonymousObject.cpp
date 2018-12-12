@@ -19,6 +19,3 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-/*
-	https://www.learncpp.com/cpp-tutorial/814-anonymous-objects/
-*/
