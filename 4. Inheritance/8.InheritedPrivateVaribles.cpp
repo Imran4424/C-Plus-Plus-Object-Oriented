@@ -91,5 +91,17 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	derived class can access public inherited variables
+	derived class can access public inherited variables easily
+
+	that's why they can also assign inherited public variables
+
+	but thing's get little complex when you try to access private inherited variables
+
+	derived class can't access private inherited variables, this will generate error
+
+	that's why it also can't assign inherited private variables
+
+	it can call inherit class constructor from the initializer list to initialize inherited private 
+	variables
+	
 */
