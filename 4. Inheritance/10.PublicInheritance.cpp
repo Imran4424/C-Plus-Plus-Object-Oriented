@@ -20,6 +20,13 @@ class Base
 		totalCost = 0;
 	}
 
+	public: Base(int id, int price, int totalCost)
+	{
+		this -> id = id;
+		this -> price = price;
+		this -> totalCost = totalCost;
+	}
+
 	public: int GatId()
 	{
 		return id;
@@ -35,6 +42,10 @@ class Derived: public Base
 		customerName = "";
 	}
 
+	public: Derived(int id, int price, int totalCost, string name): Base(id, price, totalCost)
+	{
+		customerName = name;
+	}
 
 	public: void Show()
 	{
