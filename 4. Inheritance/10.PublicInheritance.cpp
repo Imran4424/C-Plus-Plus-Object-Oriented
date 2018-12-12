@@ -7,11 +7,11 @@ using namespace std;
 
 class Base
 {
-	private: int id;
+	private: int id; // can access class members and friends
 
-	public: int price;
+	public: int price; // can access anybody
 	
-	protected: int totalCost;
+	protected: int totalCost; // can access by both base and derived class members
 
 	public: Base()
 	{
@@ -67,5 +67,5 @@ int main(int argc, char const *argv[])
 
 	
 	that means if you publicly inherited something from base class then every base class member will have
-	same derived 
+	same access specifier in the derived class
 */
