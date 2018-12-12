@@ -2,10 +2,15 @@
 	write a program to demonstrate public inheritance in big picture
 */
 
+#include <iostream>
+using namespace std;
+
 class Base
 {
 	private: int id;
+
 	public: int price;
+	
 	protected: int totalCost;
 
 	public: Base()
@@ -14,6 +19,14 @@ class Base
 		price = 0;
 		totalCost = 0;
 	}
-
-	
 };
+
+class Derived: public Base
+{
+	private: string customerName;
+
+	public: Derived()
+	{
+		customerName = "";
+	}
+}
