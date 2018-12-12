@@ -1,0 +1,3 @@
+/*
+	write a program to demonstrate public inheritance in big picture
+*/
