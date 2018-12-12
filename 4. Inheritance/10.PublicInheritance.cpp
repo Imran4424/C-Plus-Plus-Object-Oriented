@@ -44,6 +44,18 @@ int main(int argc, char const *argv[])
 	public - public class members can be accessed by anyone through an object
 	private - private class members can be accessed only by same class members
 
-	protected - protected class members can be accessed by class members as well as the derived class
+	protected - protected class members can be accessed by same class members as well as the derived class
 	            members
+
+
+	now let's talk about Inheritance type
+
+	a class can be inherited in 3 types - public , private , protected
+
+
+
+
+	In this code we will only talk about public inheritance
+
+	when we inherit a class publicly then all class members remain same in the derived class
 */
