@@ -30,3 +30,9 @@ class Derived: public Base
 		customerName = "";
 	}
 }
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
