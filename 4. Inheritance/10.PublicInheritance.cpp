@@ -20,7 +20,10 @@ class Base
 		totalCost = 0;
 	}
 
-
+	public: int GatId()
+	{
+		return id;
+	}
 };
 
 class Derived: public Base
@@ -35,9 +38,9 @@ class Derived: public Base
 
 	public: void Show()
 	{
-		cout<< "Id:" << id << endl;  // this line of code will generate error
+		//cout<< "Id:" << id << endl;  // this line of code will generate error
 
-		cout<< "Id:" << id << endl;  // this line of code will generate error
+		cout<< "Id:" << GatId() << endl;  // so use a public member function in base class to skip errors
 		
 		cout<< "Price:" << price << endl;
 		cout<< "Total Cost:" << totalCost << endl;
