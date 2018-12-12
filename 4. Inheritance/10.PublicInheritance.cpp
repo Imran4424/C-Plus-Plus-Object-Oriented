@@ -58,4 +58,14 @@ int main(int argc, char const *argv[])
 	In this code we will only talk about public inheritance
 
 	when we inherit a class publicly then all class members remain same in the derived class
+
+	Base class - Derived class
+
+	public     - public
+	private    - private
+	protected  - protected
+
+	
+	that means if you publicly inherited something from base class then every base class member will have
+	same derived 
 */
