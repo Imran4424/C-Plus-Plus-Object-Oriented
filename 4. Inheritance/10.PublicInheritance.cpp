@@ -61,7 +61,11 @@ class Derived: public Base
 
 int main(int argc, char const *argv[])
 {
-	
+	Derived obj(5, 50, 150, "Imran");
+
+	obj.Show();
+
+
 	return 0;
 }
 
