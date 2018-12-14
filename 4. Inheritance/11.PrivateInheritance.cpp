@@ -54,9 +54,10 @@ class Derived: private Base
 		cout<< "Id: " << GatId() << endl;  // so use a public member function in base class to skip errors
 		
 		cout<< "Price: " << price << endl; // this code doesn't give you any error
-		                                  // cause these are inherited in derived class
+		                                  // cause these are inherited in derived class as private
 
-		cout<< "Total Cost: " << totalCost << endl;
+		cout<< "Total Cost: " << totalCost << endl; // this code doesn't give you any error
+		                                  // cause these are inherited in derived class as private
 
 		cout<< "Customer Name: " << customerName << endl;
 	}
@@ -98,6 +99,11 @@ int main(int argc, char const *argv[])
 	when we inherit a class privately then all class members changes their access specifier in derived class.
 	And private class members not even exist in derived class that means we can't inherit private class
 	members in derived class
+
+	actually we can't inherited private members from base classes, that's why we can't access private base
+	members from derived class, but we can always use a public member funtion in base class to access the
+	private base member
+
 
 	Base class - Derived class
 
