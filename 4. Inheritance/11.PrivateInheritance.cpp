@@ -104,5 +104,5 @@ int main(int argc, char const *argv[])
 
 	
 	that means if you privately inherited something from base class then private member variables doesn't
-	inherited same access specifier in the derived class
+	inherited 
 */
