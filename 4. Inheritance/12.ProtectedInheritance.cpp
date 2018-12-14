@@ -67,7 +67,7 @@ int main(int argc, char const *argv[])
 {
 	Derived obj(5, 50, 150, "Imran");
 
-	obj.price = 5; // this member variable is public in base class but protected in derived class
+	//obj.price = 5; // this member variable is public in base class but protected in derived class
 	                // that's why it's giving error
 
 	obj.Show();
