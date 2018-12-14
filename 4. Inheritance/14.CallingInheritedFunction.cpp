@@ -78,9 +78,9 @@ int main(int argc, char const *argv[])
 {
 	C derived(1, 5, 20);
 
-	cout << "Id: " << derived.GetId() << endl;
+	cout << "Id: " << derived.GetId() << endl;  // calling base class funtion from derived class object
 
-	cout << "Number of Item: " << derived.GetCount() << endl;
+	cout << "Number of Item: " << derived.GetCount() << endl; // calling base class funtion from derived class object
 
 	cout << "Cost: " << derived.GetCost() << endl;
 	
@@ -91,7 +91,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	calling derived function is demonstrated in previous codes
+
+	just repeating this as a reminder 
 
 
 	derived class can't access private inherited variables, this will generate error
