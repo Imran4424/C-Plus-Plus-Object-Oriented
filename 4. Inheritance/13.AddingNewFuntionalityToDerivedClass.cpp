@@ -47,11 +47,10 @@ class Derived: public Base
 		customerName = name;
 	}
 
-	public: void Show()
-	{
-		//cout<< "Id:" << id << endl;  // this line of code will generate error
-
-		cout<< "Id: " << GatId() << endl;  // so use a public member function in base class to skip errors
+	public: void Show() // this function is an addition from the base class
+	{                  // like this we can 
+		
+		cout<< "Id: " << GatId() << endl;
 		
 		cout<< "Price: " << price << endl;
 		cout<< "Total Cost: " << totalCost << endl;
@@ -70,5 +69,7 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	
+	actually we saw this in previous code
+
+	just mentioning here as a remainder
 */
