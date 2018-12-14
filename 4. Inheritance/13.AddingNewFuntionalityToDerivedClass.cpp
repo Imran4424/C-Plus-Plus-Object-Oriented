@@ -47,8 +47,9 @@ class Derived: public Base
 		customerName = name;
 	}
 
-	public: void Show() // this function is an addition from the base class
-	{                  // like this we can 
+	public: void Show() // this function is an addition from the base class, cause this function don't exist in base class
+	{                  // like this we can add more functionality to the derived class as we need
+			  // this is really simple and really effective
 		
 		cout<< "Id: " << GatId() << endl;
 		
@@ -62,7 +63,7 @@ int main(int argc, char const *argv[])
 {
 	Derived obj(5, 50, 150, "Imran");
 
-	obj.Show();
+	obj.Show(); // calling additional function in respect of base class
 
 
 	return 0;
