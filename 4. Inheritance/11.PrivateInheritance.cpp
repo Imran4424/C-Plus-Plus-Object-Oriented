@@ -53,8 +53,11 @@ class Derived: private Base
 
 		cout<< "Id:" << GatId() << endl;  // so use a public member function in base class to skip errors
 		
-		cout<< "Price: " << price << endl;
+		cout<< "Price: " << price << endl; // this code doesn't give you any error
+		                                  // cause these are inherited in derived class
+
 		cout<< "Total Cost: " << totalCost << endl;
+
 		cout<< "Customer Name: " << customerName << endl;
 	}
 }; 
@@ -98,7 +101,7 @@ int main(int argc, char const *argv[])
 
 	Base class - Derived class
 
-	private    - not inherited
+	private    - not inherited / Inaccessible
 	public     - private
 	protected  - private
 

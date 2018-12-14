@@ -51,7 +51,7 @@ class Derived: public Base
 	{
 		//cout<< "Id:" << id << endl;  // this line of code will generate error
 
-		cout<< "Id:" << GatId() << endl;  // so use a public member function in base class to skip errors
+		cout<< "Id: " << GatId() << endl;  // so use a public member function in base class to skip errors
 		
 		cout<< "Price: " << price << endl;
 		cout<< "Total Cost: " << totalCost << endl;
@@ -92,15 +92,15 @@ int main(int argc, char const *argv[])
 
 	In this code we will only talk about public inheritance
 
-	when we inherit a class publicly then all class members remain same in the derived class
+	when we inherit a class publicly then all class members remain same in the derived class except private
 
 	Base class - Derived class
 
-	private    - private
+	private    - not inherited / Inaccessible
 	public     - public
 	protected  - protected
 
 	
 	that means if you publicly inherited something from base class then every base class member will have
-	same access specifier in the derived class
+	same access specifier in the derived class except private members
 */
