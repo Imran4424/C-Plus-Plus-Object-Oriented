@@ -94,6 +94,10 @@ int main(int argc, char const *argv[])
 
 	when we inherit a class publicly then all class members remain same in the derived class except private
 
+	actually we can't inherited private members from base classes, that's why we can't access private base
+	members from derived class, but we can always use a public member funtion in base class to access the
+	private base member
+
 	Base class - Derived class
 
 	private    - not inherited / Inaccessible
