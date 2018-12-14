@@ -98,11 +98,11 @@ int main(int argc, char const *argv[])
 
 	Base class - Derived class
 
-	public     - private
 	private    - not inherited
+	public     - private
 	protected  - private
 
 	
 	that means if you privately inherited something from base class then private member variables doesn't
-	inherited 
+	inherited from base class, 
 */

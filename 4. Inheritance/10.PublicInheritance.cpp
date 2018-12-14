@@ -96,8 +96,8 @@ int main(int argc, char const *argv[])
 
 	Base class - Derived class
 
-	public     - public
 	private    - private
+	public     - public
 	protected  - protected
 
 	
