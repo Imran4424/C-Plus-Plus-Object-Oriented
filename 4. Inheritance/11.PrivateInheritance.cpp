@@ -33,7 +33,7 @@ class Base
 	}
 };
 
-class Derived: public Base
+class Derived: private Base
 {
 	private: string customerName;
 
