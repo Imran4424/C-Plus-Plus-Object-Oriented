@@ -100,8 +100,7 @@ int main(int argc, char const *argv[])
 	In this code we will only talk about private inheritance
 
 	when we inherit a class privately then all class members changes their access specifier in derived class.
-	And private class members not even exist in derived class that means we can't inherit private class
-	members in derived class
+	And private class members not even exist in derived class.
 
 	actually we can't inherited private members from base classes, that's why we can't access private base
 	members from derived class, but we can always use a public member funtion in base class to access the
