@@ -63,7 +63,7 @@ int main(int argc, char const *argv[])
 {
 	Derived obj(5, 50, 150, "Imran");
 
-	obj.Show(); // calling additional function in respect of base class
+	obj.Show(); // calling an additional function in respect of base class
 
 
 	return 0;
