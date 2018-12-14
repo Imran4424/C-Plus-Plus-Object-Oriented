@@ -95,11 +95,4 @@ int main(int argc, char const *argv[])
 
 	just repeating this as a reminder 
 
-
-	derived class can't access private inherited variables, this will generate error
-
-	we can access inherited private variables using a inherited member function of that
-	same class
-
-	in this way we won't get errors
 */
