@@ -90,17 +90,19 @@ int main(int argc, char const *argv[])
 
 
 
-	In this code we will only talk about public inheritance
+	In this code we will only talk about private inheritance
 
-	when we inherit a class publicly then all class members remain same in the derived class
+	when we inherit a class privately then all class members changes their access specifier in derived class.
+	And private class members not even exist in derived class that means we can't inherit private class
+	members in derived class
 
 	Base class - Derived class
 
-	public     - public
-	private    - private
-	protected  - protected
+	public     - private
+	private    - not inherited
+	protected  - private
 
 	
-	that means if you publicly inherited something from base class then every base class member will have
-	same access specifier in the derived class
+	that means if you privately inherited something from base class then private member variables doesn't
+	inherited same access specifier in the derived class
 */
