@@ -51,7 +51,7 @@ class Derived: private Base
 	{
 		//cout<< "Id:" << id << endl;  // this line of code will generate error
 
-		cout<< "Id:" << GatId() << endl;  // so use a public member function in base class to skip errors
+		cout<< "Id: " << GatId() << endl;  // so use a public member function in base class to skip errors
 		
 		cout<< "Price: " << price << endl; // this code doesn't give you any error
 		                                  // cause these are inherited in derived class
