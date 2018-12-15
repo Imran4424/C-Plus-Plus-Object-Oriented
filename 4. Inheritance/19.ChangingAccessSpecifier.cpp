@@ -27,13 +27,13 @@ class Base
 		this -> totalCost = totalCost;
 	}
 
-	public: int GatId()
+	protected: int GatId()
 	{
 		return id;
 	}
 };
 
-class Derived: private Base
+class Derived: public Base
 {
 	private: string customerName;
 
@@ -47,12 +47,19 @@ class Derived: private Base
 		customerName = name;
 	}
 
-	
+	// changing base class members access specifier in derived class
+
+	private: using Base::totalCost; // changing protected to private
+	protected: using Base::price; // changing public to protected
+	public: using Base::GatId;   // changing protected to public, note: GetId has no parenthesis
+
+
+	private: using Base::id; // this will give error cause Derived class no access to Base class members 
 
 	public: void Show()
 	{
 
-		cout<< "Id: " << GatId() << endl;  // so use a public member function in base class to skip errors
+		cout<< "Id: " << GatId() << endl;
 		
 		cout<< "Price: " << price << endl; // this code doesn't give you any error
 		                                  // cause these are inherited in derived class as protected
@@ -68,8 +75,8 @@ int main(int argc, char const *argv[])
 {
 	Derived obj(5, 50, 150, "Imran");
 
-	//obj.price = 5; // this member variable is public in base class but protected in derived class
-	                // that's why it's giving error
+	obj.price = 5; // 
+	              // 
 
 	obj.Show();
 
