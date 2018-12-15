@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate proteced inheritance in big picture
+	write a program to demonstrate how to change access specifier of inherited members in derived class
 */
 
 #include <iostream>
