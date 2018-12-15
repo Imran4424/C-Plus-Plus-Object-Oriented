@@ -28,6 +28,12 @@ class Derived: public Base
 
 	public: void Message()
 	{
+		//Message(); // this will end in infinite recursion loop
+			    // for this case some compiler will show this statement show this error
+
+	                   // here Message will calling itself again again cause when we don't specify
+			  // scope resolution of a function, then it will call the local class function if it
+		         // exist. Otherwise it will give you error
 
 		Base::Message();
 		cout << "calling from Derived" << endl;
