@@ -68,4 +68,3 @@ int main(int argc, char const *argv[])
 	in the derived scope to get rid of this error
 */
 
-
