@@ -28,6 +28,7 @@ class Derived: public Base
 
 	public: void Message()
 	{
+
 		Base::Message();
 		cout << "calling from Derived" << endl;
 	}
@@ -46,7 +47,11 @@ int main(int argc, char const *argv[])
 }
 
 
+/*
+	there will be some cases we don't want to completely change the function body
 
+	we just want to 
+*/
 
 
 

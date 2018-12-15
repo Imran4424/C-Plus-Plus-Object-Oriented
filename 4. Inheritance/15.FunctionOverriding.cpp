@@ -55,7 +55,7 @@ int main(int argc, char const *argv[])
 
 	return type can be changed
 
-	aslo overridden function can have 
+	also overridden function can have different access specifier in derived class compare to the base class
 */
 
 
