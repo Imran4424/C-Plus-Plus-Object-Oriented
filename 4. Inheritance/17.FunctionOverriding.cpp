@@ -26,8 +26,9 @@ class Derived: public Base
 
 	}
 
-	public: void Message()
-	{
+	public: void Message() // here you are trying to overload a base function, but this will treat as 
+	{                     // different function
+
 		Base::Message();
 		cout << "calling from Derived" << endl;
 	}
@@ -41,7 +42,7 @@ int main(int argc, char const *argv[])
 
 	Derived green;  
 	green.Message(9); // this will generate error cause no maching function in derived class
-
+	                
 	return 0;
 }
 
