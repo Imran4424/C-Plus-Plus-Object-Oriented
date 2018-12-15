@@ -27,7 +27,7 @@ class Base
 		this -> totalCost = totalCost;
 	}
 
-	protected: int GatId()
+	protected: int GetId()
 	{
 		return id;
 	}
@@ -51,7 +51,7 @@ class Derived: public Base
 
 	private: using Base::totalCost; // changing protected to private
 	protected: using Base::price; // changing public to protected
-	public: using Base::GatId;   // changing protected to public, note: GetId has no parenthesis
+	public: using Base::GetId;   // changing protected to public, note: GetId has no parenthesis
 
 
 	//public: using Base::id; // this will give error cause Derived class no access to Base class private
@@ -60,7 +60,7 @@ class Derived: public Base
 	public: void Show()
 	{
 
-		cout<< "Id: " << GatId() << endl;
+		cout<< "Id: " << GetId() << endl;
 		
 		cout<< "Price: " << price << endl; 
 
@@ -81,14 +81,14 @@ int main(int argc, char const *argv[])
 	Base red;
 	red.price = 50; // Base class object can access price directly, cause it still public in Base class
 
-	//red.GatId(); // this will give error because in Base class GetId is protected
+	//red.GetId(); // this will give error because in Base class GetId is protected
 
 
 	green.Show();
 
 
 	cout << endl;
-	cout << "Reading id from main: " << green.GatId() << endl; // this won't give any error, cause in
+	cout << "Reading id from main: " << green.GetId() << endl; // this won't give any error, cause in
 	                                                          // Derived class GetId is public
 
 	return 0;
@@ -101,4 +101,15 @@ int main(int argc, char const *argv[])
 
 	from c++11, we can use "using" keyword to change access specifier of Base class members in Derived
 	class
+
+	only restriction is that we can't change access specifier of private members cause Derived class
+	has no access to Base class private members
+
+	another thing when we are changing functions access specifier we don't need to use parenthesis
+	
+	actually changing member variables and member functions access specifier statement is alike
+
+
+	protected: using Base::price; // price is a member variable
+	public: using Base::GetId;   // GetId is a member function
 */
