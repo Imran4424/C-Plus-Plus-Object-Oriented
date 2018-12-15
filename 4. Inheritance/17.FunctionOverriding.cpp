@@ -39,8 +39,8 @@ int main(int argc, char const *argv[])
 	//red.Message();
 
 
-	Derived green;
-	green.Message(9);
+	Derived green;  
+	green.Message(9); // this will generate error cause no maching function in derived class
 
 	return 0;
 }
