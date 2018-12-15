@@ -55,7 +55,7 @@ int main(int argc, char const *argv[])
 	so you can't overlaod a base class function
 
 	some operation can be succeed, we will see a operation like that in the next code, but this operations
-	are not included as 
+	are not included as function overloading or function overridden
 */
 
 
