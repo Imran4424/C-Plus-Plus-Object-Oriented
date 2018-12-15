@@ -72,18 +72,19 @@ class Derived: public Base
 
 int main(int argc, char const *argv[])
 {
-	Derived obj(5, 50, 150, "Imran");
+	Derived green(5, 50, 150, "Imran");
 
-	//obj.price = 5; // this statement will give error, because we changed price access specifier public to
+	//green.price = 5; // this statement will give error, because we changed price access specifier public to
 	              // protected in the Derived clas, that's why Derived class object can't access price
 	             // directly
 
-	obj.Show();
+	Base red;
+	red.price = 50; // Base class object can access price directly, cause it still public in Base class
+
+	green.Show();
 
 	
-	Base red;
-
-	red.price = 50; // Base class object can access price directly, cause it still public in Base class
+	cout << "Reading id from main: " << green.GatId() << endl;
 
 	return 0;
 }
