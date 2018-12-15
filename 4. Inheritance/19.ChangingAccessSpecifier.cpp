@@ -54,18 +54,17 @@ class Derived: public Base
 	public: using Base::GatId;   // changing protected to public, note: GetId has no parenthesis
 
 
-	private: using Base::id; // this will give error cause Derived class no access to Base class members 
+	//public: using Base::id; // this will give error cause Derived class no access to Base class private
+	                        // members, so changing access specifier is not possible
 
 	public: void Show()
 	{
 
 		cout<< "Id: " << GatId() << endl;
 		
-		cout<< "Price: " << price << endl; // this code doesn't give you any error
-		                                  // cause these are inherited in derived class as protected
+		cout<< "Price: " << price << endl; 
 
-		cout<< "Total Cost: " << totalCost << endl; // this code doesn't give you any error
-		                                  // cause these are inherited in derived class as protected
+		cout<< "Total Cost: " << totalCost << endl; 
 
 		cout<< "Customer Name: " << customerName << endl;
 	}
@@ -75,11 +74,16 @@ int main(int argc, char const *argv[])
 {
 	Derived obj(5, 50, 150, "Imran");
 
-	obj.price = 5; // 
-	              // 
+	//obj.price = 5; // this statement will give error, because we changed price access specifier public to
+	              // protected in the Derived clas, that's why Derived class object can't access price
+	             // directly
 
 	obj.Show();
 
+	
+	Base red;
+
+	red.price = 50; // Base class object can access price directly, cause it still public in Base class
 
 	return 0;
 }
