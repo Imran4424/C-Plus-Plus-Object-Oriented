@@ -95,5 +95,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
+	we can change access specifier of inherited memebers in derived 
+
+	this is cool feature of c++
+
 	
 */
