@@ -58,8 +58,8 @@ int main(int argc, char const *argv[])
 
 	we just want to add new funtionality
 
-	first we can call the base class
-	then 
+	first we can call the base class with class scope resolution
+	then we can add new functionality
 */
 
 
