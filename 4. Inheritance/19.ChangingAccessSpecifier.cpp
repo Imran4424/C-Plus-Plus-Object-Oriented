@@ -47,9 +47,10 @@ class Derived: private Base
 		customerName = name;
 	}
 
+	
+
 	public: void Show()
 	{
-		//cout<< "Id:" << id << endl;  // this line of code will generate error
 
 		cout<< "Id: " << GatId() << endl;  // so use a public member function in base class to skip errors
 		
