@@ -29,9 +29,11 @@ class Derived: public Base
 	public: void Message() // here you are trying to overload a base function, but this will treat as 
 	{                     // different function
 
-		Base::Message();
+		Base::Message(7);
 		cout << "calling from Derived" << endl;
 	}
+
+	
 };
 
 int main(int argc, char const *argv[])
@@ -59,11 +61,11 @@ int main(int argc, char const *argv[])
 	are not included as function overloading or function overridden
 
 	here, function overloading failed 
-	and derived class has no other function 
+	and derived class has no other function in derived class named Message which has one int parameter
+	so this will give error
+
+	Hint: you can't overload between base class and derived class function, But you call locally overload
+	in the derived scope to get rid of this error
 */
-
-
-
-
 
 
