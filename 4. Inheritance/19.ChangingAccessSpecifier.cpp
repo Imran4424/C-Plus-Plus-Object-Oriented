@@ -81,10 +81,14 @@ int main(int argc, char const *argv[])
 	Base red;
 	red.price = 50; // Base class object can access price directly, cause it still public in Base class
 
+	red.GatId() // this will give error because in Base class GetId is protected
+
+
 	green.Show();
 
 	
-	cout << "Reading id from main: " << green.GatId() << endl;
+	cout << "Reading id from main: " << green.GatId() << endl; // this won't give any error, cause in
+	                                                          // Derived class GetId is public
 
 	return 0;
 }
