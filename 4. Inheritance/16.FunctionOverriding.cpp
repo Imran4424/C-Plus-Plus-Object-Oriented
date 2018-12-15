@@ -56,7 +56,10 @@ int main(int argc, char const *argv[])
 /*
 	there will be some cases we don't want to completely change the function body
 
-	we just want to 
+	we just want to add new funtionality
+
+	first we can call the base class
+	then 
 */
 
 
