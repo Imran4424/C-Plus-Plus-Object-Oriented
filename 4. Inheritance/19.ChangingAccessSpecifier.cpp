@@ -99,5 +99,6 @@ int main(int argc, char const *argv[])
 
 	this is cool feature of c++
 
-	
+	from c++11, we can use "using" keyword to change access specifier of Base class members in Derived
+	class
 */
