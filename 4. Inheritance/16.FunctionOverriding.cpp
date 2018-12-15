@@ -28,14 +28,15 @@ class Derived: public Base
 
 	public: void Message()
 	{
+		Base::Message();
 		cout << "calling from Derived" << endl;
 	}
 };
 
 int main(int argc, char const *argv[])
 {
-	Base red;
-	red.Message();
+	//Base red;
+	//red.Message();
 
 
 	Derived green;
