@@ -46,6 +46,11 @@ int main(int argc, char const *argv[])
 
 /*
 	function overriding is another type of polymorphism
+	
+
+	function overriding is the technique where you change the an inherited function definition means 
+	function body
+	
 */
 
 
