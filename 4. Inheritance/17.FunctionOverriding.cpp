@@ -12,7 +12,7 @@ class Base
 
 	}
 
-	public: void Message()
+	public: void Message(int a)
 	{
 		cout << "calling from Base" << endl;
 	}
@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 
 
 	Derived green;
-	green.Message();
+	green.Message(9);
 
 	return 0;
 }
