@@ -57,6 +57,9 @@ int main(int argc, char const *argv[])
 
 	some operation can be succeed, we will see a operation like that in the next code, but this operations
 	are not included as function overloading or function overridden
+
+	here, function overloading failed 
+	and derived class has no other function 
 */
 
 
