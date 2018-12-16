@@ -47,6 +47,10 @@ class Derived: public Base
 		customerName = name;
 	}
 
+	// marking inherited function as delete (inaccesible)
+
+	int GetId() = delete;
+
 	
 	public: void Show()
 	{
@@ -63,22 +67,10 @@ class Derived: public Base
 
 int main(int argc, char const *argv[])
 {
-	Derived green(5, 50, 150, "Imran");
-
-	//green.price = 5; 
-
-	Base red;
-	red.price = 50; 
-	
-	//red.GetId(); // this will give error because in Base class GetId is protected
-
+	Derived green(5, 50, 150, "Imran");	
 
 	green.Show();
 
-
-	cout << endl;
-	cout << "Reading id from main: " << green.GetId() << endl; // this won't give any error, cause in
-	                                                          // Derived class GetId is public
 
 	return 0;
 }
