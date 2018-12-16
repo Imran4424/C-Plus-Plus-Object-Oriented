@@ -114,6 +114,7 @@ int main(int argc, char const *argv[])
 	legend.studentID = 48;
 	legend.institution = "Ranpur Zilla School, Ranpur";
 	legend.currentClass = "Ten";
+	legend.currentSection = 'A';
 
 	legend.Show();
 
@@ -121,15 +122,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	Multilevel Inheritance is type of inheritance
+	An inheritance is called hybrid inheritance when two or more inheritance is happen together
 
-	where a Derived class became a Base class another class
+	Here, in this program, hybrid inheritance is happen
 
-	Here, 
-
-		Person - Base
-
-		Student - Derived for Person, Base for SchoolStudent
-		
-		SchoolStudent - Derived for Student
+	because in this proram both multi-level and multiple inheritance happen together
 */
