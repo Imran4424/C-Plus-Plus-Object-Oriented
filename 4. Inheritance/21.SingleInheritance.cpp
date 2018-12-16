@@ -7,7 +7,7 @@
 using namespace std;
 
 
-class Person
+class Person // Base
 {
 	public: string name;
 	public: int age;
@@ -27,7 +27,7 @@ class Person
 };
 
 
-class Student: public Person
+class Student: public Person // Derived
 {
 	public: int studentID;
 	public: string institution;
