@@ -105,3 +105,16 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+/*
+	Multilevel Inheritance is type of inheritance
+
+	where a Derived class became a Base class another class
+
+	Here, 
+
+		Person - Base
+
+		Student - Derived for Person, Base for SchoolStudent
+		
+		SchoolStudent - Derived for Student
+*/
