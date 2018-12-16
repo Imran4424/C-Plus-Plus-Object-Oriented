@@ -3,96 +3,81 @@
 */
 
 #include <iostream>
+#include <string>
 using namespace std;
 
-class Base
+
+class Person
 {
-	private: int id; // can access class members and friends
+	public: string name;
+	public: int age;
 
-	public: int price; // can access anybody
-	
-	protected: int totalCost; // can access by both base and Derived class members
-
-	public: Base()
+	public: Person()
 	{
-		id = 0;
-		price = 0;
-		totalCost = 0;
+		name = "";
+		age = 0;
 	}
 
-	public: Base(int id, int price, int totalCost)
+	public: Person(string name, int age)
 	{
-		this -> id = id;
-		this -> price = price;
-		this -> totalCost = totalCost;
+		this -> name = name;
+		this -> age = age;
 	}
 
-	protected: int GetId()
+};
+
+
+class Student: public Person
+{
+	public: int studentID;
+	public: string institution;
+
+	public: Student()
 	{
-		return id;
+		name = "";
+		age = 0;
+		studentID = 0;
+		institution = "";
+	}
+
+	public: Student(string name, int age, int studentID, string institution)
+	{
+		this -> name = name;
+		this -> age = age;
+		this -> studentID = studentID;
+		this -> institution = institution;
+	}
+
+	public: void Show()
+	{
+		cout << "------Student------" << endl;
+		cout << "Name: " << name << endl;
+		cout << "Age: " << age << endl;
+		cout << "Student Id: " << studentID << endl;
+		cout << "Institution: " << institution << endl;  
 	}
 };
 
-class Derived: public Base
-{
-	private: string customerName;
-
-	public: Derived()
-	{
-		customerName = "";
-	}
-
-	public: Derived(int id, int price, int totalCost, string name): Base(id, price, totalCost)
-	{
-		customerName = name;
-	}
-
-	// marking inherited function as delete (inaccesible)
-
-	int GetId() = delete;
-
-	
-	public: void Show()
-	{
-
-		//cout<< "Id: " << GetId() << endl; // this statement will give error, cause GetId() is no longer
-		                                   // exist in Derived class
-		
-		cout<< "Price: " << price << endl; 
-
-		cout<< "Total Cost: " << totalCost << endl; 
-
-		cout<< "Customer Name: " << customerName << endl;
-	}
-}; 
-
 int main(int argc, char const *argv[])
 {
-	Derived green(5, 50, 150, "Imran");	
 
-	green.Show();
+	string name = "Shah Md. Imran Hossain";
+	int age = 15;
+	int studentID = 48;
+	string institution = "Ranpur Zilla School, Ranpur";
 
+	
+
+	Student rzsian(name, age, studentID, institution);
+
+	rzsian.Show();
 
 	return 0;
 }
 
 /*
-	there are two ways to hide inherited member functions in Derived class
-
-		1. changing access specifier in Derived class using "using" keyword
-		2. deleting the inherited member function in Derived class
+	single inheritance is really simple 
 
 
-	first type we saw on previous code
-
-	now, we will talk about second type
-
-	we can make inherited member function inaccesible using delete keyword
-
-
-	after deleting a inherited member function in Derived class
-
-	we can't access it with Derived class object or Derived class members
-
-	because deleted member function will no longer exist in Derived class
+	in single inheritance pattern there will be one Base class and One Derived class
 */
