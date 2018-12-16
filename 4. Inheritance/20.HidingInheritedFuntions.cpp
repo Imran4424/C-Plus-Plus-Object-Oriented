@@ -1,5 +1,5 @@
 /*
-	write a program to demonstrate how to hide inherited member funtions in derived class
+	write a program to demonstrate how to hide inherited member funtions in Derived class
 */
 
 #include <iostream>
@@ -11,7 +11,7 @@ class Base
 
 	public: int price; // can access anybody
 	
-	protected: int totalCost; // can access by both base and derived class members
+	protected: int totalCost; // can access by both base and Derived class members
 
 	public: Base()
 	{
@@ -77,15 +77,22 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	there are two ways to hide inherited member functions in derived class
+	there are two ways to hide inherited member functions in Derived class
 
-		1. changing access specifier in derived class using "using" keyword
-		2. deleting the inherited member function in derived class
+		1. changing access specifier in Derived class using "using" keyword
+		2. deleting the inherited member function in Derived class
 
 
 	first type we saw on previous code
 
 	now, we will talk about second type
 
+	we can make inherited member function inaccesible using delete keyword
 
+
+	after deleting a inherited member function in Derived class
+
+	we can't access it with Derived class object or Derived class members
+
+	because deleted member function will no longer exist in Derived class
 */
