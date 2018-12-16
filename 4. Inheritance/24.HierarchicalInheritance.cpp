@@ -102,3 +102,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	In hierarchical inheritance 
+
+	One Base class has multiple child or derived classes
+*/
