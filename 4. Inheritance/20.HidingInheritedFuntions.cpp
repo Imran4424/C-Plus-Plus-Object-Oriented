@@ -97,5 +97,11 @@ int main(int argc, char const *argv[])
 /*
 	there are two ways to hide inherited member functions in derived class
 
-	
+		1. changing access specifier in derived class using "using" keyword
+		2. deleting the inherited member function in derived class
+
+
+	first type we saw on previous code
+
+	now, we will talk about second type
 */
