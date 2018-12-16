@@ -26,7 +26,7 @@ class Person // Base
 
 };
 
-class Employee
+class Employee // Base
 {
 	public: int wage;
 
@@ -75,3 +75,13 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	when a Derived class inherit behaviours from multiple Base classes
+
+	then the Inheritance type is called Multiple inheritance
+
+
+	Here, Teacher class has two Base class, Person , Employee
+*/
