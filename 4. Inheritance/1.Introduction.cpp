@@ -74,3 +74,14 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+/*
+	Inheritance is a very cool feature of object oriented programming
+
+	inheritance is like borrowing 
+
+	but main difference between inheritance and real life borrowing is
+
+	when you borrow money from 
+*/
