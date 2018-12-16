@@ -1,5 +1,5 @@
 /*
-	writa a program to demonstrate inheritance in c++
+	writa a program to demonstrate multilevel inheritance in c++
 */
 
 #include <iostream>
@@ -104,3 +104,4 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
