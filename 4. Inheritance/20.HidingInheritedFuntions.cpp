@@ -47,16 +47,7 @@ class Derived: public Base
 		customerName = name;
 	}
 
-	// changing base class members access specifier in derived class
-
-	private: using Base::totalCost; // changing protected to private
-	protected: using Base::price; // changing public to protected
-	public: using Base::GetId;   // changing protected to public, note: GetId has no parenthesis
-
-
-	//public: using Base::id; // this will give error cause Derived class no access to Base class private
-	                        // members, so changing access specifier is not possible
-
+	
 	public: void Show()
 	{
 
@@ -74,13 +65,11 @@ int main(int argc, char const *argv[])
 {
 	Derived green(5, 50, 150, "Imran");
 
-	//green.price = 5; // this statement will give error, because we changed price access specifier public to
-	              // protected in the Derived clas, that's why Derived class object can't access price
-	             // directly
+	//green.price = 5; 
 
 	Base red;
-	red.price = 50; // Base class object can access price directly, cause it still public in Base class
-
+	red.price = 50; 
+	
 	//red.GetId(); // this will give error because in Base class GetId is protected
 
 
@@ -104,4 +93,6 @@ int main(int argc, char const *argv[])
 	first type we saw on previous code
 
 	now, we will talk about second type
+
+
 */
