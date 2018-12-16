@@ -55,7 +55,8 @@ class Derived: public Base
 	public: void Show()
 	{
 
-		cout<< "Id: " << GetId() << endl;
+		//cout<< "Id: " << GetId() << endl; // this statement will give error, cause GetId() is no longer
+		                                   // exist in Derived class
 		
 		cout<< "Price: " << price << endl; 
 
