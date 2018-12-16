@@ -83,5 +83,20 @@ int main(int argc, char const *argv[])
 
 	but main difference between inheritance and real life borrowing is
 
-	when you borrow money from 
+	when you borrow money from someone, he/she don't posses that money anymore
+
+	but in inheritance sense both you and the other person from whom you borrow the money
+	will have same amount of money (actually copy)
+
+	let's be more practical
+
+	let's say your friend have 100 dollar and you borrow that 100 dollar from him/her
+
+	in real life now you have the 100 dollar, he/she have none
+
+	but in inheritance sense both you and your friend have 100 dollar now
+
+	sounds interesting right
+
+	
 */
