@@ -58,6 +58,21 @@ class Student: public Person
 	}
 };
 
+class Section
+{
+	public: char currentSection;
+
+	public: Section()
+	{
+		Section = '';
+	}
+
+	public: Section(char currentSection)
+	{
+		this -> currentSection = currentSection;
+	}
+};
+
 class SchoolStudent: public Student
 {
 	public: string currentClass;
