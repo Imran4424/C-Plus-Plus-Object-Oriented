@@ -95,5 +95,7 @@ int main(int argc, char const *argv[])
 }
 
 /*
-	there are 
+	there are two ways to hide inherited member functions in derived class
+
+	
 */
