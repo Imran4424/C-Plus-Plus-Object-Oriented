@@ -16,7 +16,7 @@ class Person
 		profession = "";
 	}
 
-	public: Person(int age, string job)
+	public: Person(string profession)
 	{
 		this -> profession = profession;
 	}
@@ -25,6 +25,11 @@ class Person
 	public: string GetJob()
 	{
 		return "none";
+	}
+
+	public: string GetProfession()
+	{
+		return profession;
 	}
 };
 
