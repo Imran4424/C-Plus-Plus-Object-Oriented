@@ -55,9 +55,9 @@ int main(int argc, char const *argv[])
 {
 	Engineer eng("Computer");
 
-	cout << eng.GetJob() << endl;
 	Person *ptr = & eng;
 
+	cout << eng.GetJob() << endl;
 	cout << ptr -> GetJob() << endl;
 
 	return 0;
