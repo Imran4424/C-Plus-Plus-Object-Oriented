@@ -7,16 +7,16 @@
 using namespace std;
 
 
-class Person
+class Engineer
 {
 	public: string profession;
 
-	public: Person()
+	public: Engineer()
 	{
 		profession = "";
 	}
 
-	public: Person(string profession)
+	public: Engineer(string profession)
 	{
 		this -> profession = profession;
 	}
@@ -24,7 +24,7 @@ class Person
 
 	public: string GetJob()
 	{
-		return "none";
+		return "do nothing";
 	}
 
 	public: string GetProfession()
@@ -33,32 +33,92 @@ class Person
 	}
 };
 
-class Engineer: public Person
+class Computer: public Engineer
 {
-	public: Engineer(): Person()
+	public: Computer(): Engineer()
 	{
 
 	}
 
-	public: Engineer(string profession): Person(profession)
+	public: Computer(string profession): Engineer(profession)
 	{
 
 	}
 
 	public: string GetJob()
 	{
-		return "Develop App";
+		return "Develop Software";
 	}
 };
 
+
+class Civil: public Engineer
+{
+	public: Civil(): Engineer()
+	{
+
+	}
+
+	public: Civil(string profession): Engineer(profession)
+	{
+
+	}
+
+	public: string GetJob()
+	{
+		return "Buid Building";
+	}
+};
+
+
+class Mechanical: public Engineer
+{
+	public: Mechanical(): Engineer()
+	{
+
+	}
+
+	public: Mechanical(string profession): Engineer(profession)
+	{
+
+	}
+
+	public: string GetJob()
+	{
+		return "Work with Machinery";
+	}
+};
+
+
+void Report(Engineer *eng)
+{
+	cout << eng -> GetProfession() << " Engineers " << eng -> GetJob() << endl;
+}
+
+
 int main(int argc, char const *argv[])
 {
-	Engineer eng("Computer");
+	Computer dipu("CSE");
 
-	Person *ptr = & eng;
+	Civil sadman("Civil");
 
-	cout << eng.GetJob() << endl;
-	cout << ptr -> GetJob() << endl;
+	Mechanical jannat("Mechanical");
+
+/*	Engineer *ptr = &CSE;
+
+	Report(ptr);
+
+	ptr = &sadman;
+	Report(ptr);
+
+	ptr = &jannat;
+	Report(ptr);
+*/
+
+
+	Report(&dipu);
+	Report(&sadman);
+	Report(&jannat);
 
 	return 0;
 }
