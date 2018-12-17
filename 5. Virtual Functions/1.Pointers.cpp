@@ -10,4 +10,5 @@ using namespace std;
 class Person
 {
 	public: int age;
+	public: string profession;
 };
