@@ -12,7 +12,7 @@ class ChocolateBox
 
 	public: ChocolateBox(int count)
 	{
-		countChocolate = count
+		countChocolate = count;
 	}
 
 	public: int GetChocolateCount()
@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
 
 	ChocolateBox total = kitkat + fiveStar; 
 
-	cout << "I have " << total.GetChocolateCount() << "chocolates in my box." << endl;
+	cout << "I have " << total.GetChocolateCount() << " chocolates in my box." << endl;
 
 	
 	return 0;
