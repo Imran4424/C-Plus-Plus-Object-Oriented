@@ -19,6 +19,8 @@ class ChocolateBox
 	{
 		return countChocolate;
 	}
+
+	friend operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar);
 };
 
 int main(int argc, char const *argv[])
