@@ -20,11 +20,18 @@ class ChocolateBox
 		return countChocolate;
 	}
 
-	friend operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar);
+	friend ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar);
 };
+
+ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
+{
+	return ChocolateBox(kitkat.countChocolate + fiveStar.countChocolate);
+}
 
 int main(int argc, char const *argv[])
 {
+
+	
 	
 	return 0;
 }
