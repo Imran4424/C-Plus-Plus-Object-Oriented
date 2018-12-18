@@ -30,8 +30,13 @@ ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 
 int main(int argc, char const *argv[])
 {
+	ChocolateBox kitkat(15);
+	ChocolateBox fiveStar(30);
 
-	
+	ChocolateBox total = kitkat + fiveStar; 
+
+	cout << "I have " << total.GetChocolateCount() << "chocolates in my box." << endl;
+
 	
 	return 0;
 }
