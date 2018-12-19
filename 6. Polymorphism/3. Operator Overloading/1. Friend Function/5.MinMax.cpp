@@ -8,7 +8,8 @@ class ChocolateBox
 
 	public: ChocolateBox()
 	{
-		countChocolate = 0;
+		minChocolate = 0;
+		maxChocolate = 0;
 	}
 
 	public: ChocolateBox(int min, max)
