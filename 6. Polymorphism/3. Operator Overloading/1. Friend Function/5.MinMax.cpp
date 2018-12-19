@@ -3,7 +3,8 @@ using namespace std;
 
 class ChocolateBox
 {
-	private: int countChocolate;
+	private: int maxChocolate;
+	private: int minChocolate;
 
 	public: ChocolateBox()
 	{
@@ -20,20 +21,20 @@ class ChocolateBox
 		return countChocolate;
 	}
 
-	friend ChocolateBox operator*(const ChocolateBox &kitkat, int value);
+	friend ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar);
 };
 
-ChocolateBox operator*(const ChocolateBox &kitkat, int value)
+ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 {
-	return ChocolateBox(kitkat.countChocolate * value);
+	return ChocolateBox(kitkat.countChocolate + fiveStar.countChocolate);
 }
 
 int main(int argc, char const *argv[])
 {
 	ChocolateBox kitkat(15);
-	//ChocolateBox fiveStar(30);
+	ChocolateBox fiveStar(30);
 
-	ChocolateBox total = kitkat * 5; 
+	ChocolateBox total = kitkat + fiveStar; 
 
 	cout << "I have " << total.GetChocolateCount() << " chocolates in my box." << endl;
 
