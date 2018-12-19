@@ -18,9 +18,14 @@ class ChocolateBox
 		maxChocolate = max;
 	}
 
-	public: int GetChocolateCount()
+	public: int GetMinChocolate()
 	{
-		return countChocolate;
+		return  minChocolate;
+	}
+
+	public: int GetMaxChocolate()
+	{
+		return maxChocolate;
 	}
 
 	friend ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar);
@@ -28,13 +33,23 @@ class ChocolateBox
 
 ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 {
-	return ChocolateBox(kitkat.countChocolate + fiveStar.countChocolate);
+	int min, max;
+
+	if (kitkat.minChocolate < fiveStar.minChocolate)
+	{
+		minChocolate = kitkat.minChocolate;
+	}
+	else
+	{
+		minChocolate = fiveStar.minChocolate;
+	}
 }
 
 int main(int argc, char const *argv[])
 {
-	ChocolateBox kitkat(15);
-	ChocolateBox fiveStar(30);
+	ChocolateBox kitkat(15,30);
+	ChocolateBox fiveStar(30,75);
+	ChocolateBox 
 
 	ChocolateBox total = kitkat + fiveStar; 
 
