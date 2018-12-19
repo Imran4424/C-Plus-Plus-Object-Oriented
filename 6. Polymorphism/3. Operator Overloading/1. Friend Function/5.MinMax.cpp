@@ -107,8 +107,8 @@ int main(int argc, char const *argv[])
 
 	ChocolateBox total = kitkat + fiveStar + cadbury + 27 + 22 + galaxy + 3; 
 
-	cout << "Minimum Chocolate in the box: " << total.minChocolate << endl;
-	cout << "Maximum Chocolate in the box: " << total.maxChocolate << endl;
+	cout << "Minimum Chocolate in the box: " << total.GetMinChocolate() << endl;
+	cout << "Maximum Chocolate in the box: " << total.GetMaxChocolate() << endl;
 
 	
 	return 0;
