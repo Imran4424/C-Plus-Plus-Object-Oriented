@@ -46,7 +46,7 @@ ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 
 	
 
-	if (kitkat.maxChocolate < fiveStar.maxChocolate)
+	if (kitkat.maxChocolate > fiveStar.maxChocolate)
 	{
 		max = kitkat.maxChocolate;
 	}
@@ -56,17 +56,59 @@ ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 	}
 
 	
+	return ChocolateBox(min, max);
 }
+
+
+ChocolateBox operator+(const ChocolateBox &kitkat, int value)
+{
+	int min, max;
+
+	if (kitkat.minChocolate < value)
+	{
+		min = kitkat.minChocolate;
+	}
+	else
+	{
+		min = value;
+	}
+
+	
+
+	if (kitkat.maxChocolate > value)
+	{
+		max = kitkat.maxChocolate;
+	}
+	else
+	{
+		max = value;
+	}
+
+	
+	return ChocolateBox(min, max);
+}
+
+
+ChocolateBox operator+(int value, const ChocolateBox &fiveStar)
+{
+
+	// calling operator+(ChocolateBox, value)
+
+	return fiveStar + value;
+}
+
 
 int main(int argc, char const *argv[])
 {
 	ChocolateBox kitkat(15,30);
 	ChocolateBox fiveStar(30,75);
-	ChocolateBox 
+	ChocolateBox cadbury(5, 25);
+	ChocolateBox galaxy(6, 20);
 
-	ChocolateBox total = kitkat + fiveStar; 
+	ChocolateBox total = kitkat + fiveStar + cadbury + 27 + 22 + galaxy + 3; 
 
-	cout << "I have " << total.GetChocolateCount() << " chocolates in my box." << endl;
+	cout << "Minimum Chocolate in the box: " << total.minChocolate << endl;
+	cout << "Maximum Chocolate in the box: " << total.maxChocolate << endl;
 
 	
 	return 0;
