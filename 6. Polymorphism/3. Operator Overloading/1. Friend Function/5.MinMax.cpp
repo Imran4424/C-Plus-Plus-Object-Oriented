@@ -128,4 +128,6 @@ int main(int argc, char const *argv[])
 	so, following type of arithmetic expression will give error
 
 	ChocolateBox total = 7 + 12 + kitkat + fivestar + 3 + galaxy;
-*/
+
+	because first two operands is in "value + value" form
+ */
