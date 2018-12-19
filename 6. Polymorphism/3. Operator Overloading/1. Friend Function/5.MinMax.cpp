@@ -29,6 +29,9 @@ class ChocolateBox
 	}
 
 	friend ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar);
+	friend ChocolateBox operator+(const ChocolateBox &kitkat, int value);
+	//friend ChocolateBox operator+(int value, const ChocolateBox &fiveStar);
+
 };
 
 ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
@@ -56,7 +59,7 @@ ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 	}
 
 	
-	return ChocolateBox(min, max);
+	return ChocolateBox(min, int max);
 }
 
 
