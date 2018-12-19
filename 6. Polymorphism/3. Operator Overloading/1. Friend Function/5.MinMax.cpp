@@ -116,3 +116,10 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+/*
+	the above equation will evaluate like this
+
+	((((((kitkat + fiveStar) + cadbury) + 27) + 22) + galaxy) + 3)
+	
+*/
