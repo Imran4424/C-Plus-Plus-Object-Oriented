@@ -11,9 +11,10 @@ class ChocolateBox
 		countChocolate = 0;
 	}
 
-	public: ChocolateBox(int count)
+	public: ChocolateBox(int min, max)
 	{
-		countChocolate = count;
+		minChocolate = min;
+		maxChocolate = max;
 	}
 
 	public: int GetChocolateCount()
