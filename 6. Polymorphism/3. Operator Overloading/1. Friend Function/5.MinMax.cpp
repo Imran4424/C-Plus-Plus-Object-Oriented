@@ -12,7 +12,7 @@ class ChocolateBox
 		maxChocolate = 0;
 	}
 
-	public: ChocolateBox(int min, max)
+	public: ChocolateBox(int min, int max)
 	{
 		minChocolate = min;
 		maxChocolate = max;
@@ -59,7 +59,7 @@ ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 	}
 
 	
-	return ChocolateBox(min, int max);
+	return ChocolateBox(min, max);
 }
 
 
