@@ -37,12 +37,25 @@ ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 
 	if (kitkat.minChocolate < fiveStar.minChocolate)
 	{
-		minChocolate = kitkat.minChocolate;
+		min = kitkat.minChocolate;
 	}
 	else
 	{
-		minChocolate = fiveStar.minChocolate;
+		min = fiveStar.minChocolate;
 	}
+
+	
+
+	if (kitkat.maxChocolate < fiveStar.maxChocolate)
+	{
+		max = kitkat.maxChocolate;
+	}
+	else
+	{
+		max = fiveStar.maxChocolate;
+	}
+
+	
 }
 
 int main(int argc, char const *argv[])
