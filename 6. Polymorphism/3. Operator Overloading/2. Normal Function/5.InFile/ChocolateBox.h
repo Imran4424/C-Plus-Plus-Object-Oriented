@@ -2,7 +2,9 @@
 // using namespace std;  
 
 /*
-	Need to inlcude header if we use build in functionality in c++
+	Need to inlcude header if we use build in header functionality in c++
+
+	In this case, there is no need to import headers cause we don't use any build in header functionality
 */
 
 class ChocolateBox
