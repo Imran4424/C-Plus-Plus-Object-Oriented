@@ -15,7 +15,7 @@ class ChocolateBox
 		countChocolate = count;
 	}
 
-	public: int GetChocolateCount()
+	public: int GetChocolateCount() const
 	{
 		return countChocolate;
 	}
@@ -24,7 +24,7 @@ class ChocolateBox
 
 ChocolateBox operator+(const ChocolateBox &kitkat, const ChocolateBox &fiveStar)
 {
-	return ChocolateBox(kitkat.countChocolate + fiveStar.countChocolate);
+	return ChocolateBox(kitkat.GetChocolateCount() + fiveStar.GetChocolateCount());
 }
 
 int main(int argc, char const *argv[])
