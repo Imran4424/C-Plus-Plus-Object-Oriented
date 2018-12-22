@@ -19,4 +19,13 @@ class Student
 		department = "";
 		institution = "";
 	}
+
+	public Student(string name, int age, int id, string department, string institution)
+	{
+		this -> name = name;
+		this -> age = age;
+		this -> id = id;
+		this -> department = department;
+		this -> institution = institution;
+	}
 }
