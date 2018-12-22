@@ -108,7 +108,7 @@ int main(int argc, char const *argv[])
 	
 
 
-	cout << endl << endl << "Enter Imran's Information" << endl;
+	cout << endl << endl << "Enter Munir's Information" << endl;
 
 	cout << "Name: ";
 	getline(cin, name);
@@ -136,7 +136,7 @@ int main(int argc, char const *argv[])
 
 
 
-	cout << endl << endl << "Enter Imran's Information" << endl;
+	cout << endl << endl << "Enter Nayeem's Information" << endl;
 
 	cout << "Name: ";
 	getline(cin, name);
