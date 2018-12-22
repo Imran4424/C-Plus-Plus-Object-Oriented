@@ -113,11 +113,12 @@ int main(int argc, char const *argv[])
 	Student munir("Munir");
 	Student nayeem("Nayeem");
 
-	// cin >> imran;
-	// cin >> munir;
-	// cin >> nayeem;
+	// cin >> imran >> munir >> nayeem;
 
-	cin >> imran >> munir >> nayeem;
+	cin >> imran;
+	cin >> munir;
+	cin >> nayeem;
+
 
 
 	cout << imran << munir << nayeem << endl;
