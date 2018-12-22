@@ -63,12 +63,14 @@ class Student
 ostream& operator<< (ostream &out, const Student &sakib)
 {
 	out << endl;
-	out << "---Student " << sakib.GetName <<"'s Information---" << endl;
+	out << "---Student " << sakib.GetName() <<"'s Information---" << endl;
 	out << sakib.GetName() << endl;
 	out << sakib.GetAge() << endl;
 	out << sakib.GetId() << endl;
 	out << sakib.GetDepartment() << endl;
 	out << sakib.GetInstitution() << endl;
+
+	return out;
 }
 
 
@@ -79,7 +81,7 @@ int main(int argc, char const *argv[])
 	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
 
 
-	cout << imran << munir << nayeem << endl << endl << " Done ";
+	cout << imran << munir << nayeem << endl;
 	
 
 	return 0;
