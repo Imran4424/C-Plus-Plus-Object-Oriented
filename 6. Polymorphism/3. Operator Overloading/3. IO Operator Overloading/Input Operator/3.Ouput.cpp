@@ -55,16 +55,6 @@ class Student
 		return institution;
 	}
 
-	public: void Display() const
-	{
-
-		cout << name << endl;
-		cout << age << endl;
-		cout << id << endl;
-		cout << department << endl;
-		cout << institution << endl;
-	}
-
 	friend ostream& operator<< (ostream &out, const Student &sakib);
 };
 
@@ -74,7 +64,11 @@ ostream& operator<< (ostream &out, const Student &sakib)
 {
 	out << endl;
 	out << "---Student " << sakib.GetName() <<"'s Information---" << endl;
-	sakib.Display();
+	out << sakib.GetName() << endl;
+	out << sakib.GetAge() << endl;
+	out << sakib.GetId() << endl;
+	out << sakib.GetDepartment() << endl;
+	out << sakib.GetInstitution() << endl;
 
 	return out;
 }
