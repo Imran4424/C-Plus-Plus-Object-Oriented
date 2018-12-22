@@ -87,7 +87,7 @@ void operator>> (istream &in, Student &sakib)
 	getline(in, sakib.institution);
 
 
-	return in;
+	//return in;
 }
 
 
@@ -113,11 +113,11 @@ int main(int argc, char const *argv[])
 	Student munir("Munir");
 	Student nayeem("Nayeem");
 
-	cin >> imran >> munir >> nayeem;
+	//cin >> imran >> munir >> nayeem;
 
-	// cin >> imran;
-	// cin >> munir;
-	// cin >> nayeem;
+	cin >> imran;
+	cin >> munir;
+	cin >> nayeem;
 
 
 
