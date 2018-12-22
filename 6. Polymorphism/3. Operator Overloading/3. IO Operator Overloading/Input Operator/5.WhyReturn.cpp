@@ -87,7 +87,11 @@ int main(int argc, char const *argv[])
 	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
 
 
-	cout << imran << munir << nayeem << endl;
+	//cout << imran << munir << nayeem << endl;
+	cout << imran ;
+	cout << munir ;
+	cout << nayeem;
+	cout << endl;
 	
 
 	return 0;
