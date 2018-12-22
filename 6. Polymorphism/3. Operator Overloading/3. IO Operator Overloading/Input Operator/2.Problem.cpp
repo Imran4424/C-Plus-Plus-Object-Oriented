@@ -76,8 +76,10 @@ int main(int argc, char const *argv[])
 
 
 	
-	cout << "---Student One Information---" << endl;
-	imran.Display();
+	// cout << "---Student One Information---" << endl;
+	// imran.Display();
+
+	
 
 	
 	cout << "---Student Two Information---" << endl; 
