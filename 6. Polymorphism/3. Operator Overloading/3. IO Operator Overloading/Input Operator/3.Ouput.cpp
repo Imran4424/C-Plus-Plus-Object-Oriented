@@ -30,27 +30,27 @@ class Student
 	}
 
 
-	public: string GetName()
+	public: string GetName() const
 	{
 		return name;
 	}
 
-	public: int  GetAge()
+	public: int  GetAge() const
 	{
 		return age;
 	}
 
-	public: int  GetId()
+	public: int  GetId() const
 	{
 		return id;
 	}
 
-	public: string GetDepartment()
+	public: string GetDepartment() const
 	{
 		return department;
 	}
 
-	public: string GetInstitution()
+	public: string GetInstitution() const
 	{
 		return institution;
 	}
