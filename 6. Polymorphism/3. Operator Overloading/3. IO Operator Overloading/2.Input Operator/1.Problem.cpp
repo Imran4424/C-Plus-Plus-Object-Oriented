@@ -79,6 +79,11 @@ int main(int argc, char const *argv[])
 	string name, department, institution;
 	int age, id;
 
+	cout << "Enter Imran's Information" << endl;
+
+	cout << Name: ;
+	cin >> name;
+
 	Student imran("Imran", 21, 13, "CSE", "RU");
 	Student munir("Munir", 23, 14, "CSE", "RU");
 	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
