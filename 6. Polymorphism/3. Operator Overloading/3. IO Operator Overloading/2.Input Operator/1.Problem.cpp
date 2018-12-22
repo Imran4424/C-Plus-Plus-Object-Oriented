@@ -97,11 +97,11 @@ int main(int argc, char const *argv[])
 
 	cout << "Department: ";
 	getchar();
-	getline(cin, name);
+	getline(cin, department);
 	//cout << endl;
 
 	cout << "Institution: ";
-	getline(cin, name);
+	getline(cin, institution);
 	//cout << endl;
 	
 	Student imran(name, age, id, department, institution);
@@ -124,11 +124,11 @@ int main(int argc, char const *argv[])
 
 	cout << "Department: ";
 	getchar();
-	getline(cin, name);
+	getline(cin, department);
 	//cout << endl;
 
 	cout << "Institution: ";
-	getline(cin, name);
+	getline(cin, institution);
 	//cout << endl;
 
 
@@ -152,11 +152,11 @@ int main(int argc, char const *argv[])
 
 	cout << "Department: ";
 	getchar();
-	getline(cin, name);
+	getline(cin, department);
 	//cout << endl;
 
 	cout << "Institution: ";
-	getline(cin, name);
+	getline(cin, institution);
 	//cout << endl;
 
 	Student nayeem(name, age, id, department, institution);
