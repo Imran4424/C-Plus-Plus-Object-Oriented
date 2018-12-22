@@ -59,6 +59,8 @@ class Student
 
 int main(int argc, char const *argv[])
 {
-	
+	Student
+
+
 	return 0;
 }
