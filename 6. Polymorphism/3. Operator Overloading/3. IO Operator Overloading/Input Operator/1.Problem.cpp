@@ -39,4 +39,26 @@ class Student
 	{
 		return age;
 	}
+
+	public: int  GetId()
+	{
+		return id;
+	}
+
+	public: string GetDepartment()
+	{
+		return department;
+	}
+
+	public: string GetInstitution()
+	{
+		return institution;
+	}
+}
+
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
 }
