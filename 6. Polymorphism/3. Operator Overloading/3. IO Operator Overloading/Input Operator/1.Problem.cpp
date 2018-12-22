@@ -63,6 +63,7 @@ int main(int argc, char const *argv[])
 	Student munir("Munir", 23, , 14, "CSE", "RU");
 	Student Nayeem("Nayeem", 21, , 17, "CSE", "RU");
 
+	cout << endl;
 
 	cout << "---Student One Information---" << endl;
 	cout << imran.GetName << endl;
