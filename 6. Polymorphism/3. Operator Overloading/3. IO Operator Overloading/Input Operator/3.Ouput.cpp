@@ -76,10 +76,10 @@ int main(int argc, char const *argv[])
 {
 	Student imran("Imran", 21, 13, "CSE", "RU");
 	Student munir("Munir", 23, 14, "CSE", "RU");
-	Student Nayeem("Nayeem", 21, 17, "CSE", "RU");
+	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
 
 
-	
+	cout << imran << munir << nayeem << endl;
 	
 
 	return 0;
