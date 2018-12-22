@@ -65,20 +65,20 @@ istream& operator>> (istream &in, const Student &sakib)
 	cout << endl << endl << "Enter " << sakib.name << "'s Information" << endl;
 
 	cout << "Name: ";
-	getline(cin, sakib.name);
+	getline(in, sakib.name);
 
 	cout << "Age: ";
-	cin >> sakib.age;
+	in >> sakib.age;
 
 	cout << "Id: ";
-	cin >> sakib.id;
+	in >> sakib.id;
 
 	cout << "Department: ";
 	getchar();
-	getline(cin, sakib.department);
+	getline(in, sakib.department);
 
 	cout << "Institution: ";
-	getline(cin, sakib.institution);
+	getline(in, sakib.institution);
 
 
 	return in;
