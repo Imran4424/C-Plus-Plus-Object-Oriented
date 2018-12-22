@@ -63,8 +63,8 @@ int main(int argc, char const *argv[])
 	Student munir("Munir", 23, , 14, "CSE", "RU");
 	Student Nayeem("Nayeem", 21, , 17, "CSE", "RU");
 
-	cout << endl;
 
+	cout << endl;
 	cout << "---Student One Information---" << endl;
 	cout << imran.GetName << endl;
 	cout << imran.GetAge << endl;
@@ -72,6 +72,7 @@ int main(int argc, char const *argv[])
 	cout << imran.GetDepartment << endl;
 	cout << imran.GetInstitution << endl;
 
+	cout << endl;
 	cout << "---Student Two Information---" << endl; 
 	cout << munir.GetName << endl;
 	cout << munir.GetAge << endl;
@@ -79,6 +80,7 @@ int main(int argc, char const *argv[])
 	cout << munir.GetDepartment << endl;
 	cout << munir.GetInstitution << endl;
 	
+	cout << endl;
 	cout << "---Student Three Information---" << endl; 
 	cout << Nayeem.GetName << endl;
 	cout << Nayeem.GetAge << endl;
