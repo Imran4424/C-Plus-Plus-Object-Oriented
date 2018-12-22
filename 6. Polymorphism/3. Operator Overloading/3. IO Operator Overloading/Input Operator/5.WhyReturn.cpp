@@ -65,18 +65,18 @@ class Student
 		cout << institution << endl;
 	}
 
-	friend ostream& operator<< (ostream &out, const Student &sakib);
+	friend void operator<< (ostream &out, const Student &sakib);
 };
 
 
 
-ostream& operator<< (ostream &out, const Student &sakib)
+void operator<< (ostream &out, const Student &sakib)
 {
 	out << endl;
 	out << "---Student " << sakib.GetName() <<"'s Information---" << endl;
 	sakib.Display();
 
-	return out;
+	//return out;
 }
 
 
