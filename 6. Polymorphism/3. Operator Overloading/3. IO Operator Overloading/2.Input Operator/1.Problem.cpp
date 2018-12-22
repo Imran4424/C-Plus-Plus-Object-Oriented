@@ -76,6 +76,9 @@ ostream& operator<< (ostream &out, const Student &sakib)
 
 int main(int argc, char const *argv[])
 {
+	string name, department, institution;
+	int age, id;
+
 	Student imran("Imran", 21, 13, "CSE", "RU");
 	Student munir("Munir", 23, 14, "CSE", "RU");
 	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
