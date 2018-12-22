@@ -109,6 +109,7 @@ int main(int argc, char const *argv[])
 
 	//Student imran, munir, nayeem;
 
+	cin >> imran >> munir >> nayeem;
 
 
 	cout << imran << munir << nayeem << endl;
