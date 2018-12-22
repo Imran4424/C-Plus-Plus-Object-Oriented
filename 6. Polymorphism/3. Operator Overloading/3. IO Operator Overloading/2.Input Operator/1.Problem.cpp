@@ -63,7 +63,7 @@ class Student
 ostream& operator<< (ostream &out, const Student &sakib)
 {
 	out << endl;
-	out << "---Student " << sakib.GetName() <<"'s Information---" << endl;
+	out << "---Student " << sakib.name <<"'s Information---" << endl;
 	out << "Name: " << sakib.GetName() << endl;
 	out << "Age: " << sakib.GetAge() << endl;
 	out << "Id: " << sakib.GetId() << endl;
