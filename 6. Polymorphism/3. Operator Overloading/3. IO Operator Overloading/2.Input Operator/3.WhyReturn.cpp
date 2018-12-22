@@ -62,11 +62,11 @@ class Student
 	}
 
 	friend ostream& operator<< (ostream &out, const Student &sakib);
-	friend istream& operator>> (istream &in, Student &sakib);
+	friend void operator>> (istream &in, Student &sakib);
 };
 
 
-istream& operator>> (istream &in, Student &sakib)
+void operator>> (istream &in, Student &sakib)
 {
 	cout << endl << endl << "Enter " << sakib.name << "'s Information" << endl;
 
