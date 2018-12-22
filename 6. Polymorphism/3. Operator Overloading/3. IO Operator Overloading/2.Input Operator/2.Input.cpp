@@ -109,9 +109,9 @@ ostream& operator<< (ostream &out, const Student &sakib)
 int main(int argc, char const *argv[])
 {
 	
-	Student imran;
-	Student munir;
-	Student nayeem;
+	Student imran("Imran");
+	Student munir("Munir");
+	Student nayeem("Nayeem");
 
 	//Student imran, munir, nayeem;
 
