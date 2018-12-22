@@ -54,6 +54,15 @@ class Student
 	{
 		return institution;
 	}
+
+	public: void Display()
+	{
+		cout << name << endl;
+		cout << age << endl;
+		cout << id << endl;
+		cout << department << endl;
+		cout << institution << endl;
+	}
 };
 
 
