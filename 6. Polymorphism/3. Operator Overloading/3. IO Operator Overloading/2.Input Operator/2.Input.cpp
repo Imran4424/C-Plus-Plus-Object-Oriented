@@ -102,90 +102,12 @@ ostream& operator<< (ostream &out, const Student &sakib)
 
 int main(int argc, char const *argv[])
 {
-	string name, department, institution;
-	int age, id;
-
-
-
-	cout << endl << endl << "Enter Imran's Information" << endl;
-
-	cout << "Name: ";
-	getline(cin, name);
-	//cout << endl;
-
-	cout << "Age: ";
-	cin >> age;
-	//cout << endl;
-
-	cout << "Id: ";
-	cin >> id;
-	//cout << endl;
-
-	cout << "Department: ";
-	getchar();
-	getline(cin, department);
-	//cout << endl;
-
-	cout << "Institution: ";
-	getline(cin, institution);
-	//cout << endl;
 	
-	Student imran(name, age, id, department, institution);
+	Student imran;
+	Student munir;
 	
 
-
-	cout << endl << endl << "Enter Munir's Information" << endl;
-
-	cout << "Name: ";
-	getline(cin, name);
-	//cout << endl;
-
-	cout << "Age: ";
-	cin >> age;
-	//cout << endl;
-
-	cout << "Id: ";
-	cin >> id;
-	//cout << endl;
-
-	cout << "Department: ";
-	getchar();
-	getline(cin, department);
-	//cout << endl;
-
-	cout << "Institution: ";
-	getline(cin, institution);
-	//cout << endl;
-
-
-	Student munir(name, age, id, department, institution);
-
-
-
-	cout << endl << endl << "Enter Nayeem's Information" << endl;
-
-	cout << "Name: ";
-	getline(cin, name);
-	//cout << endl;
-
-	cout << "Age: ";
-	cin >> age;
-	//cout << endl;
-
-	cout << "Id: ";
-	cin >> id;
-	//cout << endl;
-
-	cout << "Department: ";
-	getchar();
-	getline(cin, department);
-	//cout << endl;
-
-	cout << "Institution: ";
-	getline(cin, institution);
-	//cout << endl;
-
-	Student nayeem(name, age, id, department, institution);
+	Student nayeem;
 
 
 
