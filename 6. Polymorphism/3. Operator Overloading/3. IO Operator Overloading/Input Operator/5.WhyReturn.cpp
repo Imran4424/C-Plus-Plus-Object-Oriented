@@ -88,9 +88,9 @@ int main(int argc, char const *argv[])
 
 
 	//cout << imran << munir << nayeem << endl;
-	cout << imran ;
-	cout << munir ;
-	cout << nayeem;
+	cout << endl << imran ;
+	cout << endl << munir ;
+	cout << endl << nayeem;
 	cout << endl;
 	
 
