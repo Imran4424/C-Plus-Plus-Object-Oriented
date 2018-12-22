@@ -85,6 +85,14 @@ int main(int argc, char const *argv[])
 	getline(cin, name);
 	cout << endl;
 
+	cout << Age: ;
+	cin >> age;
+	cout << endl;
+
+	cout << Id: ;
+	cin >> id;
+	cout << endl;
+
 	cout << Department: ;
 	getline(cin, name);
 	cout << endl;
