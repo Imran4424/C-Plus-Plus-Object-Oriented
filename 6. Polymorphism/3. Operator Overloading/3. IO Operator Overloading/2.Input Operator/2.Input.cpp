@@ -20,6 +20,12 @@ class Student
 		institution = "";
 	}
 
+	public: Student(string name)
+	{
+		Student();
+		this -> name = name;
+	}
+
 	public: Student(string name, int age, int id, string department, string institution)
 	{
 		this -> name = name;
@@ -56,11 +62,11 @@ class Student
 	}
 
 	friend ostream& operator<< (ostream &out, const Student &sakib);
-	friend istream& operator>> (istream &in, const Student &sakib);
+	friend istream& operator>> (istream &in, Student &sakib);
 };
 
 
-istream& operator>> (istream &in, const Student &sakib)
+istream& operator>> (istream &in, Student &sakib)
 {
 	cout << endl << endl << "Enter " << sakib.name << "'s Information" << endl;
 
@@ -109,7 +115,11 @@ int main(int argc, char const *argv[])
 
 	//Student imran, munir, nayeem;
 
-	cin >> imran >> munir >> nayeem;
+	// cin >> imran;
+	// cin >> munir;
+	// cin >> nayeem;
+
+	cin >> imran >> munir >> sakib;
 
 
 	cout << imran << munir << nayeem << endl;
