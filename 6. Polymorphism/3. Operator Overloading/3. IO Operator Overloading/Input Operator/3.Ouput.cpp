@@ -54,39 +54,33 @@ class Student
 	{
 		return institution;
 	}
+
+	friend ostream& operator<< (ostream &out, const Student &sakib);
 };
+
+
+
+ostream& operator<< (ostream &out, const Student &sakib)
+{
+	out << endl;
+	out << "---Student " << sakib.GetName <<"'s Information---" << endl;
+	out << sakib.GetName() << endl;
+	out << sakib.GetAge() << endl;
+	out << sakib.GetId() << endl;
+	out << sakib.GetDepartment() << endl;
+	out << sakib.GetInstitution() << endl;
+}
 
 
 int main(int argc, char const *argv[])
 {
 	Student imran("Imran", 21, 13, "CSE", "RU");
 	Student munir("Munir", 23, 14, "CSE", "RU");
-	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
+	Student Nayeem("Nayeem", 21, 17, "CSE", "RU");
 
 
-	cout << endl;
-	cout << "---Student One Information---" << endl;
-	cout << imran.GetName() << endl;
-	cout << imran.GetAge() << endl;
-	cout << imran.GetId() << endl;
-	cout << imran.GetDepartment() << endl;
-	cout << imran.GetInstitution() << endl;
-
-	cout << endl;
-	cout << "---Student Two Information---" << endl; 
-	cout << munir.GetName() << endl;
-	cout << munir.GetAge() << endl;
-	cout << munir.GetId() << endl;
-	cout << munir.GetDepartment() << endl;
-	cout << munir.GetInstitution() << endl;
 	
-	cout << endl;
-	cout << "---Student Three Information---" << endl; 
-	cout << nayeem.GetName() << endl;
-	cout << nayeem.GetAge() << endl;
-	cout << nayeem.GetId() << endl;
-	cout << nayeem.GetDepartment() << endl;
-	cout << nayeem.GetInstitution() << endl;
+	
 
 	return 0;
 }
