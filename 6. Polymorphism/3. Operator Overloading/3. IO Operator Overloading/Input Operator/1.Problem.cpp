@@ -59,8 +59,20 @@ class Student
 
 int main(int argc, char const *argv[])
 {
-	Student
+	Student imran("Imran", 21, , 13, "CSE", "RU");
+	Student munir("Munir", 23, , 14, "CSE", "RU");
+	Student Nayeem("Nayeem", 21, , 17, "CSE", "RU");
 
+
+	cout << "---Student One Information---" << endl;
+	cout << imran.GetName << endl;
+	cout << imran.GetAge << endl;
+	cout << imran.GetId << endl;
+	cout << imran.GetDepartment << endl;
+	cout << imran.GetInstitution << endl;
+
+	cout << "---Student Two Information---" << endl; 
+	cout << "---Student Three Information---" << endl; 
 
 	return 0;
 }
