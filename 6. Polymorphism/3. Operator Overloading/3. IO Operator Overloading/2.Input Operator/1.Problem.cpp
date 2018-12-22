@@ -110,23 +110,24 @@ int main(int argc, char const *argv[])
 
 	cout << "Name: ";
 	getline(cin, name);
-	cout << endl;
+	//cout << endl;
 
 	cout << "Age: ";
 	cin >> age;
-	cout << endl;
+	//cout << endl;
 
 	cout << "Id: ";
 	cin >> id;
-	cout << endl;
+	//cout << endl;
 
 	cout << "Department: ";
+	getchar();
 	getline(cin, name);
-	cout << endl;
+	//cout << endl;
 
 	cout << "Institution: ";
 	getline(cin, name);
-	cout << endl;
+	//cout << endl;
 
 
 	Student munir(name, age, id, department, institution);
@@ -137,23 +138,24 @@ int main(int argc, char const *argv[])
 
 	cout << "Name: ";
 	getline(cin, name);
-	cout << endl;
+	//cout << endl;
 
 	cout << "Age: ";
 	cin >> age;
-	cout << endl;
+	//cout << endl;
 
 	cout << "Id: ";
 	cin >> id;
-	cout << endl;
+	//cout << endl;
 
 	cout << "Department: ";
+	getchar();
 	getline(cin, name);
-	cout << endl;
+	//cout << endl;
 
 	cout << "Institution: ";
 	getline(cin, name);
-	cout << endl;
+	//cout << endl;
 
 	Student nayeem(name, age, id, department, institution);
 
