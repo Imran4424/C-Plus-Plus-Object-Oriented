@@ -101,9 +101,61 @@ int main(int argc, char const *argv[])
 	getline(cin, name);
 	cout << endl;
 	
-	Student imran("Imran", 21, 13, "CSE", "RU");
-	Student munir("Munir", 23, 14, "CSE", "RU");
-	Student nayeem("Nayeem", 21, 17, "CSE", "RU");
+	Student imran(name, age, id, department, institution);
+	
+
+
+	cout << "Enter Imran's Information" << endl;
+
+	cout << Name: ;
+	getline(cin, name);
+	cout << endl;
+
+	cout << Age: ;
+	cin >> age;
+	cout << endl;
+
+	cout << Id: ;
+	cin >> id;
+	cout << endl;
+
+	cout << Department: ;
+	getline(cin, name);
+	cout << endl;
+
+	cout << Institution: ;
+	getline(cin, name);
+	cout << endl;
+
+
+	Student munir(name, age, id, department, institution);
+
+
+
+	cout << "Enter Imran's Information" << endl;
+
+	cout << Name: ;
+	getline(cin, name);
+	cout << endl;
+
+	cout << Age: ;
+	cin >> age;
+	cout << endl;
+
+	cout << Id: ;
+	cin >> id;
+	cout << endl;
+
+	cout << Department: ;
+	getline(cin, name);
+	cout << endl;
+
+	cout << Institution: ;
+	getline(cin, name);
+	cout << endl;
+
+	Student nayeem(name, age, id, department, institution);
+
 
 
 	cout << imran << munir << nayeem << endl;
