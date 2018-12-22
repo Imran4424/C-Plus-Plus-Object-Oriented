@@ -72,7 +72,18 @@ int main(int argc, char const *argv[])
 	cout << imran.GetInstitution << endl;
 
 	cout << "---Student Two Information---" << endl; 
+	cout << munir.GetName << endl;
+	cout << munir.GetAge << endl;
+	cout << munir.GetId << endl;
+	cout << munir.GetDepartment << endl;
+	cout << munir.GetInstitution << endl;
+	
 	cout << "---Student Three Information---" << endl; 
+	cout << Nayeem.GetName << endl;
+	cout << Nayeem.GetAge << endl;
+	cout << Nayeem.GetId << endl;
+	cout << Nayeem.GetDepartment << endl;
+	cout << Nayeem.GetInstitution << endl;
 
 	return 0;
 }
