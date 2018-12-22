@@ -107,6 +107,8 @@ int main(int argc, char const *argv[])
 	Student munir;
 	Student nayeem;
 
+	//Student imran, munir, nayeem;
+
 
 
 	cout << imran << munir << nayeem << endl;
