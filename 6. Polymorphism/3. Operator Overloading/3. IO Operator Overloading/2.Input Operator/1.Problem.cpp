@@ -79,7 +79,9 @@ int main(int argc, char const *argv[])
 	string name, department, institution;
 	int age, id;
 
-	cout << "Enter Imran's Information" << endl;
+
+
+	cout << endl << endl << "Enter Imran's Information" << endl;
 
 	cout << "Name: ";
 	getline(cin, name);
@@ -106,7 +108,7 @@ int main(int argc, char const *argv[])
 	
 
 
-	cout << "Enter Munir's Information" << endl;
+	cout << endl << endl << "Enter Imran's Information" << endl;
 
 	cout << "Name: ";
 	getline(cin, name);
@@ -134,7 +136,7 @@ int main(int argc, char const *argv[])
 
 
 
-	cout << "Enter Nayeem's Information" << endl;
+	cout << endl << endl << "Enter Imran's Information" << endl;
 
 	cout << "Name: ";
 	getline(cin, name);
