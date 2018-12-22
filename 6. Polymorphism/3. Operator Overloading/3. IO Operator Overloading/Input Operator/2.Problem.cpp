@@ -57,7 +57,6 @@ class Student
 
 	public: void Display()
 	{
-		cout << endl;
 
 		cout << name << endl;
 		cout << age << endl;
@@ -76,17 +75,20 @@ int main(int argc, char const *argv[])
 
 
 	
-	// cout << "---Student One Information---" << endl;
-	// imran.Display();
+	cout << endl;
+	cout << "---Student One Information---" << endl;
+	imran.Display();
+
+	// cout << "---Student One Information---" << endl << imran.Display();
 
 	
-
-	
+	cout << endl;
 	cout << "---Student Two Information---" << endl; 
 	munir.Display();
 	
 	
 	
+	cout << endl;
 	cout << "---Student Three Information---" << endl; 
 	nayeem.Display();
 	
