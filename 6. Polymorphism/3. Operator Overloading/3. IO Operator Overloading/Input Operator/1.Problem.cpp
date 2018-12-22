@@ -28,4 +28,15 @@ class Student
 		this -> department = department;
 		this -> institution = institution;
 	}
+
+
+	public: string GetName()
+	{
+		return name;
+	}
+
+	public: int  GetAge()
+	{
+		return age;
+	}
 }
