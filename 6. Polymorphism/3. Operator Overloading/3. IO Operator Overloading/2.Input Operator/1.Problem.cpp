@@ -134,23 +134,23 @@ int main(int argc, char const *argv[])
 
 	cout << "Enter Imran's Information" << endl;
 
-	cout << Name: ;
+	cout << "Name: ";
 	getline(cin, name);
 	cout << endl;
 
-	cout << Age: ;
+	cout << "Age: ";
 	cin >> age;
 	cout << endl;
 
-	cout << Id: ;
+	cout << "Id: ";
 	cin >> id;
 	cout << endl;
 
-	cout << Department: ;
+	cout << "Department: ";
 	getline(cin, name);
 	cout << endl;
 
-	cout << Institution: ;
+	cout << "Institution: ";
 	getline(cin, name);
 	cout << endl;
 
