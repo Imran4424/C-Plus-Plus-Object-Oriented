@@ -105,8 +105,6 @@ int main(int argc, char const *argv[])
 	
 	Student imran;
 	Student munir;
-	
-
 	Student nayeem;
 
 
