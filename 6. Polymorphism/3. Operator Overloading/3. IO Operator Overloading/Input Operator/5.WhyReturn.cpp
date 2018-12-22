@@ -72,7 +72,7 @@ class Student
 
 void operator<< (ostream &out, const Student &sakib)
 {
-	out << endl;
+	//out << endl;
 	out << "---Student " << sakib.GetName() <<"'s Information---" << endl;
 	sakib.Display();
 
