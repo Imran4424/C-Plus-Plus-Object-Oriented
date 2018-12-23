@@ -58,11 +58,11 @@ class Student
 	public: void Display()
 	{
 
-		cout << name << endl;
-		cout << age << endl;
-		cout << id << endl;
-		cout << department << endl;
-		cout << institution << endl;
+		cout << "Name: " << name << endl;
+		cout << "Age: " << age << endl;
+		cout << "Id: "<< id << endl;
+		cout << "Department: "<< department << endl;
+		cout << "Institution: "<< institution << endl;
 	}
 };
 
