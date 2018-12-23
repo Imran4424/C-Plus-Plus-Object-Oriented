@@ -64,11 +64,11 @@ ostream& operator<< (ostream &out, const Student &sakib)
 {
 	out << endl;
 	out << "---Student " << sakib.GetName() <<"'s Information---" << endl;
-	out << sakib.GetName() << endl;
-	out << sakib.GetAge() << endl;
-	out << sakib.GetId() << endl;
-	out << sakib.GetDepartment() << endl;
-	out << sakib.GetInstitution() << endl;
+	out << "Name: " << sakib.GetName() << endl;
+	out << "Age: " << sakib.GetAge() << endl;
+	out << "Id: "<< sakib.GetId() << endl;
+	out << "Department: "<< sakib.GetDepartment() << endl;
+	out << "Institution: "<< sakib.GetInstitution() << endl;
 
 	return out;
 }
