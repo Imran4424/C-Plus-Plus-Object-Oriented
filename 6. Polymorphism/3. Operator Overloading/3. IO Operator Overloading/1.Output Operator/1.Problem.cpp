@@ -66,27 +66,27 @@ int main(int argc, char const *argv[])
 
 	cout << endl;
 	cout << "---Student One Information---" << endl;
-	cout << imran.GetName() << endl;
-	cout << imran.GetAge() << endl;
-	cout << imran.GetId() << endl;
-	cout << imran.GetDepartment() << endl;
-	cout << imran.GetInstitution() << endl;
+	cout << "Name: " << imran.GetName() << endl;
+	cout << "Age: " << imran.GetAge() << endl;
+	cout << "Id: "<< imran.GetId() << endl;
+	cout << "Department: "<< imran.GetDepartment() << endl;
+	cout << "Institution: "<< imran.GetInstitution() << endl;
 
 	cout << endl;
 	cout << "---Student Two Information---" << endl; 
-	cout << munir.GetName() << endl;
-	cout << munir.GetAge() << endl;
-	cout << munir.GetId() << endl;
-	cout << munir.GetDepartment() << endl;
-	cout << munir.GetInstitution() << endl;
+	cout << "Name: " << munir.GetName() << endl;
+	cout << "Age: " << munir.GetAge() << endl;
+	cout << "Id: "<< munir.GetId() << endl;
+	cout << "Department: "<< munir.GetDepartment() << endl;
+	cout << "Institution: "<< munir.GetInstitution() << endl;
 	
 	cout << endl;
 	cout << "---Student Three Information---" << endl; 
-	cout << nayeem.GetName() << endl;
-	cout << nayeem.GetAge() << endl;
-	cout << nayeem.GetId() << endl;
-	cout << nayeem.GetDepartment() << endl;
-	cout << nayeem.GetInstitution() << endl;
+	cout << "Name: " << nayeem.GetName() << endl;
+	cout << "Age: " << nayeem.GetAge() << endl;
+	cout << "Id: "<< nayeem.GetId() << endl;
+	cout << "Department: "<< nayeem.GetDepartment() << endl;
+	cout << "Institution: "<< nayeem.GetInstitution() << endl;
 
 	return 0;
 }
