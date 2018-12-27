@@ -10,7 +10,7 @@ class Data
 	{
 		x = 0;
 		y = 0;
-		IsPositive = true;
+		isPositive = true;
 	}
 
 	public: Data(int x, int y, bool isPositive)
@@ -20,5 +20,10 @@ class Data
 		this -> isPositive = isPositive;
 	}
 
-
+	public: void Show()
+	{
+		cout << "X = " << x << endl;
+		cout << "Y = " << y << endl;
+		cout << "is postivie = " << isPositive << endl;
+	}
 };
