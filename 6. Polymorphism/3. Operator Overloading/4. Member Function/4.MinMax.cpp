@@ -119,6 +119,9 @@ int main(int argc, char const *argv[])
 
 	ChocolateBox total = kitkat + fiveStar + cadbury + 27 + 22 + galaxy + 3; 
 
+	// ChocolateBox total = 7 + kitkat + fiveStar + cadbury + 27 + 22 + galaxy + 3; 
+	// this line will give error, because there no memeber function as value + object
+
 	cout << "Minimum Chocolate in the box: " << total.GetMinChocolate() << endl;
 	cout << "Maximum Chocolate in the box: " << total.GetMaxChocolate() << endl;
 
