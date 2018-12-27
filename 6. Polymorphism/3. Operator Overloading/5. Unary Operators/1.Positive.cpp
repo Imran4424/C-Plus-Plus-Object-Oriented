@@ -24,7 +24,7 @@ class Data
 	{
 		cout << "X = " << x << endl;
 		cout << "Y = " << y << endl;
-		cout << "Is Postivie = " << boolalpha << isPositive << endl;
+		cout << "Is Postivie = " << boolalpha << isPositive << endl << endl;
 	}
 
 	public: Data operator+()
