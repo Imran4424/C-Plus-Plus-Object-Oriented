@@ -49,13 +49,22 @@ int main(int argc, char const *argv[])
 
 	red.Show();
 
+	// just making the state Postivie
+
 	(+red).Show();
 
 	// (red+).Show(); // this statement will give you error
 	              // because unary operators sits left of operands
 	
 
+	// just making the state Negative
+
 	(-red).Show();
+
+
+	// just making reverse of previous state
+
+	(!red).Show();
 
 	(!red).Show();
 	
