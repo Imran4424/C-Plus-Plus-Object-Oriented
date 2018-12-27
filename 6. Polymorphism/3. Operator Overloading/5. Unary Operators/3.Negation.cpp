@@ -39,7 +39,7 @@ class Data
 
 	public: Data operator! ()
 	{
-		return Data(!x, !y, !isPositive);
+		return Data(-x, -y, !isPositive);
 	}
 };
 
