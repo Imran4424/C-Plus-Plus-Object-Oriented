@@ -73,7 +73,7 @@ class ChocolateBox
 
 		if (maxChocolate > value)
 		{
-			max = kitkat.maxChocolate;
+			max = maxChocolate;
 		}
 		else
 		{
