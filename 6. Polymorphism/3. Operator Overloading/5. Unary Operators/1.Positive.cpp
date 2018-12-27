@@ -26,4 +26,17 @@ class Data
 		cout << "Y = " << y << endl;
 		cout << "is postivie = " << isPositive << endl;
 	}
+
+	public: Data operator+()
+	{
+		return Data( -x, -y, true);
+
+		return Data( abs(x), abs(y), true);
+	}
 };
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
