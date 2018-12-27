@@ -20,9 +20,9 @@ class ChocolateBox
 		return countChocolate;
 	}
 
-	public: ChocolateBox operator+(int value)
+	public: ChocolateBox operator+(cons ChocolateBox &galaxy)
 	{
-		return ChocolateBox(countChocolate + value);
+		return ChocolateBox(countChocolate + galaxy.countChocolate);
 	}
 };
 
@@ -30,9 +30,9 @@ class ChocolateBox
 int main(int argc, char const *argv[])
 {
 	ChocolateBox kitkat(15);
-	//ChocolateBox fiveStar(30);
+	ChocolateBox fiveStar(30);
 
-	ChocolateBox total = kitkat + 15; 
+	ChocolateBox total = kitkat + fiveStar; 
 
 	cout << "I have " << total.GetChocolateCount() << " chocolates in my box." << endl;
 
