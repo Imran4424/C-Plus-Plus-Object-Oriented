@@ -40,6 +40,10 @@ int main(int argc, char const *argv[])
 	Data red(-5, -8, false);
 
 	red.Show();
+
+	(+red).Show();
+
+	(red+).Show();
 	
 	return 0;
 }
