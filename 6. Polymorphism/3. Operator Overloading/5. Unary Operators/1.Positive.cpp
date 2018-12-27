@@ -29,8 +29,6 @@ class Data
 
 	public: Data operator+()
 	{
-		//return Data(-x, -y, true);
-
 		return Data(abs(x), abs(y), true);
 	}
 };
