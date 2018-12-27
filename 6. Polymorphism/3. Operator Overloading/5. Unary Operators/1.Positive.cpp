@@ -19,4 +19,6 @@ class Data
 		this -> y = y;
 		this -> isPositive = isPositive;
 	}
+
+	
 };
