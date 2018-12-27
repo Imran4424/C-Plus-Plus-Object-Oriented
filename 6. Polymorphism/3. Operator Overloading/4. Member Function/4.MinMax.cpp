@@ -90,7 +90,9 @@ class ChocolateBox
 	/*
 	this function can not convert to member function
 
-	because member 
+	because this function has a value as left operand and an object as right operand
+
+	 
 
 	*/
 
