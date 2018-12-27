@@ -30,7 +30,7 @@ class ChocolateBox
 int main(int argc, char const *argv[])
 {
 	ChocolateBox kitkat(15);
-	//ChocolateBox fiveStar(30);
+	ChocolateBox fiveStar(30);
 
 	ChocolateBox total = kitkat + 15; 
 
