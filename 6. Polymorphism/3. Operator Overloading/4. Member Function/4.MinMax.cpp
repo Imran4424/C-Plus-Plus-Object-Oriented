@@ -162,3 +162,13 @@ int main(int argc, char const *argv[])
 	binary operator who have value as left operand ( 5 + obj)
 
 */
+
+/*
+	unary operators can be overloaded with 
+
+	friend function
+	normal function and
+	memeber function
+
+	but it is preferred to use memeber function because it has only one operand
+*/
