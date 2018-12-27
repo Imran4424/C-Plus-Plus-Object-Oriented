@@ -20,7 +20,7 @@ class ChocolateBox
 		return countChocolate;
 	}
 
-	public: ChocolateBox operator+(ChocolateBox &galaxy)
+	public: ChocolateBox operator+(const ChocolateBox &galaxy) const
 	{
 		return ChocolateBox(countChocolate + galaxy.countChocolate);
 	}
