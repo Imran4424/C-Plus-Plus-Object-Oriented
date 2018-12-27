@@ -143,3 +143,17 @@ int main(int argc, char const *argv[])
 
 	because first two operands is in "value + value" form
  */
+
+friend function can't overload following operators, so we need to overload them with memeber function
+
+assignment (=)
+subscript ([])
+function call (())
+member selection (->)
+
+
+member function can't overload following operators, so we need to overload them using friend function or normal
+function
+
+Input operator(>>)
+Output operator(>>)
