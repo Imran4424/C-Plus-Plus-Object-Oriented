@@ -155,5 +155,6 @@ member selection (->)
 member function can't overload following operators, so we need to overload them using friend function or normal
 function
 
-Input operator(>>)
-Output operator(>>)
+input operator(>>)
+output operator(>>)
+binary operator who have value as left operand ( 5 + obj)
