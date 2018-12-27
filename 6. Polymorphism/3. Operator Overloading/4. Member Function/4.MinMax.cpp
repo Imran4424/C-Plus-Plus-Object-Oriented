@@ -84,14 +84,10 @@ class ChocolateBox
 		return ChocolateBox(min, max);
 	}
 
-	/*public: ChocolateBox operator+(int value, const ChocolateBox &fiveStar)
-	{
 
-		// calling operator+(ChocolateBox, value)
+	//friend ChocolateBox operator+(int value, const ChocolateBox &fiveStar);
 
-		return fiveStar + value;
-	}
-
+	/*
 	this function can not convert to member function
 
 	because member 
@@ -101,6 +97,14 @@ class ChocolateBox
 };
 
 
+/*ChocolateBox operator+(int value, const ChocolateBox &fiveStar)
+{
+
+	// calling operator+(ChocolateBox, value)
+
+	return fiveStar + value;
+}
+*/
 
 int main(int argc, char const *argv[])
 {
