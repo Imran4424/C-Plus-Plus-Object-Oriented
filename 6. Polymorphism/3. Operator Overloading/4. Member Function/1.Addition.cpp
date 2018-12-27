@@ -22,6 +22,20 @@ class ChocolateBox
 
 	public: ChocolateBox operator+(int value)
 	{
-		
+		return ChocolateBox(countChocolate + value);
 	}
 };
+
+
+int main(int argc, char const *argv[])
+{
+	ChocolateBox kitkat(15);
+	//ChocolateBox fiveStar(30);
+
+	ChocolateBox total = kitkat + 15; 
+
+	cout << "I have " << total.GetChocolateCount() << " chocolates in my box." << endl;
+
+	
+	return 0;
+}
