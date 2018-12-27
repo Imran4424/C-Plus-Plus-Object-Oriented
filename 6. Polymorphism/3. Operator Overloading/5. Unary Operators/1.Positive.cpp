@@ -6,7 +6,7 @@ class Data
 	private: int x,y;
 	private: bool isPositive;
 
-	publibc: Data()
+	public: Data()
 	{
 		x = 0;
 		y = 0;
@@ -24,7 +24,7 @@ class Data
 	{
 		cout << "X = " << x << endl;
 		cout << "Y = " << y << endl;
-		cout << "is postivie = " << isPositive << endl;
+		cout << "is postivie = " << boolalpha << isPositive << endl;
 	}
 
 	public: Data operator+()
