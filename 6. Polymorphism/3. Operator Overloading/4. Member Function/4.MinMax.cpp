@@ -92,7 +92,9 @@ class ChocolateBox
 
 	because this function has a value as left operand and an object as right operand
 
-	 
+	but in memeber function this pointer object always remain as left operand
+
+	and we can't have three parameters or operands because it's a binary operator 
 
 	*/
 
