@@ -32,9 +32,9 @@ class ChocolateBox
 	{
 		int min, max;
 
-		if (kitkat.minChocolate < fiveStar.minChocolate)
+		if (minChocolate < fiveStar.minChocolate)
 		{
-			min = kitkat.minChocolate;
+			min = minChocolate;
 		}
 		else
 		{
@@ -43,9 +43,9 @@ class ChocolateBox
 
 		
 
-		if (kitkat.maxChocolate > fiveStar.maxChocolate)
+		if (maxChocolate > fiveStar.maxChocolate)
 		{
-			max = kitkat.maxChocolate;
+			max = maxChocolate;
 		}
 		else
 		{
@@ -60,9 +60,9 @@ class ChocolateBox
 	{
 		int min, max;
 
-		if (kitkat.minChocolate < value)
+		if (minChocolate < value)
 		{
-			min = kitkat.minChocolate;
+			min = minChocolate;
 		}
 		else
 		{
@@ -71,7 +71,7 @@ class ChocolateBox
 
 		
 
-		if (kitkat.maxChocolate > value)
+		if (maxChocolate > value)
 		{
 			max = kitkat.maxChocolate;
 		}
@@ -84,13 +84,19 @@ class ChocolateBox
 		return ChocolateBox(min, max);
 	}
 
-	public: ChocolateBox operator+(int value, const ChocolateBox &fiveStar)
+	/*public: ChocolateBox operator+(int value, const ChocolateBox &fiveStar)
 	{
 
 		// calling operator+(ChocolateBox, value)
 
 		return fiveStar + value;
 	}
+
+	this function can not convert to member function
+
+	because member 
+
+	*/
 
 };
 
