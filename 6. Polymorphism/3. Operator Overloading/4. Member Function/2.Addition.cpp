@@ -20,7 +20,7 @@ class ChocolateBox
 		return countChocolate;
 	}
 
-	public: ChocolateBox operator+(cons ChocolateBox &galaxy)
+	public: ChocolateBox operator+(ChocolateBox &galaxy)
 	{
 		return ChocolateBox(countChocolate + galaxy.countChocolate);
 	}
