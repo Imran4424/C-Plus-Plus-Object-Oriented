@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
 
 	(+red).Show();
 
-	((red + )).Show();
+	(red+).Show();
 	
 	return 0;
 }
