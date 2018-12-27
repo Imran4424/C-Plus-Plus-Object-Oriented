@@ -92,7 +92,7 @@ class ChocolateBox
 
 	because this function has a value as left operand and an object as right operand
 
-	but in memeber function this pointer object always remain as left operand
+	but in member function this pointer object always remain as left operand
 
 	and we can't have three parameters or operands because it's a binary operator 
 
@@ -120,7 +120,7 @@ int main(int argc, char const *argv[])
 	ChocolateBox total = kitkat + fiveStar + cadbury + 27 + 22 + galaxy + 3; 
 
 	// ChocolateBox total = 7 + kitkat + fiveStar + cadbury + 27 + 22 + galaxy + 3; 
-	// this line will give error, because there no memeber function as value + object
+	// this line will give error, because there no member function as value + object
 
 	cout << "Minimum Chocolate in the box: " << total.GetMinChocolate() << endl;
 	cout << "Maximum Chocolate in the box: " << total.GetMaxChocolate() << endl;
@@ -146,7 +146,7 @@ int main(int argc, char const *argv[])
 
 /*
 
-	friend function can't overload following operators, so we need to overload them with memeber function
+	friend function can't overload following operators, so we need to overload them with member function
 
 	assignment (=)
 	subscript ([])
@@ -168,7 +168,7 @@ int main(int argc, char const *argv[])
 
 	friend function
 	normal function and
-	memeber function
+	member function
 
-	but it is preferred to use memeber function because it has only one operand
+	but it is preferred to use member function because it has only one operand
 */
