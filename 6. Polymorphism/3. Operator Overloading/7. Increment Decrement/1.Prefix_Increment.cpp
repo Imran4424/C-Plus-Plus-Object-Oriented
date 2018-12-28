@@ -21,4 +21,15 @@ class Chocolate
 
 		return *this;
 	}
+
+	friend ostream& operator<<(ostream &imran, const Chocolate &sakib);
+};
+
+
+ostream& operator<<(ostream &imran, const Chocolate &sakib)
+{
+	imran << sakib.countChocolate << endl;
+
+	return imran;
 }
+
