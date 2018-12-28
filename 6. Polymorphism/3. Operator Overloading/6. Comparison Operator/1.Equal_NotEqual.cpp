@@ -17,4 +17,6 @@ class Person
 		this -> name = name;
 		this -> moneyAmount = moneyAmount;
 	}
+
+	
 }
