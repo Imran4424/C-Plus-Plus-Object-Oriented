@@ -81,5 +81,10 @@ int main(int argc, char const *argv[])
 		cout << "nayeem possess more money than linkon" << endl;		
 	}
 
+	if (nayeem >= linkon)
+	{
+		cout << "nayeem possess more or equal amount of money as linkon" << endl;		
+	}
+
 	return 0;
 }
