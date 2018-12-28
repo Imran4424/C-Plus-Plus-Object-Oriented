@@ -33,3 +33,9 @@ ostream& operator<<(ostream &imran, const Chocolate &sakib)
 	return imran;
 }
 
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
+
