@@ -24,8 +24,7 @@ class Person
 	friend bool operator> (const Person &sakib, const Person &imran);
 	friend bool operator>= (const Person &sakib, const Person &imran);
 
-	// friend bool operator< (const Person &sakib, const Person &imran);
-	// friend bool operator<= (const Person &sakib, const Person &imran);
+	
 };
 
 bool operator== (const Person &sakib, const Person &imran)
