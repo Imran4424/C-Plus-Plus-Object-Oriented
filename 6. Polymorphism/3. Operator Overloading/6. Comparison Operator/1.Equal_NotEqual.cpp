@@ -18,7 +18,7 @@ class Person
 		this -> moneyAmount = moneyAmount;
 	}
 
-	public: bool operator== (Person &imran)
+	public: bool operator== (const Person &imran)
 	{
 		// if(moneyAmount == imran.moneyAmount)
 		// {
@@ -32,9 +32,9 @@ class Person
 		return (moneyAmount == imran.moneyAmount);
 	}
 
-	public: bool operator!= (Person &imran)
+	public: bool operator!= (const Person &imran)
 	{
-		return !(this == imran);
+		return !(this -> operator==(imran));
 	}
 };
 
