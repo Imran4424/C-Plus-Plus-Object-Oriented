@@ -40,6 +40,13 @@ class Person
 
 int main(int argc, char const *argv[])
 {
-	
+	Person linkon("linkon",150);
+	Person munir("munir",150);
+	Person nayeem("nayeem", 200);
+
+	if (linkon == munir)
+	{
+		cout <<
+	}
 	return 0;
 }
