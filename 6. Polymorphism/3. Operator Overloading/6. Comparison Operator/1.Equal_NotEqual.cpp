@@ -18,5 +18,17 @@ class Person
 		this -> moneyAmount = moneyAmount;
 	}
 
-	
+	public: bool operator== (const Person &any)
+	{
+		// if(moneyAmount == any.moneyAmount)
+		// {
+		// 	return true;
+		// }
+		// else
+		// {
+		// 	return false;
+		// }
+
+		return (moneyAmount == any.moneyAmount);
+	}
 }
