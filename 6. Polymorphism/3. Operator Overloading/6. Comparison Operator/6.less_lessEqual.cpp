@@ -102,12 +102,12 @@ int main(int argc, char const *argv[])
 
 	if (linkon < nayeem)
 	{
-		cout << "nayeem possess more money than linkon" << endl;		
+		cout << "linkon possess less money than nayeem" << endl;		
 	}
 
 	if (linkon <= nayeem)
 	{
-		cout << "nayeem possess more or equal amount of money as linkon" << endl;		
+		cout << "linkon possess less or equal amount of money as nayeem" << endl;		
 	}
 
 	return 0;
