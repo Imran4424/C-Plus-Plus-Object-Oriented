@@ -35,7 +35,7 @@ bool operator== (const Person &sakib, const Person &imran)
 	// 	return false;
 	// }
 
-	return (moneyAmount == imran.moneyAmount);
+	return (sakib.moneyAmount == imran.moneyAmount);
 }
 
 bool operator!= (const Person &sakib, const Person &imran)
