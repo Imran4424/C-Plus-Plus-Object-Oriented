@@ -34,8 +34,8 @@ class Person
 
 	public: bool operator!= (const Person &imran)
 	{
-		
-		
+		return
+
 		return !(this -> operator==(imran));
 	}
 };
