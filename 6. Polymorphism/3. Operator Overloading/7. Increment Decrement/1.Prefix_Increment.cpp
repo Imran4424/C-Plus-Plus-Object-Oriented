@@ -15,5 +15,10 @@ class Chocolate
 		countChocolate = count;
 	}
 
-	
+	public: Chocolate& operator++()
+	{
+		++countChocolate;
+
+		return *this;
+	}
 }
