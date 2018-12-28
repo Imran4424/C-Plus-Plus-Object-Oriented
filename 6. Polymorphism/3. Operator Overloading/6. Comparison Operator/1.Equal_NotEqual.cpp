@@ -46,7 +46,13 @@ int main(int argc, char const *argv[])
 
 	if (linkon == munir)
 	{
-		cout <<
+		cout << "linkon and munir has same amount of money" << endl;
 	}
+
+	if (linkon != munir)
+	{
+		cout << "linkon and munir do not has same amount of money" << endl;		
+	}
+	
 	return 0;
 }
