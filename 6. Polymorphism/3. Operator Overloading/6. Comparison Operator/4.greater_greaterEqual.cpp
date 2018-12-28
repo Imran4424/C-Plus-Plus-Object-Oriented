@@ -47,6 +47,7 @@ bool operator!= (const Person &sakib, const Person &imran)
 	return !(sakib == imran);
 }
 
+
 bool operator> (const Person &sakib, const Person &imran)
 {
 	return sakib.moneyAmount > imran.moneyAmount;
@@ -56,6 +57,8 @@ bool operator>= (const Person &sakib, const Person &imran)
 {
 	return sakib.moneyAmount >= imran.moneyAmount;
 }
+
+
 
 int main(int argc, char const *argv[])
 {
@@ -70,7 +73,12 @@ int main(int argc, char const *argv[])
 
 	if (linkon != nayeem)
 	{
-		cout << "linkon and nayeem do not has same amount of money" << endl;		
+		cout << "linkon and nayeem do not possess same amount of money" << endl;		
+	}
+
+	if (nayeem > linkon)
+	{
+		cout << "nayeem possess more money than linkon" << endl;		
 	}
 
 	return 0;
