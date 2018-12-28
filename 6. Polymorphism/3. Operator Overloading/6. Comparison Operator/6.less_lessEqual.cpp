@@ -63,6 +63,11 @@ bool operator< (const Person &sakib, const Person &imran)
 	return sakib.moneyAmount < imran.moneyAmount;
 }
 
+bool operator<= (const Person &sakib, const Person &imran)
+{
+	return sakib.moneyAmount <= imran.moneyAmount;
+}
+
 
 
 int main(int argc, char const *argv[])
