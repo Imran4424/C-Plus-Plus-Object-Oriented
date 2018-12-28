@@ -18,24 +18,29 @@ class Person
 		this -> moneyAmount = moneyAmount;
 	}
 
-	friend bool operator== (const Person &sakib, const Person &imran)
-	{
-		// if(moneyAmount == imran.moneyAmount)
-		// {
-		// 	return true;
-		// }
-		// else
-		// {
-		// 	return false;
-		// }
+	friend bool operator== (const Person &sakib, const Person &imran);
+	
 
-		return (moneyAmount == imran.moneyAmount);
-	}
+	friend bool operator!= (const Person &sakib, const Person &imran);
+};
 
-	public: bool operator!= (Person &imran)
-	{
-		return !(this == imran);
-	}
+bool operator== (const Person &sakib, const Person &imran)
+{
+	// if(moneyAmount == imran.moneyAmount)
+	// {
+	// 	return true;
+	// }
+	// else
+	// {
+	// 	return false;
+	// }
+
+	return (moneyAmount == imran.moneyAmount);
+}
+
+bool operator!= (const Person &sakib, const Person &imran)
+{
+	return !(sakib == imran);
 }
 
 int main(int argc, char const *argv[])

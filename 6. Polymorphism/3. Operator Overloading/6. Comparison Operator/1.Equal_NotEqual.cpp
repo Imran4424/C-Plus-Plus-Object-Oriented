@@ -36,7 +36,7 @@ class Person
 	{
 		return !(this == imran);
 	}
-}
+};
 
 int main(int argc, char const *argv[])
 {
