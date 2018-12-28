@@ -76,6 +76,8 @@ int main(int argc, char const *argv[])
 		cout << "linkon and nayeem do not possess same amount of money" << endl;		
 	}
 
+	cout << endl << endl;
+
 	if (nayeem > linkon)
 	{
 		cout << "nayeem possess more money than linkon" << endl;		
