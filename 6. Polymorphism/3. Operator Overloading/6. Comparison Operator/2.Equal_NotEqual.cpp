@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
 
 	if (linkon != nayeem)
 	{
-		cout << "linkon and nayeem do not has same amount of money" << endl;		
+		cout << "linkon and nayeem do not possess same amount of money" << endl;		
 	}
 
 	return 0;
