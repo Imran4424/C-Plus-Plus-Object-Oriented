@@ -18,7 +18,7 @@ class Person
 		this -> moneyAmount = moneyAmount;
 	}
 
-	public: bool operator== (const Person &imran)
+	public: bool operator== (Person &imran)
 	{
 		// if(moneyAmount == imran.moneyAmount)
 		// {
@@ -32,7 +32,7 @@ class Person
 		return (moneyAmount == imran.moneyAmount);
 	}
 
-	public: bool operator!= (const Person &imran)
+	public: bool operator!= (Person &imran)
 	{
 		return !(this == imran);
 	}
@@ -53,6 +53,6 @@ int main(int argc, char const *argv[])
 	{
 		cout << "linkon and munir do not has same amount of money" << endl;		
 	}
-	
+
 	return 0;
 }
