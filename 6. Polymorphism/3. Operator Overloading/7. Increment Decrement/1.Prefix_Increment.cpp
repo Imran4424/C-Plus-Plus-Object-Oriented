@@ -30,7 +30,7 @@ ostream& operator<<(ostream &imran, const Chocolate &sakib)
 {
 	imran << sakib.countChocolate << endl;
 
-	return imran;
+	return imran; // this "imran" is a osstream object, object name can be anything
 }
 
 int main(int argc, char const *argv[])
