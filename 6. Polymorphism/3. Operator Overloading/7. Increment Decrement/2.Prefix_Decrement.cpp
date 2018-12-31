@@ -22,6 +22,13 @@ class Chocolate
 		return *this;
 	}
 
+	public: Chocolate& operator--()
+	{
+		--countChocolate;
+
+		return *this;
+	}
+
 	friend ostream& operator<<(ostream &imran, const Chocolate &sakib);
 };
 
