@@ -45,7 +45,12 @@ int main(int argc, char const *argv[])
 	Chocolate kitkat(15);
 
 	cout << ++kitkat;
+	cout << --kitkat;
+	cout << --kitkat;
 	cout << ++kitkat;
+	cout << --kitkat;
+	cout << --kitkat;
+	cout << --kitkat;
 
 	return 0;
 }
