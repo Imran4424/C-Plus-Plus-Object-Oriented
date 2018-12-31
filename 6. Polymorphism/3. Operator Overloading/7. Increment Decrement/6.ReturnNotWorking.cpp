@@ -76,9 +76,10 @@ int main(int argc, char const *argv[])
 
 	cout << "Why return" << endl;
 
-	cout << kitkat++++;
-	cout << ++kitkat;
-	
+	cout << kitkat++++; // this should be incrementing two but incrementing one 
+	                   // cause we are returning value not pointer 
+	cout << ++kitkat;  
+
 	return 0;
 }
 
