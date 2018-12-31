@@ -38,14 +38,14 @@ class Chocolate
 		return temp; // return the save value
 	}
 
-	// public: Chocolate& operator--(int)
-	// {
-	// 	Chocolate temp(countChocolate);
+	public: Chocolate& operator--(int)
+	{
+		Chocolate temp(countChocolate);
 
-	// 	--(*this); // use prefix operator to this pointer
+		--(*this); // use prefix operator to this pointer
 
-	// 	return temp; // return the save value
-	// }
+		return temp; // return the save value
+	}
 
 	friend ostream& operator<<(ostream &imran, const Chocolate &sakib);
 };
@@ -66,7 +66,9 @@ int main(int argc, char const *argv[])
 	cout << --kitkat;
 	cout << --kitkat;
 	cout << ++kitkat;
+	cout << kitkat--;
 	cout << --kitkat;
+	cout << kitkat--;
 	cout << --kitkat;
 
 	return 0;
