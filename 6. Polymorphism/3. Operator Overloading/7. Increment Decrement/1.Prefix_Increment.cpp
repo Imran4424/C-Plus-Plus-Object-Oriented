@@ -35,8 +35,11 @@ ostream& operator<<(ostream &imran, const Chocolate &sakib)
 
 int main(int argc, char const *argv[])
 {
-	
-	
+	Chocolate kitkat(15);
+
+	cout << ++kitkat;
+	cout << ++kitkat;
+
 	return 0;
 }
 
