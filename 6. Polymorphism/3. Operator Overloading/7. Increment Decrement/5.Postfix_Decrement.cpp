@@ -29,7 +29,7 @@ class Chocolate
 		return *this; // notice we are returning the pointer
 	}
 
-	public: Chocolate& operator++(int)
+	public: Chocolate operator++(int)
 	{
 		Chocolate temp(countChocolate);
 
@@ -64,7 +64,10 @@ int main(int argc, char const *argv[])
 
 	cout << ++kitkat;
 	cout << --kitkat;
+	cout << kitkat++;
+	cout << ++kitkat;
 	cout << --kitkat;
+	cout << kitkat++;
 	cout << ++kitkat;
 	cout << kitkat--;
 	cout << --kitkat;
