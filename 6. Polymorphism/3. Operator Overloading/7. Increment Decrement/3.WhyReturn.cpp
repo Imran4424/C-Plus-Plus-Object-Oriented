@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
 	cout << --kitkat;
 	cout << --kitkat;
 
-	cout << endl << "Why Return" << endl;
+	cout << endl << "Why Return" << endl << endl;
 	
 	cout << ----kitkat;
 	cout << ++++kitkat;
