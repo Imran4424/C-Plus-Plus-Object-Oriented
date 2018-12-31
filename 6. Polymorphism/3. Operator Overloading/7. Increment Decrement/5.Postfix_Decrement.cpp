@@ -38,7 +38,7 @@ class Chocolate
 		return temp; // return the save value
 	}
 
-	public: Chocolate& operator--(int)
+	public: Chocolate operator--(int)
 	{
 		Chocolate temp(countChocolate);
 
