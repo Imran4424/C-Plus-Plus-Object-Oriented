@@ -50,7 +50,12 @@ int main(int argc, char const *argv[])
 	cout << ++kitkat;
 	cout << --kitkat;
 	cout << --kitkat;
-	cout << --kitkat;
+
+	
+	cout << ----kitkat;
+	cout << ++++kitkat;
+	cout << --++kitkat;
+	cout << ++--kitkat;
 
 	return 0;
 }
