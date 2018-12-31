@@ -53,8 +53,8 @@ int main(int argc, char const *argv[])
 
 	cout << endl << "Why Return" << endl << endl;
 	
-	cout << ----kitkat;
-	cout << ++++kitkat;
+	cout << ----kitkat;   // decrease two from previous
+	cout << ++++kitkat;  // increase two from previous
 	cout << --++kitkat;
 	cout << ++--kitkat;
 
