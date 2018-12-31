@@ -19,7 +19,7 @@ class Chocolate
 	{
 		++countChocolate;
 
-		return *this; 
+		return *this; // notice we are returning the pointer
 	}
 
 	public: Chocolate& operator--()
