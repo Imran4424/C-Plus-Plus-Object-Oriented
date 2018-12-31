@@ -29,6 +29,15 @@ class Chocolate
 		return *this; // notice we are returning the pointer
 	}
 
+	public: Chocolate& operator++()
+	{
+		Chocolate temp(countChocolate);
+
+		++(*this);
+
+		return temp; 
+	}
+
 	friend ostream& operator<<(ostream &imran, const Chocolate &sakib);
 };
 
