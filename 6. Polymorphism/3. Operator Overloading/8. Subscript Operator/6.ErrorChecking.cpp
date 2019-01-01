@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cassert>
 using namespace std;
 
 class Game
@@ -17,7 +18,7 @@ class Game
 
 	public: int& operator[](const int index)
 	{
-		assert(index >= 0 && index < 15)
+		assert(index >= 0 && index < 15);
 
 		return levelEnemies[index];
 	}
