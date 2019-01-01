@@ -22,7 +22,7 @@ class Game
 
 	public: const int& operator[](const int index) const
 	{
-		
+		return levelEnemies[index];
 	}
 };
 
@@ -33,6 +33,10 @@ int main(int argc, char const *argv[])
 	red[5] = 15;
 	cout << red[5] << endl;
 
+	const Game green;
+
+	green[7] = 12;
+	cout << green[7] << endl;
 
 	return 0;
 }
