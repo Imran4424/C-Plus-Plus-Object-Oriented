@@ -25,9 +25,8 @@ int main(int argc, char const *argv[])
 {
 	Game red;
 
-	red.Set(5, 6);
-
-	cout << red.Get(5) << endl;
+	red[5] = 15;
+	cout << red[5] << endl;
 
 
 	return 0;
