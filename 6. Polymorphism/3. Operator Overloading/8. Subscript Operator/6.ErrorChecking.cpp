@@ -31,8 +31,8 @@ int main(int argc, char const *argv[])
 	red[5] = 15;
 	cout << red[5] << endl;
 
-	red[25] = 15;  // these lines will compile fine
-	cout << red[25] << endl; // but don't run because of out of bounds error
+	// red[25] = 15;  // these lines will compile fine
+	// cout << red[25] << endl; // but don't run because of out of bounds error
 
 
 	return 0;
