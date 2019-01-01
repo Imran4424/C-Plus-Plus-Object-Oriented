@@ -19,6 +19,11 @@ class Game
 	{
 		return levelEnemies[index];
 	}
+
+	public: const int& operator[](const int index) const
+	{
+		
+	}
 };
 
 int main(int argc, char const *argv[])
