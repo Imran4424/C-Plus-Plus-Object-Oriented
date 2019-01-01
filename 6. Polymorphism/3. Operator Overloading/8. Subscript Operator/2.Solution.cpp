@@ -11,7 +11,7 @@ class Game
 
 		for (int i = 0; i < 15; ++i)
 		{
-			levelEnemies = 0;
+			levelEnemies[i] = 0;
 		}
 	}
 
