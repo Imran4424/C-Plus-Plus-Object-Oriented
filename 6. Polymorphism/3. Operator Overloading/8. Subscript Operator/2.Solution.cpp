@@ -10,9 +10,14 @@ class Game
 		levelEnemies = {0};
 	}
 
-	public: void Set(int idex,int val)
+	public: void Set(int index,int val)
 	{
+		levelEnemies[index] = val;
+	}
 
+	public: int Get(int index)
+	{
+		return levelEnemies[index];
 	}
 };
 
