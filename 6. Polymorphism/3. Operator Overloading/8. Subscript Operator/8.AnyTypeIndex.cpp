@@ -16,11 +16,9 @@ class Game
 		}
 	}
 
-	public: int& operator[](const int index)
+	public: void operator[](const int index)
 	{
-		assert(index >= 0 && index < 15);
-
-		return levelEnemies[index];
+		cout << index << endl;
 	}
 };
 
