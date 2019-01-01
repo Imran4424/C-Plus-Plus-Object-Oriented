@@ -10,7 +10,10 @@ class Game
 		levelEnemies = {0};
 	}
 
+	public: void Set(int idex,int val)
+	{
 
+	}
 };
 
 int main(int argc, char const *argv[])
