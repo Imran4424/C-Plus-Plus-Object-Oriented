@@ -15,14 +15,11 @@ class Game
 		}
 	}
 
-	public: void Set(int index,int val)
-	{
-		levelEnemies[index] = val;
-	}
+	
 
-	public: int Get(int index)
+	public: int* Get(int index)
 	{
-		return levelEnemies[index];
+		return levelEnemies;
 	}
 };
 
