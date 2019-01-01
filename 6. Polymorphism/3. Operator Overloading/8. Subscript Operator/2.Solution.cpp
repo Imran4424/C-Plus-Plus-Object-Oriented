@@ -5,9 +5,9 @@ class Game
 {
 	private: int levelEnemies[15];
 
-	public: Game()
+	public: Game(): levelEnemies({0})
 	{
-		levelEnemies = {0};
+		//levelEnemies = {0}; this line will give error
 	}
 
 	public: void Set(int index,int val)
