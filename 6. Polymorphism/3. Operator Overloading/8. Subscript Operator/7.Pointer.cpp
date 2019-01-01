@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 {
 	Game *red = new Game();
 
-	red[5] = 15; // this will give you error
+	// red[5] = 15; // this will give you error
 
 	(*red)[5] = 15;
 	cout << (*red)[5] << endl;
