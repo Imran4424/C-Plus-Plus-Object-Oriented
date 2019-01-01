@@ -28,8 +28,7 @@ int main(int argc, char const *argv[])
 {
 	Game red;
 
-	
-
+	red["I am a Programmer"];
 
 	return 0;
 }
