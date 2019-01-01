@@ -16,7 +16,7 @@ class Game
 		}
 	}
 
-	public: void operator[](const int index)
+	public: void operator[](const string index)
 	{
 		cout << index << endl;
 	}
