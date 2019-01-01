@@ -5,9 +5,14 @@ class Game
 {
 	private: int levelEnemies[15];
 
-	public: Game(): levelEnemies = {0}
+	public: Game()
 	{
 		//levelEnemies = {0}; this line will give error
+
+		for (int i = 0; i < 15; ++i)
+		{
+			levelEnemies = 0;
+		}
 	}
 
 	public: void Set(int index,int val)
