@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
 
 	red.Get()[5] = 11;
 
-	cout << red.Get(5) << endl;
+	cout << red.Get()[5] << endl;
 
 
 	return 0;
