@@ -31,6 +31,9 @@ int main(int argc, char const *argv[])
 	red[5] = 15;
 	cout << red[5] << endl;
 
+	red[25] = 15;
+	cout << red[25] << endl;
+
 
 	return 0;
 }
