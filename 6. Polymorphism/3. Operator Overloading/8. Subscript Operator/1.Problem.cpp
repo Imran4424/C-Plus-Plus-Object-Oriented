@@ -7,7 +7,12 @@ class Game
 
 	public: Game()
 	{
-		levelEnemies = {0};
+		//levelEnemies = {0}; this line will give error
+
+		for (int i = 0; i < 15; ++i)
+		{
+			levelEnemies = 0;
+		}
 	}
 
 
