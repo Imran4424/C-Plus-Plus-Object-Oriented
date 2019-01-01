@@ -17,7 +17,7 @@ class Game
 
 	
 
-	public: int* Get(int index)
+	public: int* Get()
 	{
 		return levelEnemies;
 	}
@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
 {
 	Game red;
 
-	red.Set(5, 6);
+	red.Get()[5] = 11;
 
 	cout << red.Get(5) << endl;
 
