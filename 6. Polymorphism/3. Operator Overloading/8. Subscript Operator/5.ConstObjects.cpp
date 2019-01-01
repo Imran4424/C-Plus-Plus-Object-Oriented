@@ -35,8 +35,9 @@ int main(int argc, char const *argv[])
 
 	const Game green;
 
-	green[7] = 12;
-	cout << green[7] << endl;
+	green[7] = 12; // error cause we are assigning a read-only variable
+
+	cout << green[7] << endl; 
 
 	return 0;
 }
