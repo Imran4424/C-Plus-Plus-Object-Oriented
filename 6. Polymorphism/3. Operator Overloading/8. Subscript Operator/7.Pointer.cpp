@@ -26,13 +26,14 @@ class Game
 
 int main(int argc, char const *argv[])
 {
-	Game red;
+	Game *red = new Game();
 
-	red[5] = 15;
-	cout << red[5] << endl;
+	red[5] = 15; // this will give you error
 
-	// red[25] = 15;  // these lines will compile fine
-	// cout << red[25] << endl; // but don't run because of out of bounds error
+	(*red)[5] = 15;
+	cout << (*red)[5] << endl;
+
+	
 
 
 	return 0;
