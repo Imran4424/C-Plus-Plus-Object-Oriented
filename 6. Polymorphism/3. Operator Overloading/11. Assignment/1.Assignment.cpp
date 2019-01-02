@@ -11,4 +11,29 @@ class Box
 		this -> width = width;
 		this -> height = height;
 	}
+
+	public: int Area()
+	{
+		return length * width;
+	}
+
+	public: int Volume()
+	{
+		return length * width * height;
+	}
+
+	Box& operator= (const Box &steel)
+	{
+		length = steel.length;
+		width = steel.width;
+		height = steel.height;
+
+		return *this;
+	}
 };
+
+int main(int argc, char const *argv[])
+{
+	
+	return 0;
+}
