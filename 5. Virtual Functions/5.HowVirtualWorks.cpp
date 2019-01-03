@@ -30,7 +30,7 @@ class DoubleDerived: public Derived
 
 class TripleDerived: public DoubleDerived
 {
-	public: virtual string GetMessage()
+	public: string GetMessage()
 	{
 		return "Derived from Derived Derived class function - Derived level three";
 	}
