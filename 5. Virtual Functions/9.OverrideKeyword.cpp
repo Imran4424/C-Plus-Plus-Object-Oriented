@@ -45,7 +45,7 @@ class Computer: public Engineer
 
 	}
 
-	public: virtual string GetJob()
+	public: virtual string GetJob() override
 	{
 		return "Develop Software";
 	}
