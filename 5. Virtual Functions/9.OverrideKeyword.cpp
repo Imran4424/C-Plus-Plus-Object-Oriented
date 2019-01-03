@@ -22,7 +22,7 @@ class Engineer
 	}
 
 
-	public: virtual string GetJob() override
+	public: virtual string GetJob()
 	{
 		return "do nothing";
 	}

@@ -4,7 +4,7 @@ using namespace std;
 
 class Base
 {
-	public: virtual int GetData() override
+	public: virtual int GetData()
 	{
 		return 13;
 	}
