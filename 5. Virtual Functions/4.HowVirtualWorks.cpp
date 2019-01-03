@@ -3,7 +3,7 @@ using namespace std;
 
 class Base
 {
-	public: string GetMessage()
+	public: virtual string GetMessage()
 	{
 		return "Base class function";
 	}
