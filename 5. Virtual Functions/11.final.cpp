@@ -19,7 +19,7 @@ class Derived: public Base
 };
 
 
-class DoubleDerived /*final*/ : public Derived
+class DoubleDerived final : public Derived
 {
 	public: virtual string GetMessage() override
 	{
