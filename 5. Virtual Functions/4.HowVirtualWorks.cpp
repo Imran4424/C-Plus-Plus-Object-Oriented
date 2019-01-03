@@ -39,7 +39,7 @@ class TripleDerived: public DoubleDerived
 
 void Report(Base *solid)
 {
-	cout << "Base "
+	cout << "Base pointer is now pointing " << solid -> GetMessage() << endl;
 }
 
 
