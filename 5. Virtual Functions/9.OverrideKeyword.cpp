@@ -64,7 +64,7 @@ class Civil: public Engineer
 
 	}
 
-	public: virtual string GetJob()
+	public: virtual string GetJob() override
 	{
 		return "Buid Building";
 	}
