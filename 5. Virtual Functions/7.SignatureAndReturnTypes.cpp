@@ -9,3 +9,13 @@ class Base
 		return 13;
 	}
 };
+
+class Derived: public Base
+{
+	public: virtual string GetData()
+	{
+		return "I am a Programmer";
+	}
+};
+
+
