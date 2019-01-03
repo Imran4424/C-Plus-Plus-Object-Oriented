@@ -8,4 +8,4 @@ class Base
 	{
 		return 13;
 	}
-}
+};
