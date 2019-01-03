@@ -21,7 +21,7 @@ class Derived: public Base
 
 class DoubleDerived: public Derived
 {
-	public: virtual string GetMessage() override //final
+	public: virtual string GetMessage() override final
 	{
 		return "Derived from Derived class function - Derived level Two";
 	}
