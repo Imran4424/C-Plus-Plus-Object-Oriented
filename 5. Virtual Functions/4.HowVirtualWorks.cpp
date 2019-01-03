@@ -37,6 +37,10 @@ class TripleDerived: public DoubleDerived
 };
 
 
+void Report(Base *solid)
+{
+	cout << "Base "
+}
 
 
 int main(int argc, char const *argv[])
