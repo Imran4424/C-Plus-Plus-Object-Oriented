@@ -105,7 +105,6 @@ int main(int argc, char const *argv[])
 	Mechanical jannat("Mechanical");
 
 
-
 	Report(&dipu);
 	Report(&sadman);
 	Report(&jannat);
