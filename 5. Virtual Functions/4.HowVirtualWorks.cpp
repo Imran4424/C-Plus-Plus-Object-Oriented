@@ -14,7 +14,7 @@ class Derived: public Base
 {
 	public: virtual string GetMessage()
 	{
-		return "Derived from Base class function";
+		return "Derived from Base class function - Derived level One";
 	}
 };
 
