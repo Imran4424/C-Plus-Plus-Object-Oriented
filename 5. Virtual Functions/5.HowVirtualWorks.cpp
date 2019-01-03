@@ -3,7 +3,7 @@ using namespace std;
 
 class Base
 {
-	public: virtual string GetMessage()
+	public: string GetMessage()
 	{
 		return "Base class function";
 	}
@@ -12,7 +12,7 @@ class Base
 
 class Derived: public Base
 {
-	public: virtual string GetMessage()
+	public: string GetMessage()
 	{
 		return "Derived from Base class function - Derived level One";
 	}
@@ -21,7 +21,7 @@ class Derived: public Base
 
 class DoubleDerived: public Derived
 {
-	public: virtual string GetMessage()
+	public: string GetMessage()
 	{
 		return "Derived from Derived class function - Derived level Two";
 	}
