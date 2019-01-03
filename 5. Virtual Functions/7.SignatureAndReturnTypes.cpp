@@ -38,4 +38,12 @@ int main(int argc, char const *argv[])
 
 /*
 	Do not call virtual functions from constructors or destructors
+
+	Downside
+
+	Virtual function is not efficient,resolving a virtual function call takes longer than resolving 
+	a regular one.
+
+	the compiler also has to allocate an extra pointer for each class object that has one or more 
+	virtual functions
 */
