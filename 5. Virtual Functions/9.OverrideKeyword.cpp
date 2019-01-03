@@ -83,7 +83,7 @@ class Mechanical: public Engineer
 
 	}
 
-	public: virtual string GetJob()
+	public: virtual string GetJob() override
 	{
 		return "Work with Machinery";
 	}
