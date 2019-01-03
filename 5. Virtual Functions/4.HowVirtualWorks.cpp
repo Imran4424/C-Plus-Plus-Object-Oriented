@@ -45,6 +45,19 @@ void Report(Base *solid)
 
 int main(int argc, char const *argv[])
 {
-	
+	Base red;
+
+	Derived dBlue;
+
+	DoubleDerived ddGreen;
+
+	TripleDerived tdSilver;
+
+
+	Report(&red);
+	Report(&dBlue);
+	Report(&ddGreen);
+	Report(&tdSilver);
+
 	return 0;
 }
