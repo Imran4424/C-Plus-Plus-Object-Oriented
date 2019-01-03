@@ -35,3 +35,7 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+/*
+	Do not call virtual functions from constructors or destructors
+*/
