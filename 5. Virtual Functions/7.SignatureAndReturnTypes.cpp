@@ -19,8 +19,19 @@ class Derived: public Base
 };
 
 
+void Report(Base *solid)
+{
+	cout << "Base pointer receives Data: " << solid -> GetData() << endl;
+}
+
 int main(int argc, char const *argv[])
 {
+	Base red;
+
+	Derived green;
+
+	Report(&red);
+	Report(&green);
 	
 	return 0;
 }
