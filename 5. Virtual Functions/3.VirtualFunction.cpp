@@ -22,7 +22,7 @@ class Engineer
 	}
 
 
-	public: string GetJob()
+	public: virtual string GetJob()
 	{
 		return "do nothing";
 	}
@@ -45,7 +45,7 @@ class Computer: public Engineer
 
 	}
 
-	public: string GetJob()
+	public: virtual string GetJob()
 	{
 		return "Develop Software";
 	}
@@ -64,7 +64,7 @@ class Civil: public Engineer
 
 	}
 
-	public: string GetJob()
+	public: virtual string GetJob()
 	{
 		return "Buid Building";
 	}
@@ -83,7 +83,7 @@ class Mechanical: public Engineer
 
 	}
 
-	public: string GetJob()
+	public: virtual string GetJob()
 	{
 		return "Work with Machinery";
 	}
