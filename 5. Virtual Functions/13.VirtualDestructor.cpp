@@ -27,8 +27,9 @@ class Derived: public Base
 
 int main(int argc, char const *argv[])
 {
-	
+	Derived red(15);
 
+	Base *ptr = &red;
 
 	return 0;
 }
