@@ -22,13 +22,19 @@ int main(int argc, char const *argv[])
 
 	cin >> choose;
 
-
-
-	cout << Add(7, 12) << endl;
+	if (choose == 1)
+	{
+		cout << Add(7, 12) << endl;
+	}
+	else if (choose == 2)
+	{
+		cout << Sub(7, 12) << endl;
+	}
+	else if (choose == 3)
+	{
+		cout << Mul(7, 12) << endl;
+	}	
 	
-	cout << Sub(7, 12) << endl;
-	
-	cout << Mul(7, 12) << endl;
 	
 	return 0;
 }
