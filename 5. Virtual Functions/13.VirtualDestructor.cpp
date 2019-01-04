@@ -3,7 +3,7 @@ using namespace std;
 
 class Base
 {
-	~Base()
+	public: ~Base()
 	{
 		cout << calling from Base Destructor << endl;
 	}
@@ -13,12 +13,12 @@ class Derived: public Base
 {
 	private: int *nothing;
 
-	Derived(int size)
+	public: Derived(int size)
 	{
 		nothing = new int[size];
 	}
 
-	~Derived()
+	public: ~Derived()
 	{
 		delete[] nothing;
 		cout << calling from Derived Destructor << endl;
