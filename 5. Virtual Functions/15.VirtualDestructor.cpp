@@ -3,7 +3,7 @@ using namespace std;
 
 class Base
 {
-	public: ~Base()
+	public: virtual ~Base()
 	{
 		cout << "calling from Base Destructor" << endl;
 	}
@@ -18,7 +18,7 @@ class Derived: public Base
 		nothing = new int[size];
 	}
 
-	public: ~Derived()
+	public: virtual ~Derived()
 	{
 		delete[] nothing;
 		cout << "calling from Derived Destructor" << endl;
@@ -27,9 +27,10 @@ class Derived: public Base
 
 int main(int argc, char const *argv[])
 {
-	Derived red(15);
+	
+	Derived *red = new Derived(15);
 
-	Base *ptr = &red;
+	Base *ptr = red;
 
 	delete ptr;
 
