@@ -28,7 +28,19 @@ int main(int argc, char const *argv[])
 
 	// function calling through pointer
 
-	cout << "calling function returned : " << (*imran)() << endl; 
+	cout << "calling function returned : " << (*imran)() << endl;
+
+
+	cout << "calling function returned : " << imran() << endl; // calling like simple function
+								  // it only support modern compilers 
+
+
+/*
+	now calling add function will require new function pointer 
+
+	because function Add() is different type function other than the declared funtion pointers
+	above
+*/	
 
 	return 0;
 }
