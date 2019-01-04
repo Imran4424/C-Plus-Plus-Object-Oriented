@@ -6,6 +6,11 @@ int Add(int x, int y)
 	return x + y;
 }
 
+int temp()
+{
+	return 7;
+}
+
 int main(int argc, char const *argv[])
 {
 	cout << Add(7, 12) << endl;
@@ -17,7 +22,7 @@ int main(int argc, char const *argv[])
 
 	//declaring function pointer
 
-	int (*const imran)();  // it's a const function pointer who points the type of function who take no  
+	int (*const imran)() = temp;  // it's a const function pointer who points the type of function who take no  
 	                      //parameters and return int
 
 	return 0;
