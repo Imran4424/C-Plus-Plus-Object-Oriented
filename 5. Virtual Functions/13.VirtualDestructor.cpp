@@ -5,7 +5,7 @@ class Base
 {
 	public: ~Base()
 	{
-		cout << calling from Base Destructor << endl;
+		cout << "calling from Base Destructor" << endl;
 	}
 };
 
@@ -21,7 +21,7 @@ class Derived: public Base
 	public: ~Derived()
 	{
 		delete[] nothing;
-		cout << calling from Derived Destructor << endl;
+		cout << "calling from Derived Destructor" << endl;
 	}
 };
 
