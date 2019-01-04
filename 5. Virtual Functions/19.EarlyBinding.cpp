@@ -20,5 +20,9 @@ int main(int argc, char const *argv[])
 {
 	cout << Add(7, 12) << endl;
 	
+	cout << Sub(7, 12) << endl;
+	
+	cout << Mul(7, 12) << endl;
+	
 	return 0;
 }
