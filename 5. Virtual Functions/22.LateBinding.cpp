@@ -27,17 +27,18 @@ int main(int argc, char const *argv[])
 
 	if (choose == 1)
 	{
-		cout << Add(7, 12) << endl;
+		imran = Add;
 	}
 	else if (choose == 2)
 	{
-		cout << Sub(7, 12) << endl;
+		imran = Sub;
 	}
 	else if (choose == 3)
 	{
-		cout << Mul(7, 12) << endl;
+		imran = Mul;
 	}	
 	
-	
+	cout << imran(12, 10) << endl;
+
 	return 0;
 }
