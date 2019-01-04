@@ -23,15 +23,17 @@ int main(int argc, char const *argv[])
 	//declaring function pointer
 
 	int (*const imran)() = temp;  // it's a const function pointer who points the type of function who take no  
-	                      //parameters and return int
+	                             // parameters and return int
+				    // since it is a const function pointer so it is need to be initialized
+	                           //  at the moment of declaration
 
 
 	// function calling through pointer
 
-	cout << "calling function returned : " << (*imran)() << endl;
+	cout << "calling function pointer returned : " << (*imran)() << endl;
 
 
-	cout << "calling function returned : " << imran() << endl; // calling like simple function
+	cout << "calling function pointer returned : " << imran() << endl; // calling like simple function
 								  // it only support modern compilers 
 
 
@@ -41,6 +43,10 @@ int main(int argc, char const *argv[])
 	because function Add() is different type function other than the declared funtion pointers
 	above
 */	
+
+	int (*sakib)(int, int) = Add; // notice, no parenthesis is needed
+
+	cout << "calling function pointer returned : " << sakib(15, 10) << endl; 
 
 	return 0;
 }
