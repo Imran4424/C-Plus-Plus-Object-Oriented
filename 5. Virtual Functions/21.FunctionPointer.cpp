@@ -25,5 +25,10 @@ int main(int argc, char const *argv[])
 	int (*const imran)() = temp;  // it's a const function pointer who points the type of function who take no  
 	                      //parameters and return int
 
+
+	// function calling through pointer
+
+	cout << "calling function returned : " << (*imran)() << endl; 
+
 	return 0;
 }
