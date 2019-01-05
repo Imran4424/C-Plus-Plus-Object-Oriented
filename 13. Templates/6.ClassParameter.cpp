@@ -89,11 +89,11 @@ imran Max(imran red, imran blue)
 	}
 }
 
-template <class T>
+
 ostream& operator<< (ostream &out, const Person &sakib)
 {
 	out << endl;
-	out << sakib.GetName() << "have maximum money" << endl;
+	out << sakib.GetName() << " have maximum money" << endl;
 	
 
 	return out;

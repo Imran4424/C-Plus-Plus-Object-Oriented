@@ -18,7 +18,7 @@ class Person
 		this -> moneyAmount = moneyAmount;
 	}
 
-	public: string GetName() const
+	public: string GetName()
 	{
 		return  name;
 	}
@@ -32,7 +32,7 @@ class Person
 	friend bool operator< (const Person &sakib, const Person &imran);
 	friend bool operator<= (const Person &sakib, const Person &imran);
 
-	friend ostream& operator<< (ostream &out, const Person &sakib);
+	friend ostream& operator<< (ostream &out, Person *sakib);
 };
 
 bool operator== (const Person &sakib, const Person &imran)
@@ -77,7 +77,7 @@ bool operator<= (const Person &sakib, const Person &imran)
 
 
 template <class imran>
-imran& Max(imran &red, imran &blue)
+imran* Max(imran *red, imran *blue)
 {
 	if (red > blue)
 	{
@@ -89,10 +89,10 @@ imran& Max(imran &red, imran &blue)
 	}
 }
 
-ostream& operator<< (ostream &out, const Person &sakib)
+ostream& operator<< (ostream &out, Person *sakib)
 {
 	out << endl;
-	out << sakib.GetName() << " have maximum money" << endl;
+	out << sakib -> GetName() << " have maximum money" << endl;
 	
 
 	return out;
@@ -106,7 +106,7 @@ int main(int argc, char const *argv[])
 	Person nayeem("nayeem", 200);
 
 
-	cout << Max(linkon, nayeem) << endl;
+	cout << Max(&linkon, &nayeem) << endl;
 
 	
 	return 0;
