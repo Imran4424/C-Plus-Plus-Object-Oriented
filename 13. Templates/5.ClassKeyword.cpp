@@ -1,13 +1,10 @@
 #include <iostream>
 using namespace std;
 
-template <typename imran , typename sakib>
-const imran& Add(const imran &x, const sakib &y)
+template <class imran , class sakib>
+imran Add(imran x, sakib y)
 {
-
-	imran = x + y;
-
-	return imran;
+	return x + y;
 }
 
 
