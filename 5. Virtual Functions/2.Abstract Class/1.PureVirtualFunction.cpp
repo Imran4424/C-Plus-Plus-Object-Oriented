@@ -1,0 +1,3 @@
+/*
+	pure virtual function or abstract class
+*/
