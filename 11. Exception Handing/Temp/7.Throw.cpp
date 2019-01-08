@@ -32,4 +32,10 @@ int main()
 
 /*
     code from learncpp
+
+    First, the program looks to see if the exception can be handled immediately (which means it was thrown
+    inside a try block). If not, the current function is terminated, and the program checks to see if the 
+    function’s caller will handle the exception. If not, it terminates the caller and checks the caller’s 
+    caller. Each function is terminated in sequence until a handler for the exception is found, or until 
+    main() is terminated without the exception being handled. This process is called unwinding the stack
 */
