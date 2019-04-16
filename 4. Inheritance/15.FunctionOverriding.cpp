@@ -51,9 +51,8 @@ int main(int argc, char const *argv[])
 	function overriding is the technique where you change the an inherited function definition means 
 	function body
 
-	in the function overriding technique function declaration remain unchanged except the return type
-
-	return type can be changed
+	in the function overriding technique function declaration(function signature) can not
+	be changed. 
 
 	also overridden function can have different access specifier in derived class compare to the base class
 */
