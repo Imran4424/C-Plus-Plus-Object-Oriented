@@ -52,7 +52,9 @@ int main(int argc, char const *argv[])
 	function body
 
 	in the function overriding technique function declaration(function signature) can not
-	be changed. 
+	be changed.
+
+	Otherwise it will treated as different fucntion
 
 	also overridden function can have different access specifier in derived class compare to the base class
 */
