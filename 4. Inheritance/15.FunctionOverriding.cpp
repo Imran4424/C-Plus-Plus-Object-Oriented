@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
 
 	Otherwise it will treated as different fucntion
 
-	also overridden function can have different access specifier in derived class compare to the base class
+	overridden function can have different access specifier in derived class compare to the base class
 */
 
 
