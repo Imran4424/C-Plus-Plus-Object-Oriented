@@ -1,6 +1,6 @@
 #include <iostream>
-#include <string>
-#include <sstream>
+#include <string> // string
+#include <sstream> // string stream
 using namespace std;
 
 int main(int argc, char const *argv[])
