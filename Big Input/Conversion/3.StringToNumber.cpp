@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
 	medium >> num;
 
-	cout << "From string the number we get: " 
+	cout << "From string the number we get: " << num << endl; 
 
 	return 0;
 }
