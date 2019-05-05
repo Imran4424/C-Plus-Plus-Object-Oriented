@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
 	string str = "13";
 	string str2 = "3.1416";
-	string str = "12 is even";
+	string str3 = "12 is even";
 
 	int num = stoi(str);
 
