@@ -22,3 +22,9 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	using atoi() function from cstdlib or stdlib.h
+
+	atoi converts char string to int
+*/
