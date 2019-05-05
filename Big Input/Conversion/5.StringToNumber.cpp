@@ -14,7 +14,11 @@ int main(int argc, char const *argv[])
 	
 	int num3 = stoi(str3);
 
+	cout << "stoi(\"13\") is: " << num << endl;
+
+	cout << "stoi(\"3.1416\") is: " << num2 << endl;
 	
+	cout << "stoi(\"12 is even\") is: " << num3 << endl;
 
 	return 0;
 }
