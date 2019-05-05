@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -14,11 +14,11 @@ int main(int argc, char const *argv[])
 	
 	int num3 = atoi(str3);
 
-	cout << "atoi(\""951753"\") is: " << num << endl;
+	cout << "atoi(\"951753\") is: " << num << endl;
 
-	cout << "atoi(\""3.1416"\") is: " << num << endl;
+	cout << "atoi(\"3.1416\") is: " << num << endl;
 	
-	cout << "atoi(\""13 is my id"\") is: " << num << endl;
+	cout << "atoi(\"13 is my id\") is: " << num << endl;
 
 	return 0;
 }
