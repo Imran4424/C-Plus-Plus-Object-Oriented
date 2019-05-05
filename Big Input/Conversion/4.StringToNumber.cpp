@@ -4,9 +4,9 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	char str = "951753";
-	char str2 = "3.1416";
-	char str3 = "13 is my id";
+	char str[] = "951753";
+	char str2[] = "3.1416";
+	char str3[] = "13 is my id";
 
 	int num = atoi(str);
 
