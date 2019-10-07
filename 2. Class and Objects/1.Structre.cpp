@@ -34,8 +34,8 @@ int main(int argc, char const *argv[])
 
 	for learning classes first we need to understand the basic operations of structres
 
-	although classes are different from structure, the low level basic concept of classes are same as
-	structures
+	although classes are different from structure, the low level basic concept of 
+	classes are same as structures
 
 
 	because classes are build on the basic concept of structures and evolve into a new programming paradism
