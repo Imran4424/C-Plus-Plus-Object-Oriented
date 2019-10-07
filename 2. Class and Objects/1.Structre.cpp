@@ -38,20 +38,22 @@ int main(int argc, char const *argv[])
 	classes are same as structures
 
 
-	because classes are build on the basic concept of structures and evolve into a new programming paradism
-	called object oriented programming.
+	because classes are build on the basic concept of structures and evolve into a new 
+	programming paradism called object oriented programming.
 
 
 	now, let's talk about struct
 
-	structs are mainly a package of variables and functions, it is also called as user defined data types
+	structs are mainly a package of variables and functions, it is also called as user 
+	defined data types
 
-	in a struct code block we can declare multiple variables and functions in a single code block as for the
-	requirements and access them using struct type variable
+	in a struct code block we can declare multiple variables and functions in a single 
+	code block as for the requirements and access them using struct type variable
 
-	for accessing struct member variables we use dot(.) operators, sometimes which is called member access
-	operator
+	for accessing struct member variables we use dot(.) operators, sometimes which is 
+	called member access operator
 
+	struct also support constructor like classes
 
 	see the above code for better understanding
 */
