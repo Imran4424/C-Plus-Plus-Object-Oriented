@@ -53,7 +53,24 @@ int main(int argc, char const *argv[])
 	for accessing struct member variables we use dot(.) operators, sometimes which is 
 	called member access operator
 
-	struct also support constructor like classes
+	struct also support constructors like classes and structure  type object creating 
+	become easy with these constructors
+
+	example
+
+	struct Student
+	{
+		int id;
+		string name;
+
+		Student() { } // default constructor
+	
+		Student(int sId, string sName)
+		{
+			id = sId;
+			name = sName;
+		}
+	};
 
 	see the above code for better understanding
 */
