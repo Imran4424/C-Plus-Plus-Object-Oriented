@@ -25,6 +25,6 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-/*
-
-*/
+	
+	* - dereference operator
+	dereference operator allow us to access the value stored in the address
