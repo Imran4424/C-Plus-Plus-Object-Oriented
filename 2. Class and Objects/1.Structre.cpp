@@ -65,12 +65,15 @@ int main(int argc, char const *argv[])
 
 		Student() { } // default constructor
 	
-		Student(int sId, string sName)
+		Student(int sId, string sName) // constructor
 		{
 			id = sId;
 			name = sName;
 		}
 	};
+
+	now, you may ask what is constructor ? for now just remember constructor are helpful in
+	creating objects. Later we will have a long discuss about constuctor
 
 	see the above code for better understanding
 */
