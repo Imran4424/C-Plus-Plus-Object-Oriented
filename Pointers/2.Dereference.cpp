@@ -25,6 +25,12 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-	
+/*	
 	* - dereference operator
-	dereference operator allow us to access the value stored in the address
+	dereference operator allow us to access the value stored in a address (any address, 
+	not particular one)
+
+	dereference operator is a unary operator
+
+	dereference operator make it easy for us to access value stored in any address
+*/
