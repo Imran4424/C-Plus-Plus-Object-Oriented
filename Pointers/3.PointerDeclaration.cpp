@@ -48,4 +48,14 @@ int main(int argc, char const *argv[])
 	To minimize complexity, just think of the fundamental C/C++ variables (int, float,
 	double, char)
 
-	
+	there is int pointer to hold integer type variable's address
+
+		int *ptr;
+
+	likewise,
+
+		float *fPointer; // holds or points to float type variable
+		double *dPointer; // hold or points to double type variable
+		char *cPointer; // hold or points to char type variable
+
+		
