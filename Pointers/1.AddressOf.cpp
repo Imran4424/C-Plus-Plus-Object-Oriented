@@ -10,6 +10,14 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
+	int price;
+
+	// scanf("%d", &price);
+
+	cin >> price;
+
+	cout << "value of "
+
 	
 	return 0;
 }
