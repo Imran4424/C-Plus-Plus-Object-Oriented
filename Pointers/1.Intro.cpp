@@ -5,6 +5,7 @@
 */
 
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -26,5 +27,11 @@ int main(int argc, char const *argv[])
 
 	https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=vs-2019
 
-	
+	In C, we saw how scanf() works
+
+	scanf("%d", &price);
+
+	here, price is a variable name, &price - indicating the address of price variable
+	where we taking inputs
+
 */
