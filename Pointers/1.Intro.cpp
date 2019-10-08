@@ -23,5 +23,8 @@ int main(int argc, char const *argv[])
 	int - 2 or 4 byte (depends on the compiler)
 	float - 4 byte
 	double - 8 byte
+
+	https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=vs-2019
+
 	
 */
