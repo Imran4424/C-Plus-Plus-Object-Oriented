@@ -9,11 +9,18 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int *ptr;
+	int *ptr; // int pointer declaration
+	double *dPointer; // double pointer declaration
+
+	int* ptr; // this is also a valid syntax, but there is a slide risk about that
+	
+	int* number, amount; //here number is a int type pointer variable
+			    // but
+			   //  amount is a normal int type variable
 	return 0;
 }
 
-
+/*
 	* - now what is this
 	* - is this dereference? No. Then, what is it?
 	* - this time it is asterisk
@@ -58,4 +65,7 @@ int main(int argc, char const *argv[])
 		double *dPointer; // hold or points to double type variable
 		char *cPointer; // hold or points to char type variable
 
-		
+
+	then size of these pointers will be same as their data types
+
+*/
