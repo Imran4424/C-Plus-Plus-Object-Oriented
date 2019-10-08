@@ -17,9 +17,9 @@ int main(int argc, char const *argv[])
 	cin >> price;
 
 	cout << "value of price is: " << price << endl;
+
 	cout << "address of price is: " << &price << endl;
 
-	
 	return 0;
 }
 
