@@ -19,6 +19,9 @@ int main(int argc, char const *argv[])
 	// this output will vary pc to pc
 	cout << "address of price is: " << &price << endl;
 
+	// dereferencing the address value
+	cout << "address of price is: " << *(&price) << endl;
+
 	return 0;
 }
 
