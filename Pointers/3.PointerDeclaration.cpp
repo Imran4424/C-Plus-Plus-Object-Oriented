@@ -32,3 +32,20 @@ int main(int argc, char const *argv[])
 	* - asterisk , unary , for declaring a pointer value
 
 	Now, let's talk about how to declare pointer variables
+
+	To do this we need understand first what is pointer actually
+
+	"Poiner is a special type of variable which holds another variables address"
+
+	Yeah you heard that right, pointer is a variable not an address, pointer is a
+	special kind of variable which holds other variable address
+
+	now, one question arise which variable pointer variable will hold which address
+
+	cause there are lots of types of variable, the numbers is limitless because of the
+	feature of user define variable (class & structure)
+
+	To minimize complexity, just think of the fundamental C/C++ variables (int, float,
+	double, char)
+
+	
