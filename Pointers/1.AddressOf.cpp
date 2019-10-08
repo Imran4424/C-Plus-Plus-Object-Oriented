@@ -34,4 +34,8 @@ int main(int argc, char const *argv[])
 	here, price is a variable name, &price - indicating the address of price variable
 	where we taking inputs
 
+	here, & - is an operator, it is called address of (&) operator 
+
+	which is used to access address of a variable 
+
 */
