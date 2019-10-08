@@ -1,6 +1,8 @@
 /*
 	In this code we will have a introduction of pointers
 
+	mainly Address of operator
+
 	basic programming knowledge required
 */
 
@@ -18,6 +20,7 @@ int main(int argc, char const *argv[])
 
 	cout << "value of price is: " << price << endl;
 
+	// this output will vary pc to pc
 	cout << "address of price is: " << &price << endl;
 
 	return 0;
