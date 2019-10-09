@@ -68,4 +68,11 @@ int main(int argc, char const *argv[])
 
 	then size of these pointers will be same as their data types
 
+	In this code, we declare int and double type pointers
+
+	int *ptr; // int pointer declaration
+	double *dPointer; // double pointer declaration
+
+	here, *ptr will hold address of int variable
+	      *dPointer will hold address of double variable
 */
