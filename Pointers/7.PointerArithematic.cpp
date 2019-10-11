@@ -14,11 +14,11 @@ int main(int argc, char const *argv[])
 		ptr = &a;
 	*/
 
-	cout << a << endl; 
-	cout << a + 1 << endl; 
+	cout << ptr << endl; 
+	cout << ptr + 1 << endl; 
 
-	cout << dec << a << endl; 
-	cout << dec << a + 1 << endl; 
+	cout << dec << ptr << endl; 
+	cout << dec << ptr + 1 << endl; 
 
 	
 	return 0;
