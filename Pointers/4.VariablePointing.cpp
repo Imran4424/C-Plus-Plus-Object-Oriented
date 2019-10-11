@@ -21,7 +21,8 @@ int main(int argc, char const *argv[])
 	cout << "variable address: "<< &a << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer variable value: " << *ptr << endl;
+	cout << "pointer value holding value: " << *ptr << endl;
+	cout << "pointer variable address: " << &ptr << endl;
 
 
 	return 0;
