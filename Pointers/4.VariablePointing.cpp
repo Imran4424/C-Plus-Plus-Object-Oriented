@@ -22,8 +22,16 @@ int main(int argc, char const *argv[])
 
 	cout << "pointer variable value: " << ptr << endl;
 	cout << "pointer value holding value: " << *ptr << endl;
-	cout << "pointer variable address: " << &ptr << endl;
+	cout << "pointer variable address: " << &ptr << endl; 
 
+
+	/*
+		this is called dereferencing
+		ptr holds an address, if we dereference it, we can access the value which 
+		is ptr value(address of a in this case) holding
+
+	*/
+	*ptr = 10;  
 
 	return 0;
 }
