@@ -20,8 +20,12 @@ int main(int argc, char const *argv[])
 	cout << "normal variable: " << a << endl;
 	cout << "variable address: "<< &a << endl;
 
+	cout << "normal variable: " << b << endl;
+	cout << "variable address: "<< &b << endl;
+
 	cout << "pointer variable value: " << ptr << endl;
 	cout << "pointer value holding value: " << *ptr << endl;
+	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl; 
 
 
@@ -32,6 +36,45 @@ int main(int argc, char const *argv[])
 
 	*/
 	*ptr = 10;  
+
+	cout << "normal variable: " << a << endl;
+	cout << "variable address: "<< &a << endl;
+
+	cout << "normal variable: " << b << endl;
+	cout << "variable address: "<< &b << endl;
+
+	cout << "pointer variable value: " << ptr << endl;
+	cout << "pointer value holding value: " << *ptr << endl;
+	//this one will always stay same
+	cout << "pointer variable address: " << &ptr << endl; 
+
+	ptr = &b;
+
+	cout << "normal variable: " << a << endl;
+	cout << "variable address: "<< &a << endl;
+
+	cout << "normal variable: " << b << endl;
+	cout << "variable address: "<< &b << endl;
+
+	cout << "pointer variable value: " << ptr << endl;
+	cout << "pointer value holding value: " << *ptr << endl;
+	//this one will always stay same
+	cout << "pointer variable address: " << &ptr << endl; 
+
+	*ptr = 50;
+
+	cout << "normal variable: " << a << endl;
+	cout << "variable address: "<< &a << endl;
+
+	cout << "normal variable: " << b << endl;
+	cout << "variable address: "<< &b << endl;
+
+	cout << "pointer variable value: " << ptr << endl;
+	cout << "pointer value holding value: " << *ptr << endl;
+	//this one will always stay same
+	cout << "pointer variable address: " << &ptr << endl; 
+
+
 
 	return 0;
 }
