@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 	cout << "pointer variable value: " << ptr << endl;
 	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl;
+	cout << "pointer variable address: " << &ptr << endl << endl;
 
 
 	/*
@@ -46,7 +46,7 @@ int main(int argc, char const *argv[])
 	cout << "pointer variable value: " << ptr << endl;
 	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl; 
+	cout << "pointer variable address: " << &ptr << endl << endl;
 
 	ptr = &b;
 
@@ -59,7 +59,7 @@ int main(int argc, char const *argv[])
 	cout << "pointer variable value: " << ptr << endl;
 	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl;
+	cout << "pointer variable address: " << &ptr << endl << endl;
 
 	*ptr = 50;
 
@@ -72,9 +72,7 @@ int main(int argc, char const *argv[])
 	cout << "pointer variable value: " << ptr << endl;
 	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl;
-
-
+	cout << "pointer variable address: " << &ptr << endl << endl;
 
 	return 0;
 }
