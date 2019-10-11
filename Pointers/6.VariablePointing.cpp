@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl << endl;
 
-	ptr = &b; // changing value(address) of ptr
+	*ptr = b; // changing value of ptr's value's(address) value
 
 	cout << "normal variable a: " << a << endl;
 	cout << "variable address of a: "<< &a << endl;

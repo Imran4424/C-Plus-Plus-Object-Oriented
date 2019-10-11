@@ -9,13 +9,13 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int a, b;
+	double a, b;
 
 	cout << "enter a and b" << endl;
 
 	cin >> a >> b;
 
-	int *ptr = &a;
+	double *ptr = &a;
 
 	cout << "normal variable a: " << a << endl;
 	cout << "variable address of a: "<< &a << endl;
@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
 		pointer value(address) holding
 
 	*/
-	*ptr = 10;  // changing value of ptr's value's(address) value
+	*ptr = 3.1416;  // changing value of ptr's value's(address) value
 
 	cout << "normal variable a: " << a << endl;
 	cout << "variable address of a: "<< &a << endl;
@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl << endl;
 
-	ptr = &b; // changing value(address) of ptr
+	ptr = &b;
 
 	cout << "normal variable a: " << a << endl;
 	cout << "variable address of a: "<< &a << endl;
@@ -61,7 +61,7 @@ int main(int argc, char const *argv[])
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl << endl;
 
-	*ptr = 50; // changing value of ptr's value's(address) value
+	*ptr = 12.2496; // changing value of ptr's value's(address) value
 
 	cout << "normal variable a: " << a << endl;
 	cout << "variable address of a: "<< &a << endl;
