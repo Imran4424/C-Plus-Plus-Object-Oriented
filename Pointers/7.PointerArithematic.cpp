@@ -13,6 +13,7 @@ int main(int argc, char const *argv[])
 
 		int *ptr;
 		ptr = &a;
+	printf("\n");
 	*/
 
 	printf("%d\n", iPtr);
@@ -29,6 +30,7 @@ int main(int argc, char const *argv[])
 	printf("size of char is: %d bytes\n", sizeof(char));
 	printf("%d\n", cPtr + 1);
 
+	printf("\n");
 
 	double pi = 3.1416;
 
