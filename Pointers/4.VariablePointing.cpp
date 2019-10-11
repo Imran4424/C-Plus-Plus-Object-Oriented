@@ -17,60 +17,60 @@ int main(int argc, char const *argv[])
 
 	int *ptr = &a;
 
-	cout << "normal variable: " << a << endl;
-	cout << "variable address: "<< &a << endl;
+	cout << "normal variable a: " << a << endl;
+	cout << "variable address of a: "<< &a << endl;
 
-	cout << "normal variable: " << b << endl;
-	cout << "variable address: "<< &b << endl;
+	cout << "normal variable b: " << b << endl;
+	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding value: " << *ptr << endl;
+	cout << "pointer value holding address value: " << *ptr << endl;
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl; 
 
 
 	/*
 		this is called dereferencing
-		ptr holds an address, if we dereference it, we can access the value which 
-		is ptr value(address of a in this case) holding
+		ptr holds an address, if we dereference it, we can access the value which is
+		pointer value(address) holding
 
 	*/
 	*ptr = 10;  
 
-	cout << "normal variable: " << a << endl;
-	cout << "variable address: "<< &a << endl;
+	cout << "normal variable a: " << a << endl;
+	cout << "variable address of a: "<< &a << endl;
 
-	cout << "normal variable: " << b << endl;
-	cout << "variable address: "<< &b << endl;
+	cout << "normal variable b: " << b << endl;
+	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding value: " << *ptr << endl;
+	cout << "pointer value holding address value: " << *ptr << endl;
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl; 
 
 	ptr = &b;
 
-	cout << "normal variable: " << a << endl;
-	cout << "variable address: "<< &a << endl;
+	cout << "normal variable a: " << a << endl;
+	cout << "variable address of a: "<< &a << endl;
 
-	cout << "normal variable: " << b << endl;
-	cout << "variable address: "<< &b << endl;
+	cout << "normal variable b: " << b << endl;
+	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding value: " << *ptr << endl;
+	cout << "pointer value holding address value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl; 
+	cout << "pointer variable address: " << &ptr << endl;
 
 	*ptr = 50;
 
-	cout << "normal variable: " << a << endl;
-	cout << "variable address: "<< &a << endl;
+	cout << "normal variable a: " << a << endl;
+	cout << "variable address of a: "<< &a << endl;
 
-	cout << "normal variable: " << b << endl;
-	cout << "variable address: "<< &b << endl;
+	cout << "normal variable b: " << b << endl;
+	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding value: " << *ptr << endl;
+	cout << "pointer value holding address value: " << *ptr << endl;
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl; 
 
