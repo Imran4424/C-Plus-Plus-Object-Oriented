@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
 	cin >> a >> b;
 
-	int *ptr = &a;
+	int *ptr = &a; // initializing ptr with address of a
 
 	cout << "normal variable a: " << a << endl;
 	cout << "variable address of a: "<< &a << endl;
