@@ -24,9 +24,9 @@ int main(int argc, char const *argv[])
 	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding address value: " << *ptr << endl;
+	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl; 
+	cout << "pointer variable address: " << &ptr << endl;
 
 
 	/*
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
 	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding address value: " << *ptr << endl;
+	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl; 
 
@@ -57,7 +57,7 @@ int main(int argc, char const *argv[])
 	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding address value: " << *ptr << endl;
+	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
 	cout << "pointer variable address: " << &ptr << endl;
 
@@ -70,9 +70,9 @@ int main(int argc, char const *argv[])
 	cout << "variable address of b: "<< &b << endl;
 
 	cout << "pointer variable value: " << ptr << endl;
-	cout << "pointer value holding address value: " << *ptr << endl;
+	cout << "pointer value(address) holding  value: " << *ptr << endl;
 	//this one will always stay same
-	cout << "pointer variable address: " << &ptr << endl; 
+	cout << "pointer variable address: " << &ptr << endl;
 
 
 
