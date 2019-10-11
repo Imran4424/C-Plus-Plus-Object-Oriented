@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
 	int a = 10;
 
-	int *ptr = &a;
+	int *iPtr = &a;
 
 	/*
 		this way is also fine
@@ -15,14 +15,8 @@ int main(int argc, char const *argv[])
 		ptr = &a;
 	*/
 
-	cout << ptr << endl; 
-	cout << ptr + 1 << endl; 
-
-	cout << std::dec << ptr << endl; 
-	cout << std::dec << ptr + 1 << endl; 
-
-	printf("%d\n", ptr);
-	printf("%d\n", ptr + 1);
+	printf("%d\n", iPtr);
+	printf("%d\n", iPtr + 1);
 	
 	return 0;
 }
