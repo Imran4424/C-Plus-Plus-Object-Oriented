@@ -13,13 +13,13 @@ int main(int argc, char const *argv[])
 
 		int *ptr;
 		ptr = &a;
-	printf("\n");
 	*/
 
 	printf("%d\n", iPtr);
 	printf("size of integer is %d bytes\n", sizeof(int));
 	printf("%d\n", iPtr + 1);
 
+	printf("\n");
 
 	char ch = 'X';
 
