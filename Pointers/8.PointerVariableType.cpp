@@ -10,7 +10,13 @@ int main(int argc, char const *argv[])
 
 	printf("size of int is: %d\n", sizeof(int));
 	printf("Address = %d, value = %d \n", ptr, *ptr);
+
+	// ptr + 1 deferencing will print some garbage value
+	printf("Address = %d, value = %d \n", ptr + 1, *(ptr + 1));
 	printf("\n");
+
+	 //         fourth    third   second    first
+	// 2049 = 00000000 00000000 00001000 00000001
 
 	char *cPtr;
 
@@ -18,7 +24,11 @@ int main(int argc, char const *argv[])
 
 	printf("size of char is: %d\n", sizeof(char));
 	printf("Address = %d, value = %d \n", cPtr, *cPtr);
+	printf("Address = %d, value = %d \n", cPtr + 1, *(cPtr + 1));
 	printf("\n");
+
+	 //         fourth    third   second    first
+	// 2049 = 00000000 00000000 00001000 00000001
 
 	return 0;
 }
@@ -65,4 +75,3 @@ int main(int argc, char const *argv[])
 	we will talk about it later 
 */
 
-	
