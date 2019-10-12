@@ -10,16 +10,16 @@ struct box
 
 	box(int length, int width, int height)
 	{
-		length = length;
-		width = width;
-		height = height;
+		this -> length = length;
+		this -> width = width;
+		this -> height = height;
 	}
 
 	void Assign(int length, int width, int height)
 	{
-		length = length;
-		width = width;
-		height = height;
+		this -> length = length;
+		this -> width = width;
+		this -> height = height;
 	}
 
 	int Area()
