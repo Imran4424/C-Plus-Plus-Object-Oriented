@@ -43,8 +43,3 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-/*
-	Pointer variables are strong type
-
-	why pointer variables are strong type? cause it only storing variable address
-*/
