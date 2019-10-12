@@ -20,8 +20,8 @@ int main(int argc, char const *argv[])
 	
 	printf("Value of ptrTwo is: %d\n", ptrTwo);
 
-	printf("single dereference of ptr is: %d\n", *ptrTwo);
-	printf("double dereference of ptr is: %d\n", *(*ptrTwo));
+	printf("single dereference of ptrTwo is: %d\n", *ptrTwo);
+	printf("double dereference of ptrTwo is: %d\n", *(*ptrTwo));
 
 
 	**ptrTwo = 500;
