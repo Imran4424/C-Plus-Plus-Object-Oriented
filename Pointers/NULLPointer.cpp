@@ -1,3 +1,9 @@
+/*
+	The following syntax are valid in C++17
+
+	some syntax may ended up in error in previous version C++
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -34,10 +40,6 @@ int main(int argc, char const *argv[])
 
 	int *ptrSix;
 	ptrSix = nullptr;
-
-	int *pointer = NULL;
-
-	cout << pointer << endl;
 
 	return 0;
 }
