@@ -4,19 +4,19 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int a = 2049;
+	int a = 257;
 
 	int *ptr = &a;
 
 	printf("size of int is: %d\n", sizeof(int));
 	printf("Address = %d, value = %d \n", ptr, *ptr);
 
-	// ptr + 1 deferencing will print some garbage value
+	// ptr + 1 deferencing will print some garbage
 	printf("Address = %d, value = %d \n", ptr + 1, *(ptr + 1));
 	printf("\n");
 
-	 //         fourth    third   second    first
-	// 2049 = 00000000 00000000 00001000 00000001
+	 //        fourth    third   second    first
+	// 257 = 00000000 00000000 00000001 00000001
 
 	char *cPtr;
 
@@ -27,8 +27,8 @@ int main(int argc, char const *argv[])
 	printf("Address = %d, value = %d \n", cPtr + 1, *(cPtr + 1));
 	printf("\n");
 
-	 //         fourth    third   second    first
-	// 2049 = 00000000 00000000 00001000 00000001
+	 //        fourth    third   second    first
+	// 257 = 00000000 00000000 00000001 00000001
 
 	return 0;
 }
