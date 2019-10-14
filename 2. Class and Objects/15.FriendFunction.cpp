@@ -22,7 +22,7 @@ class Accumulator
 
     public: void Show()
     {
-        cout <<"Current Value: " << value << endl;
+        cout << "Current Value: " << value << endl;
     }
 
     friend void Reset(Accumulator &obj); // declaring friend function
