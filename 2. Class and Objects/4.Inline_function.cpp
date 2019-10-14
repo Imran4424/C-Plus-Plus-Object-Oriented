@@ -56,4 +56,11 @@ int main(int argc, char const *argv[])
 
 
 	Every Time an inline function is called compiler generates a copy of the functions code
+	place it in the place of function call, This way calling don't need to switch control
+	between called function and calling function. And This saves lot's of time. Also cost 
+	extra memory.
+
+	That's why only small functions need to be inline function
+
+	Note: All inside class member functions definitions are inline function by default
 */
