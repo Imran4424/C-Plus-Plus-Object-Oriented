@@ -50,6 +50,6 @@ int main(int argc, char const *argv[])
 	Outside class
 	
 
-	Member function inside class
+	Member function inside the class
 
 */
