@@ -36,6 +36,6 @@ int main(int argc, char const *argv[])
 
 	then,
 
-	when we decare a class object, that moment all class variables are initialized with 0 by an implicit
-	constructor.
+	when we decare a class object, that moment all class variables are initialized with 0 by an
+	implicit constructor.
 */
