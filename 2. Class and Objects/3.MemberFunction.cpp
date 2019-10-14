@@ -3,18 +3,17 @@ using namespace std;
 
 class Box
 {
-public:
-	int length, width;
+	private: int length, width;
 
 	// Member function
 	// inside the class
-	void Assign(int l, int w) 
+	public: void Assign(int l, int w) 
 	{
 		length = l;
 		width = w;
 	}
 	
-	int Area();
+	public: int Area();
 };
 
 // Member function
