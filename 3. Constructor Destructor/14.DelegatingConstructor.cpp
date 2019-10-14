@@ -1,6 +1,6 @@
 /*
-	write a program to demonstrate how to delegate constructor means calling constructor from constructor
-	(this work from c++ 11)
+	write a program to demonstrate how to delegate constructor means calling constructor from 
+	constructor (this work from c++ 11)
 */
 
 #include <iostream>
@@ -77,8 +77,8 @@ int main(int argc, char const *argv[])
 /*
 	Delegating constructor means calling constructor from constructor
 
-	sometines this is necessary, most of the cases when we are using multi constructor means constructor 
-	overloaded class.
+	sometines this is necessary, most of the cases when we are using multi constructor means 
+	constructor overloaded class.
 
 	In order to reduce code duplication we use constructor delegation
 
