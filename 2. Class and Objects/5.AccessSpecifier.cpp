@@ -37,3 +37,11 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	public - anyone can access
+
+	private - only class member and friend functions can access
+
+	protected - class member, friend function, derived class members can access
+*/
