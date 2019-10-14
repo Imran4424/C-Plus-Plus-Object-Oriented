@@ -46,7 +46,7 @@ int main(int argc, char const *argv[])
 
 /*
 	We know that outside class member functions cost us time due to switching the program
-	execution control between member funtion and the called program or class
+	execution control between member funtion and the called program 
 
 	But, It saves memory due to one time definition for every function call
 
@@ -54,5 +54,6 @@ int main(int argc, char const *argv[])
 
 	which forcefully make outside defined member functions inline function
 
-	
+
+	Every Time an inline function is called compiler generates a copy of the functions code
 */
