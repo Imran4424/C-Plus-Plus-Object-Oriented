@@ -1,3 +1,9 @@
+/*
+	This following code will illustrate
+
+	how to made outside class member funtion inline funtion using inline keyword
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -16,7 +22,7 @@ class Box
 
 inline int Box::Area()
 {
-	return width*length;
+	return width * length;
 }
 
 
@@ -37,3 +43,7 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	
+*/
