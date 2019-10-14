@@ -133,5 +133,14 @@ int main(int argc, char const *argv[])
 
 	This operator is also used to define outside class definition for member functions
 
-	
+	// Member function
+	// Outside the class
+	// Definition with body
+
+	int Box::Area()
+	{
+		return width*length;
+	}
+
+	we will see more use of scope resolution in future
 */
