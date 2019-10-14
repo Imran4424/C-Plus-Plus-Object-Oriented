@@ -6,7 +6,9 @@ class Box
 public:
 	int length, width;
 
-	void Assign(int l, int w)
+	// Member function
+	// inside the class
+	void Assign(int l, int w) 
 	{
 		length = l;
 		width = w;
@@ -15,6 +17,8 @@ public:
 	int Area();
 };
 
+// Member function
+// Outside the class
 int Box::Area()
 {
 	return width*length;
@@ -38,3 +42,14 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	Member functions can be define in two ways in C++
+
+	Inside Class
+	Outside class
+	
+
+	Member function inside class
+
+*/
