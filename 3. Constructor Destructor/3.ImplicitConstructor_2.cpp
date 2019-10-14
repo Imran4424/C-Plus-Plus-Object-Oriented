@@ -18,7 +18,7 @@ class Box
 
 	public: int Area()
 	{
-		return length*width;
+		return length * width;
 	}
 	
 };
