@@ -50,8 +50,29 @@ int main(int argc, char const *argv[])
 	Outside class
 	
 
-	Member function inside the class
+	Member function inside the class, inside class functions are by default inline function
 	
+	Inside class member functions declared and defined inside the class
+
+	class Box
+	{
 	
+		private: int length, width;
+
+		// Member function
+		// inside the class
+		void Assign(int l, int w) 
+		{
+			length = l;
+			width = w;
+		}
+		
+		int Area();
+	};
+
+	Advantage - executes faster because compiler doesn't have to deal with overheads of 
+	            searching the function body int the program
+
+	Disadvantage - inside functions(inline functions) take up more memory because 
 
 */
