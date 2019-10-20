@@ -104,16 +104,16 @@ int main(int argc, char const *argv[])
 
 	Mechanical jannat("Mechanical");
 
-/*	Engineer *ptr = &CSE;
+	/*	Engineer *ptr = &CSE;
 
-	Report(ptr);
+		Report(ptr);
 
-	ptr = &sadman;
-	Report(ptr);
+		ptr = &sadman;
+		Report(ptr);
 
-	ptr = &jannat;
-	Report(ptr);
-*/
+		ptr = &jannat;
+		Report(ptr);
+	*/
 
 
 	Report(&dipu);
