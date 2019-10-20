@@ -152,4 +152,12 @@ int main(int argc, char const *argv[])
 	Now question is why?
 
 	Because base pointer can only see the base class members, it can not see derived and derived
-	overridden members
+	overridden members(hidden to base class pointer)
+
+	which is why base pointer is calling base class GetJob() function rather than derived GetJob()
+	function
+
+
+	This is when virtual functions come to rescue for this kind of situation
+
+	We will talk about that more deeply in the later codes

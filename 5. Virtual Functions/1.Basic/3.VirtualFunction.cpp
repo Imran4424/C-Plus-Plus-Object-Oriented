@@ -1,5 +1,5 @@
 /*
-	Write a program to demonstrate use of pointers
+	Write a program to demonstrate use of pointers and virtual function
 */
 
 #include <iostream>
