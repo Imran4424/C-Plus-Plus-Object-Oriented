@@ -167,4 +167,7 @@ int main(int argc, char const *argv[])
 	Now, one can ask why we need to use pointer to make things complex we can simply use
 	derived class object.
 
-	Let's say we have 50 or more derived classes 
+	Let's say we have 50 or more derived classes and we want to display all of their 
+	member variables, then we need to declare one display function for each class which
+	is really time consuming and declaring 50 or more functions will make it lot more 
+	harder and painful
