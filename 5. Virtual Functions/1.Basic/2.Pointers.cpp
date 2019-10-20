@@ -177,4 +177,9 @@ int main(int argc, char const *argv[])
 	Use base pointer to pointer derived class objects, and with one function you can show the
 	all derived class objects members variables.
 
-	but normally base pointer will not work as we see earlier
+	but normally base pointer will not work as we see earlier, so we have to use virtual
+	function
+
+	and 
+
+	that we gonna learn in next codes
