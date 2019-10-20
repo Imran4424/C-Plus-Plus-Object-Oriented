@@ -122,3 +122,8 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	Now, let's do the same work in other way
+
+*/
