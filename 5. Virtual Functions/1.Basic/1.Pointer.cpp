@@ -118,5 +118,24 @@ int main(int argc, char const *argv[])
 	We already learned Inheritance
 	Remainder About Inheritance
 
-	When we create a derive class object, it contains 
+	When we create a derive class object, it contains base part(which constructed first) and 
+	derived part(which is constructed second).
 
+	Now, let's talk about pointers and references of derived class
+
+
+	Pointers
+	
+	When we declare pointers to derived class object. It will serve as normal class pointer
+	object. pointer to derived class object can access all public members of that class
+	using pointer member access operator( -> )
+
+	Example:
+	Civil *pCivil = &sadman;
+
+	cout << pCivil -> GetProfession() << " Engineers " << pCivil -> GetJob() << endl;
+
+
+	References
+
+	Same goes for references too. When we declare 
