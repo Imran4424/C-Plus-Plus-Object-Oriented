@@ -113,3 +113,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+	We already learned Inheritance
+	Remainder About Inheritance
+
+	When we create a derive class object, it contains 
+
