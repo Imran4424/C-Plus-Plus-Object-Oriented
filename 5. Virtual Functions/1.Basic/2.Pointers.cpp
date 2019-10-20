@@ -162,4 +162,9 @@ int main(int argc, char const *argv[])
 
 	We will talk about that more deeply in the later codes
 
-	Now, one can ask 
+
+
+	Now, one can ask why we need to use pointer to make things complex we can simply use
+	derived class object.
+
+	Let's say we have 50 or more derived classes 
