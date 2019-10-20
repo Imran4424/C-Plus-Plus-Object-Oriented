@@ -148,3 +148,8 @@ int main(int argc, char const *argv[])
 	CSE Engineers do nothing
 	Civil Engineers do nothing
 	Mechanical Engineers do nothing
+
+	Now question is why?
+
+	Because base pointer can only see the base class members, it can not see derived and derived
+	overridden members
