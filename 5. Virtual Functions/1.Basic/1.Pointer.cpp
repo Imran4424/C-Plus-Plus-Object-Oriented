@@ -138,4 +138,10 @@ int main(int argc, char const *argv[])
 
 	References
 
-	Same goes for references too. When we declare 
+	Same goes for references too. When we declare a reference to derived class object, we can 
+	access all the public derived class members with dot operator(.) or member access operator
+
+	Example:
+	Mechanical &rMecha = jannat;
+
+	cout << rMecha.GetProfession() << " Engineers " << rMecha.GetJob() << endl;
