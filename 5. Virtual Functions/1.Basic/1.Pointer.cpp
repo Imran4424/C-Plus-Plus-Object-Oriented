@@ -114,7 +114,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-
+/*
 	We already learned Inheritance
 	Remainder About Inheritance
 
@@ -145,3 +145,4 @@ int main(int argc, char const *argv[])
 	Mechanical &rMecha = jannat;
 
 	cout << rMecha.GetProfession() << " Engineers " << rMecha.GetJob() << endl;
+*/
