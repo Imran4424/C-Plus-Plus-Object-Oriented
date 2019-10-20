@@ -123,7 +123,22 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-/*
+
 	Now, let's do the same work in other way
 
-*/
+	Instead of declaring dervied class pointer, now we will declare base class pointer and we 
+	will try to access all derived class public members
+
+	Here in this code we delared a function called report, which take base pointer of base class
+	as parameters and trying to call the base function GetProfession and overridden function 
+
+	void Report(Engineer *eng)
+	{
+		cout << eng -> GetProfession() << " Engineers " << eng -> GetJob() << endl;
+	}
+
+	expected output:
+
+	CSE Engineers Develop Software
+	Civil Engineers Buid Building
+	Mechanical Engineers Work with Machinery
