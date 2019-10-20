@@ -142,3 +142,7 @@ int main(int argc, char const *argv[])
 	CSE Engineers Develop Software
 	Civil Engineers Buid Building
 	Mechanical Engineers Work with Machinery
+
+	given output:
+
+	
