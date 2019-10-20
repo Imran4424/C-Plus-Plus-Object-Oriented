@@ -172,4 +172,9 @@ int main(int argc, char const *argv[])
 	is really time consuming and declaring 50 or more functions will make it lot more 
 	harder and painful
 
-	
+	So want a easy solution
+
+	Use base pointer to pointer derived class objects, and with one function you can show the
+	all derived class objects members variables.
+
+	but normally base pointer will not work as we see earlier
