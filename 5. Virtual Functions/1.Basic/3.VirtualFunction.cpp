@@ -120,4 +120,6 @@ int main(int argc, char const *argv[])
 	(right now base pointer pointing)
 
 
-	Making a function virtual
+	Making a function virtual function
+
+	Making a function virtual function is really easy, we just need to put virtual keyword
