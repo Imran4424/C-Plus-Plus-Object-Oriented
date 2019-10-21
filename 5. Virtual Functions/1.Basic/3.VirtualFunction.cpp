@@ -111,3 +111,13 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+
+	Virtual function is a very special type function for function overriding.
+
+	When we call a virtual function using the base pointer pointing derived class object, it
+	will call the most derived overriden function between the base and derived class object
+	(right now base pointer pointing)
+
+
+	Making a function virtual
