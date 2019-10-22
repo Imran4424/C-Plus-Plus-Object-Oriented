@@ -123,7 +123,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-
+/*
 	Now, let's do the same work in other way
 
 	Instead of declaring dervied class pointer, now we will declare base class pointer and we 
@@ -183,3 +183,4 @@ int main(int argc, char const *argv[])
 	and 
 
 	that we gonna learn in next codes
+*/
