@@ -1,2 +1,3 @@
 # Encapsulation
 
+Encapsulation is simply 
