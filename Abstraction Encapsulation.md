@@ -1,3 +1,3 @@
 # Encapsulation
 
-Encapsulation is simply 
+Encapsulation is simply wrapping up of data and information.
