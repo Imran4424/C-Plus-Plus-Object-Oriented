@@ -13,7 +13,11 @@ int Add(int a, int b)
 
 int main(int argc, char const *argv[])
 {
-	
+	cout << Add(3, 7) << endl;
+
+	cout << Add(10, 7) << endl;
+
+	cout << Add(10, 15) << endl;	
 
 	return 0;
 }
