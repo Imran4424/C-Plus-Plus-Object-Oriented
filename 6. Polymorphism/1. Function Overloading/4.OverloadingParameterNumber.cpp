@@ -18,7 +18,7 @@ int Add(int a, int b, int c, int d)
 
 int main(int argc, char const *argv[])
 {
-	Add(7, 4);
+	cout Add(7, 4);
 
 	Add(4, 9, 1);
 
