@@ -18,7 +18,7 @@ int AddFour(int a, int b, int c, int d)
 
 int main(int argc, char const *argv[])
 {
-	AddTwo(7, 4);
+	cout << AddTwo(7, 4) << endl;
 
 	AddThree(4, 9, 1);
 
