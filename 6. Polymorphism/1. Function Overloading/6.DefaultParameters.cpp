@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
 
 	cout << Subtract(29, 15) << endl;
 	cout << Subtract(29) << endl;
-	Subtract();
+	cout << Subtract() << endl;
 
 	Multipication(10, 5);
 	Multipication(7);
