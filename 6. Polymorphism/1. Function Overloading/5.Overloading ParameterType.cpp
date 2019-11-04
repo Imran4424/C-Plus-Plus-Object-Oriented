@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 
 	cout << Add(3.17, 7.39) << endl;
 
-	cout << AddMix(3.1416, 2) << endl;
+	cout << Add(3.1416, 2) << endl;
 	
 	return 0;
 }
