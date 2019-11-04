@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 
 	cout << Multipication(10, 5) << endl;
 	cout << Multipication(7) << endl;
-	Multipication();
+	cout << Multipication() << endl;
 	
 	return 0;
 }
