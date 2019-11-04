@@ -20,9 +20,9 @@ int main(int argc, char const *argv[])
 {
 	cout << AddTwo(7, 4) << endl;
 
-	AddThree(4, 9, 1);
+	cout << AddThree(4, 9, 1) << endl;
 
-	AddFour(1, 11, 9, 8);
+	cout << AddFour(1, 11, 9, 8) << endl;
 
 	return 0;
 }
