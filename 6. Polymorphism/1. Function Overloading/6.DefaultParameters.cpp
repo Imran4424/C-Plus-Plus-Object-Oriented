@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 	cout << Add() << endl;
 
 	cout << Subtract(29, 15) << endl;
-	Subtract(29);
+	cout << Subtract(29) << endl;
 	Subtract();
 
 	Multipication(10, 5);
