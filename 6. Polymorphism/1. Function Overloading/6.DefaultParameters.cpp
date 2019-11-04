@@ -26,7 +26,9 @@ int main(int argc, char const *argv[])
 	Subtract(29);
 	Subtract();
 
-	
+	Multipication(10, 5);
+	Multipication(7);
+	Multipication();
 	
 	return 0;
 }
