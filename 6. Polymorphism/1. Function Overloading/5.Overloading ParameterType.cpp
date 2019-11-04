@@ -18,7 +18,7 @@ double Add(double a, int b)
 
 int main(int argc, char const *argv[])
 {
-	cout << AddInt(3, 7) << endl;
+	cout << Add(3, 7) << endl;
 
 	cout << AddDouble(3.17, 7.39) << endl;
 
