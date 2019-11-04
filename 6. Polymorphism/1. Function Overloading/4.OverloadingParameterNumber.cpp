@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 
 	cout << Add(4, 9, 1) << endl;
 
-	Add(1, 11, 9, 8);
+	cout << Add(1, 11, 9, 8) << endl;
 
 	return 0;
 }
