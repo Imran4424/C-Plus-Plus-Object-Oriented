@@ -21,3 +21,11 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	This is a normal function 
+
+	calling it three times with different values
+
+	this function takes two int values and return the sum(int type)
+*/
