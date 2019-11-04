@@ -11,7 +11,7 @@ double Add(double a, double b)
 	return a + b;
 }
 
-double AddMix(double a, int b)
+double Add(double a, int b)
 {
 	return a + b;
 }
