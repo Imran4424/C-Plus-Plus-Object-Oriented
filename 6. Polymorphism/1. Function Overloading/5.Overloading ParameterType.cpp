@@ -6,7 +6,7 @@ int Add(int a, int b)
 	return a + b;
 }
 
-double AddDouble(double a, double b)
+double AddDou(double a, double b)
 {
 	return a + b;
 }
