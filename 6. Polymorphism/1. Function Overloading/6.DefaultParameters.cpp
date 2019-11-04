@@ -19,7 +19,7 @@ int Multipication(int a = 5, int b = 2)
 int main(int argc, char const *argv[])
 {
 	cout << Add(2, 5) << endl;
-	Add(5);
+	cout << Add(5) << endl;
 	Add();
 
 	Subtract(29, 15);
