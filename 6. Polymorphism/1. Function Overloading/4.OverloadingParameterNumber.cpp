@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 {
 	cout << Add(7, 4) << endl;
 
-	Add(4, 9, 1);
+	cout << Add(4, 9, 1) << endl;
 
 	Add(1, 11, 9, 8);
 
