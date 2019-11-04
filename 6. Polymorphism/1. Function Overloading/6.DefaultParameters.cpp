@@ -18,7 +18,7 @@ int Multipication(int a = 5, int b = 2)
 
 int main(int argc, char const *argv[])
 {
-	Add(2, 5);
+	cout << Add(2, 5);
 	Add(5);
 	Add();
 
