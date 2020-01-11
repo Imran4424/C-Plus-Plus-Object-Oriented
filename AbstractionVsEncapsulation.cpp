@@ -57,4 +57,7 @@ int main(int argc, char const *argv[])
 	result for Area() function.
 
 	This is all encapsulation
+
+	Let's consider a real life scenario
+
 */
