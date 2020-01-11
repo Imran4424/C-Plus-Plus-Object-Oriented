@@ -58,6 +58,9 @@ int main(int argc, char const *argv[])
 
 	This is all encapsulation
 
-	Let's consider a real life scenario
+	Let's consider a real life scenario to understand this better
 
+	Let's think of a ATM machine
+
+	
 */
