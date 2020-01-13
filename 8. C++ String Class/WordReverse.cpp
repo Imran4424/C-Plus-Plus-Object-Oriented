@@ -30,6 +30,11 @@ int main(int argc, char const *argv[])
 	for(int i = words.size() - 1; i >= 0; i--) {
 
 		reveseStr += words[i];
+
+		if(i > 0) {
+			reveseStr += " ";
+		}
+
 	}
 
 	cout << reveseStr << endl;
