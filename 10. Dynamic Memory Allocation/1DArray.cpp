@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 	
 	initArray(size);
 	populateArray(size);
-	// displayArray(size);
+	displayArray(size);
 
 	return 0;
 }
