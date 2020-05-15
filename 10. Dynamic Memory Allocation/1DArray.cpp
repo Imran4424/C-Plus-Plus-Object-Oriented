@@ -1,11 +1,11 @@
 #include <iostream>
 #include <stdio.h>
 
-// declaring array pointer
+// declaring array pointer for 1D array
 int *arr;
 
 void initArray(int size) {
-	// d
+	// dynamically allocating 1D array
 	arr = new int[size];
 }
 
