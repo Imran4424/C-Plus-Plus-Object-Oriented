@@ -26,7 +26,7 @@ void displayArray(int size) {
 int main(int argc, char const *argv[])
 {
 	int size;
-	scanf("%d", size);
+	scanf("%d", &size);
 	
 	initArray(size);
 	populateArray(size);
