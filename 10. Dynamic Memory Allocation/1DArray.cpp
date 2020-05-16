@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+using namespace std;
 
 // declaring array pointer for 1D array
 int *arr;
