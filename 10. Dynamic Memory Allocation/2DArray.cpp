@@ -40,5 +40,9 @@ int main(int argc, char const *argv[])
 	row = 3;
 	col = 4;
 
+	initGrid();
+	populateGrid();
+	displayGrid();
+
 	return 0;
 }
