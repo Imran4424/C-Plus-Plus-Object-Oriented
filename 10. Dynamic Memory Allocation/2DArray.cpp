@@ -6,12 +6,32 @@ using namespace std;
 int **grid;
 int row, col;
 
-// initializing 2D Array
-void initGrid(int row, int col) {
+// dynamically allocating 2D Array
+void initGrid() {
+	// dynamically allocating rows
 	grid = new int*[row];
 
+	// dynamically allocating columns
 	for(int i = 0; i < row; i++) {
 		grid[i] = new int[col];
+	}
+}
+
+void populateGrid() {
+	for(int i = 0; i < row; i++) {
+		for(int j = 0; j < col; j++) {
+			cin >> grid[i][j];
+		}
+	}
+}
+
+void displayGrid() {
+	for(int i = 0; i < row; i++) {
+		for(int j = 0; j < col; j++) {
+			cout << grid[i][j] << " ";
+		}
+
+		cout << endl;
 	}
 }
 
