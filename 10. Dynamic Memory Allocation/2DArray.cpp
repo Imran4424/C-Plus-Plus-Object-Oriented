@@ -6,6 +6,7 @@ using namespace std;
 int **grid;
 int row, col;
 
+// initializing 2D Array
 void initGrid(int row, int col) {
 	
 }
