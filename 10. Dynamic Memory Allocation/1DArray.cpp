@@ -2,7 +2,7 @@
 #include <stdio.h>
 using namespace std;
 
-// declaring array pointer for 1D array
+// declaring pointer for 1D array
 int *arr;
 
 void initArray(int size) {
