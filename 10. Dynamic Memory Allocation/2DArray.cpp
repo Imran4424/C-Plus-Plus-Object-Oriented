@@ -8,7 +8,11 @@ int row, col;
 
 // initializing 2D Array
 void initGrid(int row, int col) {
-	
+	grid = new int*[row];
+
+	for(int i = 0; i < row; i++) {
+		grid[i] = new int[col];
+	}
 }
 
 int main(int argc, char const *argv[])
