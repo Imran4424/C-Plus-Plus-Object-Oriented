@@ -11,8 +11,8 @@ int stringLength(char *line) {
 	return len;
 }
 
-void stringConcatenation(char *source, char *destination) {
-	
+void stringConcatenation(char *first, char *destination) {
+
 }
 
 int main(int argc, char const *argv[])
