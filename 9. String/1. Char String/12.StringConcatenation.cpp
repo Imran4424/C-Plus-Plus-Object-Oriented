@@ -19,6 +19,8 @@ void stringConcatenation(char *first, char *second) {
 	for(i = length, j = 0; second[j] != '\0'; i++, j++) {
 		first[i] = second[j];
 	}
+
+	first[i] = '\0';
 }
 
 int main(int argc, char const *argv[])
