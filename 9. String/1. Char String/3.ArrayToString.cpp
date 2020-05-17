@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 	word[1] = 'o';
 	word[2] = 'd';
 	word[3] = 'e';
-	word[4] = '/0'; // NULL character
+	word[4] = '\0'; // NULL character
 
 	cout << word;
 
