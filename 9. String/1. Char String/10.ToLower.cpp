@@ -2,7 +2,9 @@
 using namespace std;
 
 void toLower(char *str) {
-	for(int i = 0;)
+	for(int i = 0; str[i] != '\0'; i++) {
+		str[i] = str[i] + 32;
+	}
 }
 
 
