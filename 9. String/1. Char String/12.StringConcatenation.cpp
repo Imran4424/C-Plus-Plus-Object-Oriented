@@ -11,7 +11,7 @@ int stringLength(char *line) {
 	return len;
 }
 
-void stringConcatenation(char *first, char *destination) {
+void stringConcatenation(char *first, char *second) {
 
 }
 
