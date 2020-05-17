@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
 	cout << "enter a text" << endl;
 	cin.getline(text, sizeof(text));
 
-	cout << "length of the entered string is - "
+	cout << "length of the entered string is - " << stringLength(text) << endl;
 
 	return 0;
 }
