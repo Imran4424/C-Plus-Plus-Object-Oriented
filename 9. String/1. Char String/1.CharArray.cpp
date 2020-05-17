@@ -3,12 +3,16 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	char text[15];
+	char word[15];
 
-	text[0] = 'C';
-	text[1] = 'o';
-	text[1] = 'd';
-	text[1] = 'e';
+	word[0] = 'C';
+	word[1] = 'o';
+	word[2] = 'd';
+	word[3] = 'e';
+
+	for(int i = 0; i < 4; i++) {
+		
+	}
 
 
 	return 0;
