@@ -15,7 +15,10 @@ int main(int argc, char const *argv[])
 	// but updated C++ compilers will give the content output
 	cout << word;
 
-	// 
+	// here
+	// this is a char array
+	// but we are trying to print it like character string
+	// that's why the garbage output will show
 
 	cout << endl;
 
