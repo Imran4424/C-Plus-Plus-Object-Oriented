@@ -14,7 +14,10 @@ int stringLength(char *line) {
 
 int main(int argc, char const *argv[])
 {
-	
-	
+	char text[100];
+
+	cout << "enter a text" << endl;
+	cin.getline(text, sizeof(text));
+
 	return 0;
 }
