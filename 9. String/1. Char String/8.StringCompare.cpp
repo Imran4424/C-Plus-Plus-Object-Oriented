@@ -6,7 +6,7 @@ int compareString(char *subject, char *given) {
 
 	for(i = 0; subject[i] != '\0'; i++) {
 		if(subject[i] != given[i]) {
-			return subject[i] - given[i];
+			return subject[i] - given[i]; // we can also use break instead
 		}
 	}
 
