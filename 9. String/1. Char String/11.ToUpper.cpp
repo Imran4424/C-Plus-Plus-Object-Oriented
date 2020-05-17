@@ -3,7 +3,7 @@ using namespace std;
 
 void toUpper(char *str) {
 	for(int i = 0; str[i] != '\0'; i++) {
-		if(str[i] >= 'A' && str[i] <= 'Z') {
+		if(str[i] >= 'a' && str[i] <= 'a') {
 			str[i] = str[i] - 32;
 		}
 	}
