@@ -1,8 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void stringConcatenation(char *source, char *destination) {
+int stringLength(char *line) {
 	
+	int len = 0;
+	for(int i = 0; line[i] != '\0'; i++) {
+		len++;
+	}
+
+	return len;
+}
+
+void stringConcatenation(char *source, char *destination) {
+
 }
 
 int main(int argc, char const *argv[])
