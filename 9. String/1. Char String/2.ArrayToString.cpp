@@ -9,10 +9,9 @@ int main(int argc, char const *argv[])
 	word[1] = 'o';
 	word[2] = 'd';
 	word[3] = 'e';
+	word[4] = '/0'; // NULL character
 
-	for(int i = 0; i < 4; i++) {
-		cout << word[i];		
-	}
+	cout << word;
 
 	cout << endl;
 
