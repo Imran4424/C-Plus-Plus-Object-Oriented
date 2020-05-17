@@ -12,7 +12,7 @@ int stringLength(char *line) {
 }
 
 void stringConcatenation(char *source, char *destination) {
-
+	
 }
 
 int main(int argc, char const *argv[])
