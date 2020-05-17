@@ -11,8 +11,10 @@ int main(int argc, char const *argv[])
 	word[3] = 'e';
 
 	for(int i = 0; i < 4; i++) {
-		
+		cout << word[i];		
 	}
+
+	cout << endl;
 
 
 	return 0;
