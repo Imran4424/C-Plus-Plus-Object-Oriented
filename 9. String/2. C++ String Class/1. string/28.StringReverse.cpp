@@ -7,9 +7,9 @@ int main(int argc, char const *argv[])
 {
 	string str = "Imran";
 
-	cout << str << endl;
+	cout << "Given string: " << str << endl;
 	reverse(str.begin(), str.end());
-	cout << str << endl;
+	cout << "Reverse string: " << str << endl;
 
 
 	return 0;
