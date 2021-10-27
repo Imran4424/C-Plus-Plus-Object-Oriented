@@ -5,12 +5,14 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	// char string
-	char chStr = "I am a Programmer";
+	char chText[20] = "I am a Programmer";
 
 	// c++ string
 	string text;
 
-	text = chStr;
+
+	// convertion from char string to c++ string
+	text = chText;
 
 	cout << text << endl;
 
