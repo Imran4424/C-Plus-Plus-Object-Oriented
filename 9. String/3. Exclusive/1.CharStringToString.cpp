@@ -18,3 +18,8 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	In this code we will learn, how we can easily convert char string to c++ string
+
+*/
