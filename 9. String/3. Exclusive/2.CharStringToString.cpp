@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 	char chText[20] = "I am a Programmer";
 
 	// c++ string
-	// convertion from char string to c++ string
+	// convertion from char string to c++ string using assignment operator overloading
 	string text = chText;
 
 	cout << text << endl;

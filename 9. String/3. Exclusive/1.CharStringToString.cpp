@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 	string text;
 
 
-	// convertion from char string to c++ string
+	// convertion from char string to c++ string using operator overloading
 	text = chText;
 
 	cout << text << endl;
