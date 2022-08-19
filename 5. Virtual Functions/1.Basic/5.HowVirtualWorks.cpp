@@ -61,3 +61,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	Now, virtual keyword is applied
+
+	Now base pointer will call the most derived overriden function between the base and derived class object
+	(right now base pointer pointing)
+*/

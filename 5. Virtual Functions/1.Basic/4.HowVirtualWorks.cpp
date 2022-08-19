@@ -61,3 +61,10 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	There is no use of virtual function
+
+	That's why base pointer always calling the base method
+
+*/
