@@ -112,7 +112,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-
+/*
 	Virtual function is a very special type function for function overriding.
 
 	When we call a virtual function using the base pointer pointing derived class object, it
@@ -123,3 +123,4 @@ int main(int argc, char const *argv[])
 	Making a function virtual function
 
 	Making a function virtual function is really easy, we just need to put virtual keyword
+*/
