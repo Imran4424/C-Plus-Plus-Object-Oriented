@@ -20,7 +20,13 @@ int main(int argc, char const *argv[])
 	cout << "address of price is: " << &price << endl;
 
 	// dereferencing the address value
-	cout << "address of price is: " << *(&price) << endl;
+	// here dereferencing operator will work because &price is a pointer
+	cout << "value of price is: " << *(&price) << endl;
+
+	// this will give error
+	// cause price is not a pointer variable
+	// dereferencing operator only works with pointer
+	// cout << "address of price is: " << *price << endl;
 
 	return 0;
 }
@@ -31,6 +37,7 @@ int main(int argc, char const *argv[])
 	not particular one)
 
 	dereference operator is a unary operator
+	dereferencing operator only works with pointer
 
 	dereference operator make it easy for us to access value stored in any address
 */
