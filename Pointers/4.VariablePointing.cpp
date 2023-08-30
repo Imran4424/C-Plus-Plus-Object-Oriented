@@ -9,11 +9,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int a, b;
-
-	cout << "enter a and b" << endl;
-
-	cin >> a >> b;
+	int a = 5, b = 15;
 
 	int *ptr = &a; // initializing ptr with address of a
 

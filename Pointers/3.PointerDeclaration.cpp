@@ -12,11 +12,14 @@ int main(int argc, char const *argv[])
 	int *ptr; // int pointer declaration
 	double *dPointer; // double pointer declaration
 
-	int* ptr; // this is also a valid syntax, but there is a slide risk about that
+	int* ptrVar; // this is also a valid syntax, but there is a slide risk about that
 	
 	int* number, amount; //here number is a int type pointer variable
 			    // but
 			   //  amount is a normal int type variable
+
+	int *proma, *afia; // here proma and afia is both pointer type variable
+
 	return 0;
 }
 
