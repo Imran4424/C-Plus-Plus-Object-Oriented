@@ -14,6 +14,10 @@ int main(int argc, char const *argv[])
 {
 	int price;
 
+	// this will give error
+	// cause price is not pointing to any address
+	// scanf("%d", price);
+
 	// scanf("%d", &price);
 
 	cin >> price;
@@ -22,6 +26,19 @@ int main(int argc, char const *argv[])
 
 	// this output will vary pc to pc
 	cout << "address of price is: " << &price << endl;
+
+	char text[30];
+
+	// this is okay
+	scanf("%s", &text);
+
+	// this is also okay
+	// this will not give error
+	// text is equivalent to text[0];
+	// text[0] is the address of first element of array
+	// and string is  basically an array of characters
+	// but this is not the case for single variable
+	scanf("%s", text);
 
 	return 0;
 }
