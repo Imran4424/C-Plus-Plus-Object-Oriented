@@ -1,6 +1,13 @@
+<!-- disable it
 <a href="https://www.buymeacoffee.com/shah.imran" target="_blank">
   <img src="https://img.shields.io/badge/Buy%20me%20a%20Coffee-FE7A16?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
 </a>
+-->
+
+<a href="https://superchat.bd/imranrucse7" target="_blank">
+  <img src="https://img.shields.io/badge/Buy%20me%20a%20Coffee-FE7A16?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
+</a>
+
 
 # C++ Object Oriented Topic List
 
